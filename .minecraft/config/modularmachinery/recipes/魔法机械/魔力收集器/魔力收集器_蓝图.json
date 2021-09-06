@@ -1,0 +1,57 @@
+{
+    "machine": "crafter_tier_2",
+    "registryName": "blueprints_mana_collector",
+    "recipeTime": 2400,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 80000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "mets:field_generator",
+            "amount": 40
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@3",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "botania:storage@1",
+            "amount": 3
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "avaritia:block_resource@2",
+            "amount": 3
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:paper",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "modularmachinery:itemblueprint",
+            "nbt":{
+                "dynamicmachine": "modularmachinery:mana_collector",
+                "display":{
+                    "Lore": [
+                        "§3Rank: §d§lA-",
+                        "§a收集空气中的mana凝聚成液体",
+                        "§e消耗魔力水晶"
+                    ]
+                }
+            }
+        }
+    ]
+}

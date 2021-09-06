@@ -1,0 +1,29 @@
+{
+	title: "五倍矿物产线",
+	x: 20.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "化学结晶器",
+	text: [
+		"可以将处理后的矿物浆液结晶成矿物结晶",
+		"一个结晶200mb矿物浆液",
+		"至少需要五台结晶器才能达到最佳效率"
+	],
+	dependencies: [
+		"7b518a8d",
+		"8c5d81a7"
+	],
+	tasks: [{
+		uid: "a38b48ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 8s
+		}],
+		count: 5L,
+		ignore_nbt: 1b
+	}]
+}

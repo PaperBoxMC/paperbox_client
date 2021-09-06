@@ -1,0 +1,22 @@
+{
+    "registryname": "Energy_Bridge",
+    "localizedname": "§c能源桥",
+    "requires-blueprint": true,
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_energy"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        }
+    ]}

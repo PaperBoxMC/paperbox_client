@@ -1,0 +1,24 @@
+{
+	title: "无声机器",
+	x: 8.0d,
+	y: -2.0d,
+	description: "降噪升级",
+	text: [
+		"如果你觉得机器声音过大 可以使用降噪升级"
+	],
+	dependencies: [
+		"a500295f"
+	],
+	tasks: [{
+		uid: "6bba5575",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:mufflingupgrade"
+		}],
+		count: 4L,
+		consume_items: false
+	}]
+}

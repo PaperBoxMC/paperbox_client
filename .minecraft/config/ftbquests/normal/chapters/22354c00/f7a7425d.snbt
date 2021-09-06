@@ -1,0 +1,21 @@
+{
+	title: "更多的处理空间",
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"45d7949d"
+	],
+	tasks: [{
+		uid: "53c10b55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:tierinstaller",
+			Damage: 1s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

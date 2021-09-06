@@ -1,0 +1,18 @@
+{
+	x: 36.0d,
+	y: 8.5d,
+	dependencies: [
+		"a2c88195",
+		"e946eb7d"
+	],
+	tasks: [{
+		uid: "bd26c6d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:living_circuit"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "储存能量",
+	x: -2.0d,
+	y: 4.0d,
+	shape: "gear",
+	description: "基础机器",
+	text: [
+		"能量立方是Mekanism的储存能量的机器 基础立方可以最多存储800kRF能量 可以使用工厂升级来增加储能量"
+	],
+	dependencies: [
+		"0e9c2fb2"
+	],
+	tasks: [{
+		uid: "883fe3a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

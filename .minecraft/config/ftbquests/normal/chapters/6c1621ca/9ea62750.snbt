@@ -1,0 +1,33 @@
+{
+	title: "暗影光子锭",
+	x: 37.5d,
+	y: -2.5d,
+	dependencies: [
+		"59c57497",
+		"5c30ee42"
+	],
+	tasks: [{
+		uid: "87f7cefd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:material",
+			Damage: 5s
+		}],
+		count: 2L
+	},
+	{
+		uid: "ab587665",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:material",
+			Damage: 8s
+		}],
+		count: 2L
+	}]
+}

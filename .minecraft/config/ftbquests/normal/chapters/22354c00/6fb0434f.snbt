@@ -1,0 +1,25 @@
+{
+	title: "三倍化处理矿物",
+	x: 12.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "粉碎机",
+	text: [
+		"粉碎机可以进一步处理净化仓的矿物"
+	],
+	dependencies: [
+		"d445d204"
+	],
+	tasks: [{
+		uid: "1d8b6922",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

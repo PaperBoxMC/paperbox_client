@@ -1,0 +1,20 @@
+{
+	title: "经验储存",
+	x: 2.0d,
+	y: -8.0d,
+	shape: "gear",
+	description: "经验交换方尖碑",
+	dependencies: [
+		"8a032ac6"
+	],
+	tasks: [{
+		uid: "e1629bcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_experience_obelisk"
+		}]
+	}]
+}

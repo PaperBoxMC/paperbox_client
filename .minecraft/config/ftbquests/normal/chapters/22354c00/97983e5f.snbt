@@ -1,0 +1,28 @@
+{
+	title: "五倍矿物产线",
+	x: 12.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "化学氧化机",
+	text: [
+		"五倍矿产线的重要机器 用来生产二氧化硫"
+	],
+	dependencies: [
+		"f88dd2e0"
+	],
+	tasks: [{
+		uid: "c8cdaf03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

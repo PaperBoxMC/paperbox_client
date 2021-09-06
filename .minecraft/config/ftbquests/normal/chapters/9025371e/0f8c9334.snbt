@@ -1,0 +1,18 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	shape: "octagon",
+	dependencies: [
+		"5b23b728"
+	],
+	tasks: [{
+		uid: "fbe92e3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_capacitor_stellar"
+		}]
+	}]
+}

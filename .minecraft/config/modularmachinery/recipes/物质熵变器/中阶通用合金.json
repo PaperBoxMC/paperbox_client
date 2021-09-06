@@ -1,0 +1,42 @@
+{
+    "machine": "Material_entropy_converter",
+    "registryName": "tongyonghejin_2",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "additions:novaextended-ingot5",
+            "amount": 16
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "vivid_alloy",
+            "amount": 24000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "super_solar_panels:crafting@8",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "super_solar_panels:crafting@10",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "additions:novaextended-ingot6",
+            "amount": 1
+        }
+    ]
+}

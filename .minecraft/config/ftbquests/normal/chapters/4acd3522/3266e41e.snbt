@@ -1,0 +1,30 @@
+{
+	title: "更大的能量核心",
+	x: 10.0d,
+	y: 5.0d,
+	dependencies: [
+		"c0001694"
+	],
+	tasks: [{
+		uid: "9bd4ae67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_block"
+		}],
+		count: 328L
+	},
+	{
+		uid: "3587ef19",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:draconium_block"
+		}],
+		count: 218L
+	}]
+}

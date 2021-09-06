@@ -1,0 +1,25 @@
+{
+	x: 48.0d,
+	y: 11.5d,
+	shape: "octagon",
+	dependencies: [
+		"63665573",
+		"b2b43f77",
+		"7d5062e7"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "2fe5c54a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:electric_life_support_ring",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

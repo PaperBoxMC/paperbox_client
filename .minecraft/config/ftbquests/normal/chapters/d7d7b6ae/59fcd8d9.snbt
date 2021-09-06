@@ -1,0 +1,38 @@
+{
+	title: "§6不止限于§c安全",
+	x: 20.0d,
+	y: -2.5d,
+	text: [
+		"ME安全终端 顾名思义 可以保护网络的物品不被其它玩家破坏",
+		"使用身份卡可以标记某个玩家 编写权限",
+		"除此之外 还可以连接和绑定无线终端"
+	],
+	dependencies: [
+		"6c9080f1"
+	],
+	tasks: [{
+		uid: "b4165b19",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:security_station"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "0b6d2872",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:biometric_card",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,34 @@
+{
+    "machine": "Crystal_injection",
+    "registryName": "Lv1.manaCry",
+    "recipeTime": 300,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 50000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource",
+            "amount": 1
+        },
+        {
+            "type": "gugu-utils:mana",
+            "io-type": "input",
+            "mana": 400000
+          },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "custommc:item794",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§b1级魔力水晶"
+            }
+            }
+        }
+    ]
+}

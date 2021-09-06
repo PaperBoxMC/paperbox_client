@@ -1,0 +1,18 @@
+{
+	x: 27.0d,
+	y: 8.5d,
+	dependencies: [
+		"bb8a626c"
+	],
+	tasks: [{
+		uid: "03b2be57",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:nano_living_metal"
+		}],
+		count: 16L
+	}]
+}

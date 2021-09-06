@@ -1,0 +1,18 @@
+{
+	x: 30.0d,
+	y: 0.0d,
+	dependencies: [
+		"a56a3673"
+	],
+	tasks: [{
+		uid: "2982616b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:gildedmashedpotato"
+		}],
+		count: 8L
+	}]
+}

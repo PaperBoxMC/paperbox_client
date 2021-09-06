@@ -1,0 +1,12 @@
+{
+	title: "热力膨胀（Thermal Expansion）",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:wrench"
+	},
+	always_invisible: false,
+	group: 573918208,
+	default_quest_shape: ""
+}

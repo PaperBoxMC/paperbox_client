@@ -1,0 +1,24 @@
+{
+    "machine": "Material_entropy_converter",
+    "registryName": "glowstonedust_1",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gunpowder",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:glowstone_dust",
+            "amount": 3
+        }
+    ]
+}

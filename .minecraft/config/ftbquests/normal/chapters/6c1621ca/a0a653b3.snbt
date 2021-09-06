@@ -1,0 +1,43 @@
+{
+	x: 10.0d,
+	y: -2.5d,
+	dependencies: [
+		"8e1ffb82"
+	],
+	tasks: [{
+		uid: "1944761b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:alfheimportal"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "6b536a98",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood",
+			Damage: 5s
+		}],
+		count: 3L,
+		consume_items: false
+	},
+	{
+		uid: "b6eae0d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

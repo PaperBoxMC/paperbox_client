@@ -1,0 +1,25 @@
+{
+	title: "五倍矿物产线",
+	x: 14.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "电解分离器",
+	text: [
+		"通过电解水来获得氧气"
+	],
+	dependencies: [
+		"97983e5f"
+	],
+	tasks: [{
+		uid: "c95b48de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

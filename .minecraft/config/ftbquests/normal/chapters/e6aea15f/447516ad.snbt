@@ -1,0 +1,17 @@
+{
+	x: 37.0d,
+	y: 13.0d,
+	dependencies: [
+		"a9e7fba6"
+	],
+	tasks: [{
+		uid: "01e56bb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:geomagnetic_antenna"
+		}]
+	}]
+}

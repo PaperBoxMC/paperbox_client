@@ -1,0 +1,16 @@
+{
+	title: "精致存储（Refined Storage）",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "refinedstorage:controller",
+		tag: {
+			Energy: 10000000
+		},
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: -673728850,
+	default_quest_shape: ""
+}

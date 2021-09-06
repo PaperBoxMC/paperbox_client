@@ -1,0 +1,30 @@
+{
+    "machine": "mana_collector",
+    "registryName": "mana_lv3",
+    "recipeTime": 9600,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item75",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§d3级魔力水晶"
+            }
+            },
+            "chance": 0.4
+        },
+        {
+            "type": "gugu-utils:mana_pertick",
+            "io-type": "output",
+            "time": 9600,
+            "mana": 500
+        }
+    ]
+}

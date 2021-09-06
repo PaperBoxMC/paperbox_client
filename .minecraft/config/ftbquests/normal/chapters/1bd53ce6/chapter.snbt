@@ -1,0 +1,12 @@
+{
+	title: "模块化机械（Modular Machinery）",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "modularmachinery:blockcontroller"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

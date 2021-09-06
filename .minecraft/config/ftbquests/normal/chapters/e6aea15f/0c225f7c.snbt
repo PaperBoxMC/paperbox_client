@@ -1,0 +1,21 @@
+{
+	title: "超级工业",
+	x: 18.0d,
+	y: 5.5d,
+	shape: "gear",
+	description: "物质生成机",
+	dependencies: [
+		"d7f67522"
+	],
+	tasks: [{
+		uid: "23176273",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 61s
+		}]
+	}]
+}

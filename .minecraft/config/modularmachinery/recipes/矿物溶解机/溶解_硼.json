@@ -1,0 +1,37 @@
+{
+    "machine": "Mineral_dissolver",
+    "registryName": "dissolver_Bo",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12800
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:oreBoron",
+            "amount": 2
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "sulfuric_acid",
+            "amount": 2000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "nuclearcraft:dust@5",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "nuclearcraft:dust@5",
+            "amount": 4,
+            "chance": 0.5
+        }
+    ]
+}

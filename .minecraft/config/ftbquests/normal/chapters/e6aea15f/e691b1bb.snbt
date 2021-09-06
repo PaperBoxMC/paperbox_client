@@ -1,0 +1,19 @@
+{
+	x: 24.0d,
+	y: 0.75d,
+	shape: "gear",
+	dependencies: [
+		"afbf44e6"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "01c6f9cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advanced_solar_panels:machines"
+		}]
+	}]
+}

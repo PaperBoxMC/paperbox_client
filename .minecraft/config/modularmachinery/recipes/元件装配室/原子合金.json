@@ -1,0 +1,30 @@
+{
+    "machine": "crafter_tier_2",
+    "registryName": "atomic_alloy_0",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 64000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:reinforcedalloy",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:compressedobsidian",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:atomicalloy",
+            "amount": 64
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+	title: "高级工业",
+	x: 12.0d,
+	y: 4.0d,
+	description: "能量水晶",
+	text: [
+		"能量水晶是可以储存大量电量的物品",
+		"同时也是合成MFE和高级物品的材料"
+	],
+	dependencies: [
+		"8d0c01dd",
+		"927cc3d9"
+	],
+	tasks: [{
+		uid: "3ac683f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:dust",
+			Damage: 6s
+		}],
+		count: 18L
+	}]
+}

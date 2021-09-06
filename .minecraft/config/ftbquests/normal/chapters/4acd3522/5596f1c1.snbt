@@ -1,0 +1,27 @@
+{
+	title: "击杀混沌守卫",
+	x: 20.0d,
+	y: 2.5d,
+	shape: "octagon",
+	description: "抢夺它守护的混沌水晶",
+	dependencies: [
+		"43559f25"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6600c758",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	},
+	{
+		uid: "72cb9a07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

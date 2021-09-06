@@ -1,0 +1,40 @@
+{
+    "machine": "Crystal_injection",
+    "registryName": "Lv3.UUCry",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 5000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item800",
+            "amount": 20,
+            "nbt":{
+                "display":{
+                "Name":"§b2级UU水晶"
+            }
+            }
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ic2uu_matter",
+            "amount": 2048000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "custommc:item885",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§d3级UU水晶"
+            }
+            }
+        }
+    ]
+}

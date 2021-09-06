@@ -1,0 +1,25 @@
+{
+	title: "冶金灌注机",
+	x: -2.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "基础机器",
+	text: [
+		"通过冶金灌注机 你可以用他来合成最基础的材料 比如基础控制电路 富集合金"
+	],
+	dependencies: [
+		"574c519c"
+	],
+	tasks: [{
+		uid: "c8f3f19c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}]
+}

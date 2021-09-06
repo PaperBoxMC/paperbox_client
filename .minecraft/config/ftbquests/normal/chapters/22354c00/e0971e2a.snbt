@@ -1,0 +1,27 @@
+{
+	title: "高级控制电路",
+	x: 2.0d,
+	y: 8.0d,
+	description: "高级材料",
+	text: [
+		"高级控制电路是Mekanism的高级材料",
+		"它可以用于制作热力蒸馏塔",
+		"支持IndustrialCraft2的高级电路板",
+		"也是高级工厂升级的材料"
+	],
+	dependencies: [
+		"ce8a1e6a"
+	],
+	tasks: [{
+		uid: "ec2e5a1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 1s
+		}],
+		count: 16L
+	}]
+}

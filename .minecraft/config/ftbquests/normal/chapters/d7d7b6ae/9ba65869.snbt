@@ -1,0 +1,26 @@
+{
+	title: "致密包层线缆",
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"6a2744fe"
+	],
+	tasks: [{
+		uid: "4e21bdef",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 516s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 36s
+		}]
+	}]
+}

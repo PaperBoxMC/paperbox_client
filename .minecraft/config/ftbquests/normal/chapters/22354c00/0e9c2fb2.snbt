@@ -1,0 +1,26 @@
+{
+	title: "能量板",
+	x: 0.0d,
+	y: 2.0d,
+	description: "基础材料",
+	text: [
+		"能量板可以存储400kRF能量 可以放入机器供能槽供电",
+		"也是制作Mekanism基础发电机的所需材料"
+	],
+	dependencies: [
+		"ce8a1e6a"
+	],
+	tasks: [{
+		uid: "75549fd8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:energytablet"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

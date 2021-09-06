@@ -1,0 +1,29 @@
+{
+    "machine": "ECO_Y7",
+    "registryName": "uu_matter_b",
+    "recipeTime": 200,
+    "requirements":[
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item800",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§b2级UU水晶"
+            }},
+            "chance": 0.03
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 75000000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "ic2uu_matter",
+            "amount": 9600
+        }
+    ]
+}

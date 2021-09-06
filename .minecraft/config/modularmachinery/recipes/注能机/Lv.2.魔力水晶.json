@@ -1,0 +1,46 @@
+{
+    "machine": "Crystal_injection",
+    "registryName": "Lv2.manaCry",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item794",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§b1级魔力水晶"
+            }
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@4",
+            "amount": 1
+        },
+        {
+            "type": "gugu-utils:mana_pertick",
+            "io-type": "input",
+            "time": 600,
+            "mana": 360
+          },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "custommc:item798",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§c2级魔力水晶"
+            }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	title: "五倍化矿物产线",
+	x: 18.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "化学灌注机",
+	text: [
+		"一侧输入三氧化硫",
+		"一侧输入水蒸气",
+		"即可获得硫酸"
+	],
+	dependencies: [
+		"7cb76a3b",
+		"f80f7bb6"
+	],
+	tasks: [{
+		uid: "313c60d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

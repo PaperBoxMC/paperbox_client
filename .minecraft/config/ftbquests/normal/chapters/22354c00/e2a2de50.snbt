@@ -1,0 +1,39 @@
+{
+	title: "聚变反应堆",
+	x: 14.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "激光",
+	text: [
+		"激光增幅器可以储存激光能量",
+		"设置红石模式来储存能量"
+	],
+	dependencies: [
+		"e2a105c0"
+	],
+	tasks: [{
+		uid: "58b4494c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 13s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62b6ab99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 14s
+		}],
+		ignore_nbt: 1b
+	}]
+}

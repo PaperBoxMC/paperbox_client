@@ -1,0 +1,20 @@
+{
+	title: "莱茵河的黄金",
+	x: 32.5d,
+	y: 0.0d,
+	dependencies: [
+		"5c30ee42"
+	],
+	tasks: [{
+		uid: "751b7183",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:material",
+			Damage: 7s
+		}],
+		count: 12L
+	}]
+}

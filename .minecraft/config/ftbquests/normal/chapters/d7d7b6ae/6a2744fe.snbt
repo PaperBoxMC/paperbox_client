@@ -1,0 +1,31 @@
+{
+	title: "包层线缆",
+	x: 7.5d,
+	y: -2.5d,
+	dependencies: [
+		"ffb36653"
+	],
+	tasks: [{
+		uid: "10582a9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 36s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f4dda6ac",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wool"
+		},
+		count: 32
+	}]
+}

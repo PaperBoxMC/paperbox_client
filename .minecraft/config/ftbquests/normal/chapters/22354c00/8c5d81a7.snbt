@@ -1,0 +1,26 @@
+{
+	title: "五倍矿物产线",
+	x: 20.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "化学清洗机",
+	text: [
+		"可以将矿物浆液处理成纯净矿物浆液",
+		"需要输入水"
+	],
+	dependencies: [
+		"d294589f"
+	],
+	tasks: [{
+		uid: "2f6c89c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	}]
+}

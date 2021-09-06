@@ -1,0 +1,19 @@
+{
+	title: "Draconic Evolution(龙之进化/龙之研究)",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 9,
+				Items: []
+			},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "draconicevolution:wyvern_pick",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,23 @@
+{
+	x: 7.5d,
+	y: 2.5d,
+	description: "合成一个森林法杖",
+	dependencies: [
+		"8efaccfb"
+	],
+	tasks: [{
+		uid: "3e2fb719",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

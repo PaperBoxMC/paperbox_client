@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	dependencies: [
+		"38695929"
+	],
+	tasks: [{
+		uid: "7b8ed77f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:draconic_energy_core"
+		}],
+		count: 4L
+	}]
+}

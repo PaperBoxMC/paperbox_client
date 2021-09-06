@@ -1,0 +1,21 @@
+{
+	x: 17.5d,
+	y: 2.5d,
+	dependencies: [
+		"6ea6516f"
+	],
+	tasks: [{
+		uid: "40b1ec28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

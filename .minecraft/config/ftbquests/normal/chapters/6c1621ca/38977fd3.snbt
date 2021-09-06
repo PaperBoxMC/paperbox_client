@@ -1,0 +1,23 @@
+{
+	title: "COLOR",
+	x: 42.5d,
+	y: 7.5d,
+	shape: "hexagon",
+	description: "获得大师魔力之戒",
+	dependencies: [
+		"91e5949d"
+	],
+	tasks: [{
+		uid: "b3e60be9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:mastermanaring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

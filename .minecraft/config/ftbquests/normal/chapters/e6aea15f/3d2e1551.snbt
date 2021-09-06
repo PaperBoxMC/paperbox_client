@@ -1,0 +1,23 @@
+{
+	title: "§6重力装甲",
+	x: 18.0d,
+	y: -0.5d,
+	dependencies: [
+		"cb26d759"
+	],
+	tasks: [{
+		uid: "96de2c67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gravisuite:gravichestplate",
+			tag: {
+				charge: 6.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

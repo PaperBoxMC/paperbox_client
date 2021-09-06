@@ -1,0 +1,32 @@
+{
+    "machine": "Material_entropy_converter",
+    "registryName": "3044344887",
+    "recipeTime": 2221121757,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 279377943
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "variedcommodities:money",
+            "nbt": {
+                "display":{
+                    "Lore":[
+                        "§b只有赞助者才拥有的碎片哦~","§c请务必妥善保管"
+                    ],
+                        "Name":"§6[纸箱商城-通用货币]"
+                    }
+                },
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:cardboardbox",
+            "amount": 1
+        }
+    ]
+}

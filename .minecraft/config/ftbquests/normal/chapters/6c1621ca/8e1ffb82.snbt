@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	description: "合成一个魔力池",
+	dependencies: [
+		"8efaccfb"
+	],
+	tasks: [{
+		uid: "18818507",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pool"
+		}]
+	}]
+}

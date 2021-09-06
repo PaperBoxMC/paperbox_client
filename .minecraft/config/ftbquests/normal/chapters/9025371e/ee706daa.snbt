@@ -1,0 +1,21 @@
+{
+	title: "强化烧炼",
+	x: 7.5d,
+	y: 0.0d,
+	shape: "gear",
+	description: "强化合金炉",
+	dependencies: [
+		"be4c71dc",
+		"44974052"
+	],
+	tasks: [{
+		uid: "32adcd2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}]
+}

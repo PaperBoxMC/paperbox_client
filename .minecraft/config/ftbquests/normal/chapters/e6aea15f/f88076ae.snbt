@@ -1,0 +1,21 @@
+{
+	x: 54.0d,
+	y: -3.5d,
+	shape: "gear",
+	dependencies: [
+		"3e0568e2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8a043b69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "super_solar_panels:machines",
+			Damage: 5s
+		}],
+		consume_items: false
+	}]
+}

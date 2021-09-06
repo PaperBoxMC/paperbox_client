@@ -1,0 +1,22 @@
+{
+	title: "ReAct",
+	x: 42.5d,
+	y: 5.0d,
+	shape: "hexagon",
+	description: "获得王者废剑",
+	dependencies: [
+		"91e5949d"
+	],
+	tasks: [{
+		uid: "0e588746",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:excaliber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "五倍矿物产线",
+	x: 16.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "化学灌注机",
+	text: [
+		"一侧输入二氧化硫",
+		"一侧输入氧气",
+		"即可合成三氧化硫"
+	],
+	dependencies: [
+		"ddbc69c7"
+	],
+	tasks: [{
+		uid: "5d22de45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

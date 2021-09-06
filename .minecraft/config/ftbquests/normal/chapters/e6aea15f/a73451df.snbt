@@ -1,0 +1,21 @@
+{
+	title: "高级工业",
+	x: 15.0d,
+	y: 10.5d,
+	shape: "gear",
+	description: "感应炉",
+	dependencies: [
+		"7c6f975e"
+	],
+	tasks: [{
+		uid: "fe61493d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 54s
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	shape: "octagon",
+	dependencies: [
+		"891b812f",
+		"037083e5"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "a53445b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 54s
+		}]
+	}]
+}

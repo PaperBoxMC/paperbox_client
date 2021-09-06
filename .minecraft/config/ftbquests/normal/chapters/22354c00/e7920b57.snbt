@@ -1,0 +1,30 @@
+{
+	title: "终极奖励",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mekanism:basicblock2",
+		tag: {
+			tier: 3
+		},
+		Damage: 3s
+	},
+	disable_toast: true,
+	x: 18.0d,
+	y: 4.0d,
+	shape: "octagon",
+	description: "完成聚变反应堆和五倍矿产线的奖励",
+	dependencies: [
+		"0476b8cf",
+		"d294589f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "29780ed8",
+		type: "forge_energy",
+		value: 1000000000L
+	}]
+}

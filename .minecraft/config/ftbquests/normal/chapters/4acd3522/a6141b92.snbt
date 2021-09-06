@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"501f0d7a"
+	],
+	tasks: [{
+		uid: "47b2defd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_star"
+		}]
+	}]
+}

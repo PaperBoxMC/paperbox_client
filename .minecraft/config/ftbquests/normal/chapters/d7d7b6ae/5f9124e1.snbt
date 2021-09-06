@@ -1,0 +1,37 @@
+{
+	title: "§d流体存储",
+	x: 27.5d,
+	y: -2.5d,
+	text: [
+		"与ME存储元件同理",
+		"ME流体存储元件可以存储大量流体",
+		"并且可以自动输入输出"
+	],
+	dependencies: [
+		"089055cd"
+	],
+	tasks: [{
+		uid: "ffbcae60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 520s
+		}]
+	},
+	{
+		uid: "b103813d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

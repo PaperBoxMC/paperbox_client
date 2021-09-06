@@ -1,0 +1,25 @@
+{
+	title: "矿物融合",
+	x: 6.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "融合机",
+	text: [
+		"融合机可以消耗圆石和对应的矿物粉来合成矿石"
+	],
+	dependencies: [
+		"7f61583c"
+	],
+	tasks: [{
+		uid: "216f578a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "终极能量传输",
+	x: 13.0d,
+	y: 1.0d,
+	shape: "octagon",
+	description: "恒星合金能量导管",
+	dependencies: [
+		"eaa09909",
+		"ce04fc06"
+	],
+	tasks: [{
+		uid: "a5877455",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_endergy_conduit",
+			Damage: 11s
+		}],
+		count: 16L
+	}]
+}

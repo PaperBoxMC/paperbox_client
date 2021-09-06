@@ -1,0 +1,24 @@
+{
+	title: "工业基础",
+	x: 0.0d,
+	y: -0.5d,
+	description: "板材切割剪刀",
+	text: [
+		"板材切割剪刀可以将金属板制成导线"
+	],
+	dependencies: [
+		"4019bfbc"
+	],
+	tasks: [{
+		uid: "62670a56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

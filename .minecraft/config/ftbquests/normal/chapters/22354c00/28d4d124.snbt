@@ -1,0 +1,25 @@
+{
+	title: "电动泵",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "基础机器",
+	text: [
+		"电动泵可以抽取水源 并且不消耗水 无限水来源 （请不要过多建造）"
+	],
+	dependencies: [
+		"cde605c2"
+	],
+	tasks: [{
+		uid: "2449a818",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

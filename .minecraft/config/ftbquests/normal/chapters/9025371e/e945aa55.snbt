@@ -1,0 +1,21 @@
+{
+	title: "基础酿造",
+	x: 2.5d,
+	y: -3.0d,
+	shape: "gear",
+	description: "酿液桶",
+	dependencies: [
+		"55bb1cf4",
+		"272370cc"
+	],
+	tasks: [{
+		uid: "21f4aac7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_vat"
+		}]
+	}]
+}

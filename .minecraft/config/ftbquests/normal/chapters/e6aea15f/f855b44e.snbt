@@ -1,0 +1,21 @@
+{
+	title: "基础发电",
+	x: 6.0d,
+	y: -3.5d,
+	shape: "gear",
+	description: "火力发电机",
+	dependencies: [
+		"5940ba6a"
+	],
+	tasks: [{
+		uid: "0a3a0b21",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 3s
+		}]
+	}]
+}

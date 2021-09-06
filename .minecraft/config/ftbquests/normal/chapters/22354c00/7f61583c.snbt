@@ -1,0 +1,28 @@
+{
+	title: "更高级的电路板",
+	x: 4.0d,
+	y: 6.0d,
+	description: "精英控制电路",
+	text: [
+		"精英控制电路是Mekanism的精英级别材料",
+		"它是四倍矿机器的材料 也是融合机的材料",
+		"可用于制作精英工厂升级和升级线缆"
+	],
+	dependencies: [
+		"e2a105c0",
+		"e0971e2a"
+	],
+	tasks: [{
+		uid: "92c2e6e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:controlcircuit",
+			Damage: 2s
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

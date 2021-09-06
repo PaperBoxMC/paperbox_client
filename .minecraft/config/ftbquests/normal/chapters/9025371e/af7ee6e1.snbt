@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 2.0d,
+	dependencies: [
+		"e8fa379f"
+	],
+	tasks: [{
+		uid: "c05fdd35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 1s
+		}],
+		count: 16L
+	}]
+}

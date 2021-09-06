@@ -1,0 +1,17 @@
+{
+	x: 30.0d,
+	y: 2.5d,
+	dependencies: [
+		"aa44f5d2"
+	],
+	tasks: [{
+		uid: "7f070598",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:titanium_plate"
+		}]
+	}]
+}

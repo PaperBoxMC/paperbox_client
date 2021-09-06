@@ -1,0 +1,37 @@
+{
+	title: "§b赛特斯石英 §d充能赛特斯石英",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"应用能源的一切基础",
+		"可以在主世界找到赛特斯石英矿石",
+		"会生成少量充能赛特斯石英水晶矿"
+	],
+	dependencies: [
+		"79412189"
+	],
+	tasks: [{
+		uid: "cd126f48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material"
+		}],
+		count: 32L,
+		consume_items: false
+	},
+	{
+		uid: "5ee37e9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 1s
+		}],
+		count: 8L
+	}]
+}

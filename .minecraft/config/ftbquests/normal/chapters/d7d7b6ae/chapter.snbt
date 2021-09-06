@@ -1,0 +1,12 @@
+{
+	title: "应用能源2 (Applied Energistics 2)",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:controller"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

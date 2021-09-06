@@ -1,0 +1,25 @@
+{
+	title: "§3METS",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mets:advanced_iridium_sword",
+		tag: {
+			charge: 1.0E7d
+		}
+	},
+	x: 24.0d,
+	y: 5.5d,
+	shape: "octagon",
+	description: "欢迎来到电力的世界！",
+	dependencies: [
+		"37600b6a",
+		"cb26d759"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "694796be",
+		type: "checkmark"
+	}]
+}

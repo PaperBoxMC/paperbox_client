@@ -1,0 +1,21 @@
+{
+	title: "工业基本",
+	x: -3.0d,
+	y: 2.5d,
+	description: "锻造锤",
+	text: [
+		"锻造锤是工业的基础工具 它可以敲制矿材成为板材"
+	],
+	tasks: [{
+		uid: "3ef73578",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

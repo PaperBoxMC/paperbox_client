@@ -1,0 +1,24 @@
+{
+	title: "Killer Lady",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrabotany:material",
+		Damage: 3s
+	},
+	x: 40.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "击杀盖亚守护者III",
+	dependencies: [
+		"9d39e311"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "9072684b",
+		type: "kill",
+		entity: "extrabotany:gaiaiii",
+		value: 1L
+	}]
+}

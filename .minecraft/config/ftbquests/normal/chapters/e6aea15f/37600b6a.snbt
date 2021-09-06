@@ -1,0 +1,23 @@
+{
+	title: "超级工业",
+	x: 21.0d,
+	y: 5.5d,
+	shape: "octagon",
+	description: "§6复制机",
+	dependencies: [
+		"0c225f7c",
+		"3e790343"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "fcfc1454",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 63s
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "高级研磨",
+	x: 2.5d,
+	y: -2.0d,
+	shape: "gear",
+	description: "制作SAG磨粉机",
+	dependencies: [
+		"55bb1cf4",
+		"272370cc"
+	],
+	tasks: [{
+		uid: "076e1a8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_sag_mill"
+		}]
+	}]
+}

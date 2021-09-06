@@ -1,0 +1,25 @@
+{
+	title: "工业基础",
+	x: 6.0d,
+	y: 4.0d,
+	shape: "gear",
+	description: "提取机",
+	text: [
+		"提取机可以将粘性树脂提取成3个橡胶 是熔炉的三倍",
+		"也可以提取火药产出硫磺"
+	],
+	dependencies: [
+		"30c6cf96"
+	],
+	tasks: [{
+		uid: "6096622c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 45s
+		}]
+	}]
+}

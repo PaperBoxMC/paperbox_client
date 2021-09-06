@@ -1,0 +1,29 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	dependencies: [
+		"24e4c291"
+	],
+	tasks: [{
+		uid: "3aaa7d9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_capacitor_crystalline"
+		}]
+	}],
+	rewards: [{
+		uid: "087f4a44",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 14s
+		},
+		count: 4
+	}]
+}

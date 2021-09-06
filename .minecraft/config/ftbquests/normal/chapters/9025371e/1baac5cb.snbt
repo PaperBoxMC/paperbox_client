@@ -1,0 +1,21 @@
+{
+	title: "瞬间传输液体",
+	x: 0.0d,
+	y: 1.0d,
+	description: "末影液体导管",
+	dependencies: [
+		"ddd4bd28",
+		"eaa09909"
+	],
+	tasks: [{
+		uid: "adc9b8da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_liquid_conduit",
+			Damage: 2s
+		}]
+	}]
+}

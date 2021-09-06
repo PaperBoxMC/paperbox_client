@@ -1,0 +1,23 @@
+{
+	title: "工业基础",
+	x: 3.0d,
+	y: 2.5d,
+	description: "基础机械外壳",
+	text: [
+		"基础机械外壳是工业的大部分基础机器的材料"
+	],
+	dependencies: [
+		"4019bfbc"
+	],
+	tasks: [{
+		uid: "58ee550f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 12s
+		}]
+	}]
+}

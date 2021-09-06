@@ -1,0 +1,26 @@
+{
+	title: "工业基本",
+	x: 3.0d,
+	y: -3.5d,
+	description: "绝缘锡质导线",
+	dependencies: [
+		"f8729016",
+		"cb4cb0f2"
+	],
+	tasks: [{
+		uid: "c9bf624a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
+		}],
+		count: 8L
+	}]
+}

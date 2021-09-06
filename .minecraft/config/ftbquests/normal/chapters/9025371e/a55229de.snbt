@@ -1,0 +1,20 @@
+{
+	x: 13.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	dependencies: [
+		"ce04fc06"
+	],
+	tasks: [{
+		uid: "4a7a2460",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_stellar_alloy_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

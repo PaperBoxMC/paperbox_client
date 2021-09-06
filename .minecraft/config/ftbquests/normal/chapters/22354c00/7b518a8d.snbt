@@ -1,0 +1,29 @@
+{
+	title: "四倍化处理矿物",
+	x: 16.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "化学压射室",
+	text: [
+		"化学压射室可以将矿物四倍化处理 需要消耗氯化氢"
+	],
+	dependencies: [
+		"b13a4eee",
+		"5d146931"
+	],
+	tasks: [{
+		uid: "9263c1d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

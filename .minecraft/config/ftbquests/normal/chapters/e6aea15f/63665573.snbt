@@ -1,0 +1,21 @@
+{
+	x: 24.0d,
+	y: 11.5d,
+	dependencies: [
+		"bb8a626c"
+	],
+	tasks: [{
+		uid: "e00b9be8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:electric_nutrition_supply",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

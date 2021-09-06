@@ -1,0 +1,24 @@
+{
+	title: "高级工业",
+	x: 12.0d,
+	y: 7.5d,
+	shape: "hexagon",
+	description: "高级机械外壳",
+	dependencies: [
+		"297b1e72",
+		"0d77f2b2",
+		"19b6bca4"
+	],
+	tasks: [{
+		uid: "a6267689",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 13s
+		}],
+		count: 2L
+	}]
+}

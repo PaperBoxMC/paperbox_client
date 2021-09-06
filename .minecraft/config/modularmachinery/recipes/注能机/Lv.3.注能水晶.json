@@ -1,0 +1,46 @@
+{
+    "machine": "Crystal_injection",
+    "registryName": "Lv3.Cry",
+    "recipeTime": 4800,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 1600000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:draconic_block",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:chaos_shard",
+            "amount": 6
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item514",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§c2级注能水晶"
+            }
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "custommc:item513",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§e3级注能水晶"
+            }
+            }
+        }
+    ]
+}

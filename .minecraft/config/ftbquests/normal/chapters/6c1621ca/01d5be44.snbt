@@ -1,0 +1,22 @@
+{
+	title: "Nightglow",
+	x: 47.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "获得亚空之矛",
+	dependencies: [
+		"b83218fd"
+	],
+	tasks: [{
+		uid: "52a6a6b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:spearsubspace"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

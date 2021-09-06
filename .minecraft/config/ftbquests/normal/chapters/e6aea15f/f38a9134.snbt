@@ -1,0 +1,23 @@
+{
+	title: "工业基础",
+	x: 3.0d,
+	y: -0.5d,
+	description: "外壳",
+	text: [
+		"金属板可以被锻造锤进一步加工 成为金属外壳"
+	],
+	dependencies: [
+		"4019bfbc"
+	],
+	tasks: [{
+		uid: "00c025c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:casing",
+			Damage: 3s
+		}]
+	}]
+}

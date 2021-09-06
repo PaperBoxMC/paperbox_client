@@ -1,0 +1,25 @@
+{
+	title: "基础工业",
+	x: 6.0d,
+	y: 8.5d,
+	shape: "gear",
+	description: "高炉",
+	text: [
+		"高炉可以处理一些特殊配方",
+		"比如 铁->钢"
+	],
+	dependencies: [
+		"30c6cf96"
+	],
+	tasks: [{
+		uid: "eb593873",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 50s
+		}]
+	}]
+}

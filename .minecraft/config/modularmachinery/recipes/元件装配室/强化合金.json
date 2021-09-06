@@ -1,0 +1,30 @@
+{
+    "machine": "crafter_tier_2",
+    "registryName": "reinforced_alloy_0",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 48000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:itemEnrichedAlloy",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:itemCompressedDiamond",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:reinforcedalloy",
+            "amount": 64
+        }
+    ]
+}

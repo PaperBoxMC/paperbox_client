@@ -1,0 +1,25 @@
+{
+	title: "终极材料",
+	x: 12.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "原子合金",
+	text: [
+		"原子合金是Mekanism的最高级合成材料",
+		"它是制作五倍矿处理产线和聚变反应堆的材料"
+	],
+	dependencies: [
+		"e2a105c0"
+	],
+	tasks: [{
+		uid: "820e8ceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:atomicalloy"
+		}],
+		count: 16L
+	}]
+}

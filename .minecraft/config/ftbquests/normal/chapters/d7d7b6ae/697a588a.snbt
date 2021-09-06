@@ -1,0 +1,22 @@
+{
+	title: "§d合成自动化",
+	x: 22.5d,
+	y: 0.0d,
+	text: [
+		"合成存储器可以存储自动合成的材料",
+		"字节越大 可以存储的物品越多"
+	],
+	dependencies: [
+		"6c9080f1"
+	],
+	tasks: [{
+		uid: "da1e1aec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}]
+}

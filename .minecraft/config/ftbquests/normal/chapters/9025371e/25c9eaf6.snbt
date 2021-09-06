@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -9.0d,
+	shape: "gear",
+	dependencies: [
+		"8a032ac6"
+	],
+	tasks: [{
+		uid: "385ccc27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_slice_and_splice"
+		}]
+	}]
+}

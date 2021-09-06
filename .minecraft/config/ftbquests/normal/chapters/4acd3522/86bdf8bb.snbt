@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"38695929"
+	],
+	tasks: [{
+		uid: "f09ded2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:draconium_capacitor"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

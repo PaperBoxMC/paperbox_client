@@ -1,0 +1,34 @@
+{
+	title: "基础矿石",
+	x: -4.0d,
+	y: 0.0d,
+	shape: "square",
+	description: "锇 铁",
+	text: [
+		"锇是制造Mekanism的基础机器所必须的基础材料 来挖掘一些这些矿物来获取一些奖励！"
+	],
+	tasks: [{
+		uid: "a638172f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:oreblock"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "da622ae9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 42.0d,
+	y: 10.0d,
+	shape: "octagon",
+	dependencies: [
+		"91a1b43a"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "816b0657",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:tachyon_disruptor",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

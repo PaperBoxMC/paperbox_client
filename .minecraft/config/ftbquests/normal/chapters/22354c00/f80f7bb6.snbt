@@ -1,0 +1,24 @@
+{
+	title: "五倍矿物产线",
+	x: 18.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "回旋式气液转换机",
+	text: [
+		"输入水来气化获得水蒸气"
+	],
+	dependencies: [
+		"7cb76a3b"
+	],
+	tasks: [{
+		uid: "2e008408",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

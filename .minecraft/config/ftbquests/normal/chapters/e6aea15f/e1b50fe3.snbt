@@ -1,0 +1,20 @@
+{
+	title: "§5进阶压缩机",
+	x: 33.0d,
+	y: 2.0d,
+	shape: "gear",
+	dependencies: [
+		"59440a26"
+	],
+	tasks: [{
+		uid: "45201592",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:te",
+			Damage: 7s
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"a18c7905"
+	],
+	tasks: [{
+		uid: "4bdd3fcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_end_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

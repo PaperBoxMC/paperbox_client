@@ -1,0 +1,20 @@
+{
+	title: "基础烧炼",
+	x: -7.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "简易合金炉",
+	dependencies: [
+		"d6f7b450"
+	],
+	tasks: [{
+		uid: "d6297aa0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_simple_alloy_smelter"
+		}]
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "§d存入§r和§6取出",
+	x: 32.5d,
+	y: 0.0d,
+	dependencies: [
+		"56ed30ac",
+		"f76f8214"
+	],
+	tasks: [{
+		uid: "a7569e4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 240s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "797ed9dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 241s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2dd70160",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 260s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c878422b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 261s
+		}],
+		consume_items: true
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "§d自动合成",
+	x: 27.5d,
+	y: 0.0d,
+	text: [
+		"分子装配室可以像工作台一样合成物品",
+		"配合ME接口可以形成自动化"
+	],
+	dependencies: [
+		"089055cd"
+	],
+	tasks: [{
+		uid: "50b53915",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:molecular_assembler"
+		}]
+	}]
+}

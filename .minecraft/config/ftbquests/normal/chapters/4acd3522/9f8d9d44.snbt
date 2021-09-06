@@ -1,0 +1,20 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	shape: "octagon",
+	dependencies: [
+		"7e6ef90e",
+		"5596f1c1"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "74fdb446",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:chaotic_core"
+		}]
+	}]
+}

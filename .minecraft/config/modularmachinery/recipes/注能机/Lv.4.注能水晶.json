@@ -1,0 +1,40 @@
+{
+    "machine": "Crystal_injection",
+    "registryName": "Lv4.Cry",
+    "recipeTime": 40000,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4800000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "avaritiaio:grindingballinfinity",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item513",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§e3级注能水晶"
+            }
+            }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "custommc:item512",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§64级注能水晶"
+            }
+            }
+        }
+    ]
+}

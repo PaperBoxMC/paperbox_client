@@ -1,0 +1,22 @@
+{
+	x: 45.0d,
+	y: 11.5d,
+	dependencies: [
+		"b433c871",
+		"b2b43f77"
+	],
+	tasks: [{
+		uid: "c45671d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:electric_force_field_generator",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

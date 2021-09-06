@@ -1,0 +1,20 @@
+{
+	title: "惰性传送",
+	x: 2.0d,
+	y: -7.0d,
+	shape: "gear",
+	description: "传送抑制方尖碑",
+	dependencies: [
+		"8a032ac6"
+	],
+	tasks: [{
+		uid: "6b76bebe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_inhibitor_obelisk"
+		}]
+	}]
+}

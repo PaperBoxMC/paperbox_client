@@ -1,0 +1,27 @@
+{
+	title: "传输能量",
+	x: 2.0d,
+	y: -2.0d,
+	description: "通用线缆",
+	text: [
+		"通用线缆是Mekanism的传输能量的物品 他可以传输RF EU J能量"
+	],
+	dependencies: [
+		"323dfa9e"
+	],
+	tasks: [{
+		uid: "daa49b7f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}],
+		count: 32L,
+		consume_items: true
+	}]
+}

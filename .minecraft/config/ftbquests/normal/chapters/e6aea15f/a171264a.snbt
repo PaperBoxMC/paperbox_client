@@ -1,0 +1,21 @@
+{
+	x: 27.0d,
+	y: 10.0d,
+	dependencies: [
+		"bb8a626c"
+	],
+	tasks: [{
+		uid: "a3facb04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:electric_submachine_gun",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

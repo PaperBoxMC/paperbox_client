@@ -1,0 +1,28 @@
+{
+	title: "基础材料",
+	x: -10.0d,
+	y: 4.0d,
+	description: "木齿轮",
+	dependencies: [
+		"1d747722"
+	],
+	tasks: [{
+		uid: "53b24c5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gearWood",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearWood"
+				}
+			}
+		}]
+	}]
+}

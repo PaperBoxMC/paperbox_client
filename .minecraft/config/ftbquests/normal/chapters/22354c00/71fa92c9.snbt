@@ -1,0 +1,47 @@
+{
+	title: "液体传输",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:item_liquid_conduit",
+		Damage: 1s
+	},
+	x: 6.0d,
+	y: 2.0d,
+	description: "免费任务",
+	text: [
+		"由于Mekanism的机械管道过于卡顿 你可以在本任务中领取液体导管"
+	],
+	dependencies: [
+		"28d4d124"
+	],
+	tasks: [{
+		uid: "71456b68",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5036c838",
+		type: "item",
+		auto: "disabled",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_liquid_conduit",
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		uid: "d81f135f",
+		type: "item",
+		auto: "disabled",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_yeta_wrench"
+		}
+	}]
+}

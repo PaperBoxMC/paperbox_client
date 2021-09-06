@@ -1,0 +1,19 @@
+{
+	title: "ExtraBotany(植物学拓展)",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrabotany:material",
+		Damage: 3s
+	},
+	x: 25.0d,
+	y: 0.0d,
+	dependencies: [
+		"a81d8975"
+	],
+	tasks: [{
+		uid: "70c98111",
+		type: "checkmark"
+	}]
+}

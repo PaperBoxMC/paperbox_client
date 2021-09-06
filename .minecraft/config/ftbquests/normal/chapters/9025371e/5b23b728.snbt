@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	dependencies: [
+		"ed695919"
+	],
+	tasks: [{
+		uid: "9212752d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_capacitor_melodic"
+		}]
+	}]
+}

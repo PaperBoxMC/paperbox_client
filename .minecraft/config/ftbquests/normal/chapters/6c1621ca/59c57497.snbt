@@ -1,0 +1,19 @@
+{
+	x: 30.0d,
+	y: -2.5d,
+	dependencies: [
+		"a56a3673"
+	],
+	tasks: [{
+		uid: "ce5298d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:material"
+		}],
+		count: 4L,
+		consume_items: false
+	}]
+}

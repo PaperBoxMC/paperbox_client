@@ -1,0 +1,31 @@
+{
+	title: "基础机器",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mekanism:machineblock"
+	},
+	x: 4.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "富集仓",
+	text: [
+		"富集仓可用于二倍化处理矿物获得粉 或者处理红石来获得压缩红石 压缩红石一次可以制作8个富集合金"
+	],
+	dependencies: [
+		"2e6634f6"
+	],
+	tasks: [{
+		uid: "f6f123d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

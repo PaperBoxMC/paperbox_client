@@ -1,0 +1,23 @@
+{
+	title: "钻石",
+	x: 4.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "高级材料",
+	text: [
+		"钻石可用于制作Mekanism的高级机器所需的材料 你可以将钻石放入富集仓变成一个压缩钻石"
+	],
+	dependencies: [
+		"cde605c2"
+	],
+	tasks: [{
+		uid: "ff895c9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}]
+	}]
+}

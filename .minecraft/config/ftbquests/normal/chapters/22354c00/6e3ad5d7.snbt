@@ -1,0 +1,22 @@
+{
+	title: "终极机器",
+	x: 14.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	description: "可以升级能量立方",
+	dependencies: [
+		"f88dd2e0"
+	],
+	tasks: [{
+		uid: "c1fbf624",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:tierinstaller",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

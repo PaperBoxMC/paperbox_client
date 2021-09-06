@@ -1,0 +1,20 @@
+{
+	title: "灵魂金属",
+	x: -1.5d,
+	y: 0.0d,
+	description: "魂金锭",
+	dependencies: [
+		"e8fa379f"
+	],
+	tasks: [{
+		uid: "bbe8363d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 7s
+		}]
+	}]
+}

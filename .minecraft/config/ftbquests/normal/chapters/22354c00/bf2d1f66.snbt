@@ -1,0 +1,58 @@
+{
+	title: "热力蒸馏塔",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mekanism:basicblock",
+		Damage: 14s
+	},
+	x: 10.0d,
+	y: 8.0d,
+	shape: "gear",
+	description: "盐水来源",
+	text: [
+		"热力蒸馏塔可以处理水 使其变成盐水",
+		"也可以处理盐水 变成液态锂"
+	],
+	dependencies: [
+		"e0971e2a"
+	],
+	tasks: [{
+		uid: "2a47acd3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:basicblock",
+			Damage: 14s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "caae1df3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:basicblock",
+			Damage: 15s
+		}],
+		count: 3L,
+		consume_items: false
+	},
+	{
+		uid: "b59fb735",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:basicblock2"
+		}],
+		count: 64L,
+		consume_items: false
+	}]
+}

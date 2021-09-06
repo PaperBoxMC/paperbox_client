@@ -1,0 +1,21 @@
+{
+	x: 33.0d,
+	y: 10.0d,
+	dependencies: [
+		"a323ee73"
+	],
+	tasks: [{
+		uid: "cf88565d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:tactical_laser_submachine_gun",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

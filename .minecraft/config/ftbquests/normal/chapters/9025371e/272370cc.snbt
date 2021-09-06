@@ -1,0 +1,20 @@
+{
+	title: "高级材料",
+	x: 2.5d,
+	y: -1.0d,
+	description: "玄钢齿轮",
+	dependencies: [
+		"55bb1cf4"
+	],
+	tasks: [{
+		uid: "a8deb9a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 73s
+		}]
+	}]
+}

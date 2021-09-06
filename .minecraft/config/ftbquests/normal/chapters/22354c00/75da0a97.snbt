@@ -1,0 +1,29 @@
+{
+	title: "聚变反应堆",
+	x: 16.0d,
+	y: 8.0d,
+	shape: "gear",
+	description: "化学灌注机",
+	text: [
+		"一侧输入氘",
+		"一侧输入氚",
+		"即可获得氘氚燃料",
+		"放入黑体辐射腔来灌入氘氚燃料"
+	],
+	dependencies: [
+		"7d6cd285",
+		"a354dd02"
+	],
+	tasks: [{
+		uid: "4f1f92c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

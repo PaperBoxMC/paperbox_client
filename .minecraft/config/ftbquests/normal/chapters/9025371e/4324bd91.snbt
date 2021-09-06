@@ -1,0 +1,19 @@
+{
+	title: "基础磨粉",
+	x: -5.0d,
+	y: -1.0d,
+	shape: "gear",
+	dependencies: [
+		"d6f7b450"
+	],
+	tasks: [{
+		uid: "cd8bbf25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_simple_sag_mill"
+		}]
+	}]
+}

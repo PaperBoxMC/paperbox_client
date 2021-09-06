@@ -1,0 +1,20 @@
+{
+	x: 30.0d,
+	y: -5.0d,
+	dependencies: [
+		"31148774"
+	],
+	tasks: [{
+		uid: "a2759202",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

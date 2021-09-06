@@ -1,0 +1,37 @@
+{
+	title: "聚变反应堆",
+	x: 12.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "重水",
+	text: [
+		"电动泵在升级了过滤升级后 不再输出水 而是重水"
+	],
+	dependencies: [
+		"f88dd2e0"
+	],
+	tasks: [{
+		uid: "fd0ad356",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:filterupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "683bf3d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

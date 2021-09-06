@@ -1,0 +1,25 @@
+{
+	title: "聚变反应堆",
+	x: 12.0d,
+	y: 8.0d,
+	shape: "gear",
+	description: "电解分离器",
+	text: [
+		"电解重水来获得氘"
+	],
+	dependencies: [
+		"47342eb7"
+	],
+	tasks: [{
+		uid: "7744620a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+    "machine": "bot_crafter",
+    "registryName": "Bot_Exotic_crystal",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+            "type": "gugu-utils:mana",
+            "io-type": "input",
+            "mana": 1000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "additions:novaextended-crystal1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "additions:novaextended-crystal3",
+            "amount": 1,
+            "chance": 0.75
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+	title: "神龙级别能量传输",
+	x: 7.5d,
+	y: 13.0d,
+	dependencies: [
+		"c4e08ec7"
+	],
+	tasks: [{
+		uid: "444a1c5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:energy_crystal",
+			Damage: 8s
+		}],
+		count: 2L
+	}]
+}

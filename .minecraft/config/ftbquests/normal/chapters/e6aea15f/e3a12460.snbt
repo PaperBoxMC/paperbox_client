@@ -1,0 +1,22 @@
+{
+	title: "§5高级矿石",
+	x: 18.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "铱",
+	dependencies: [
+		"0c225f7c"
+	],
+	tasks: [{
+		uid: "2c913281",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:misc_resource",
+			Damage: 1s
+		}],
+		count: 64L
+	}]
+}

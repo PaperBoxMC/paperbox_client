@@ -1,0 +1,19 @@
+{
+	x: 25.0d,
+	y: 2.5d,
+	dependencies: [
+		"a81d8975"
+	],
+	tasks: [{
+		uid: "b3c59693",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flighttiara",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

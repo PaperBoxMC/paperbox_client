@@ -1,0 +1,30 @@
+{
+    "machine": "mana_collector",
+    "registryName": "mana_lv1",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 500000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "custommc:item794",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§b1级魔力水晶"
+            }
+            },
+            "chance": 0.1
+        },
+        {
+            "type": "gugu-utils:mana_pertick",
+            "io-type": "output",
+            "time": 1200,
+            "mana": 180
+        }
+    ]
+}

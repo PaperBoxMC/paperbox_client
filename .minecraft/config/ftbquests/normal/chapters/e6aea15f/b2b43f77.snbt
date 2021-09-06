@@ -1,0 +1,22 @@
+{
+	x: 42.0d,
+	y: 11.5d,
+	dependencies: [
+		"63665573",
+		"b433c871"
+	],
+	tasks: [{
+		uid: "8fc71f5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:electric_first_aid_life_support",
+			tag: {},
+			Damage: 12344s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

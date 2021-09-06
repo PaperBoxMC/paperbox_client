@@ -1,0 +1,20 @@
+{
+	x: 17.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"6bea1b0d"
+	],
+	size: 1.1d,
+	tasks: [{
+		uid: "eb314264",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:awakened_core"
+		}],
+		count: 4L
+	}]
+}

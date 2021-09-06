@@ -1,0 +1,33 @@
+{
+	title: "高级合金",
+	x: 7.5d,
+	y: 2.0d,
+	description: "末影钢锭",
+	dependencies: [
+		"2946c678"
+	],
+	tasks: [{
+		uid: "abcc0e48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8c6aff7a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chorus_fruit"
+		},
+		count: 32,
+		random_bonus: 32
+	}]
+}

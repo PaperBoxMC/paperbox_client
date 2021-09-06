@@ -1,0 +1,23 @@
+{
+	title: "§d智能线缆",
+	x: 10.0d,
+	y: -2.5d,
+	text: [
+		"智能线缆可以显示§6频道§r量"
+	],
+	dependencies: [
+		"6a2744fe"
+	],
+	tasks: [{
+		uid: "e4401709",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 56s
+		}],
+		count: 16L
+	}]
+}

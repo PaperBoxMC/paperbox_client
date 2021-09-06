@@ -1,0 +1,21 @@
+{
+	title: "清洁能源",
+	x: 9.0d,
+	y: -3.5d,
+	shape: "gear",
+	description: "太阳能",
+	dependencies: [
+		"f855b44e"
+	],
+	tasks: [{
+		uid: "0080b561",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 8s
+		}]
+	}]
+}

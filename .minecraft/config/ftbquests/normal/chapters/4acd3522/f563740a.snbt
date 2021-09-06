@@ -1,0 +1,43 @@
+{
+	title: "神龙反应堆",
+	x: 22.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"5596f1c1"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "d0b31420",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:reactor_core"
+		}]
+	},
+	{
+		uid: "23f4f10c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:reactor_component"
+		}],
+		count: 4L
+	},
+	{
+		uid: "68110b06",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:reactor_component",
+			Damage: 1s
+		}],
+		count: 2L
+	}]
+}

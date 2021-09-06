@@ -1,0 +1,74 @@
+{
+	title: "§d功能卡",
+	x: 15.0d,
+	y: 2.5d,
+	dependencies: [
+		"109329c8"
+	],
+	tasks: [{
+		uid: "b6a9d5e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 30s
+		}]
+	},
+	{
+		uid: "e783e73b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 26s
+		}]
+	},
+	{
+		uid: "48f5b1e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 53s
+		}]
+	},
+	{
+		uid: "d0c69fff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 27s
+		}]
+	},
+	{
+		uid: "deedd9f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 31s
+		}]
+	},
+	{
+		uid: "bc5dc0a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 29s
+		}]
+	}]
+}

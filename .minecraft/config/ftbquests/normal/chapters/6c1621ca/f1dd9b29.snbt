@@ -1,0 +1,47 @@
+{
+	title: "魔力材料",
+	x: 12.5d,
+	y: 0.0d,
+	description: "将原材料丢入魔力池获得物品",
+	dependencies: [
+		"8e1ffb82"
+	],
+	tasks: [{
+		uid: "11d2e543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "69eefa7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 2s
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "16efef2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 1s
+		}],
+		count: 8L,
+		consume_items: true
+	}]
+}

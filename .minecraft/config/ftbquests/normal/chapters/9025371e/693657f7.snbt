@@ -1,0 +1,21 @@
+{
+	title: "高级酿造",
+	x: 7.5d,
+	y: -1.0d,
+	shape: "gear",
+	description: "强化酿造桶",
+	dependencies: [
+		"be4c71dc",
+		"44974052"
+	],
+	tasks: [{
+		uid: "5d0cda32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_vat"
+		}]
+	}]
+}

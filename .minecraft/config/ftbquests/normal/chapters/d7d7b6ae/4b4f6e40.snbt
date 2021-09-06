@@ -1,0 +1,65 @@
+{
+	title: "§d电路板",
+	x: 12.5d,
+	y: -2.5d,
+	text: [
+		"处理器是制作AE大部分机器的必需品",
+		"这些处理器可以通过压印器合成",
+		"放入模板和材料来合成电路板",
+		"逻辑处理器对应§6金锭§r",
+		"运算处理器对应§b高纯赛特斯石英水晶§r",
+		"工程处理器对应§b钻石§r",
+		"硅板对应§2硅"
+	],
+	dependencies: [
+		"2265da31"
+	],
+	tasks: [{
+		uid: "54118b3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 16s
+		}],
+		count: 4L
+	},
+	{
+		uid: "e1afdef0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 17s
+		}],
+		count: 4L
+	},
+	{
+		uid: "eafee721",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 18s
+		}],
+		count: 4L
+	},
+	{
+		uid: "9851d4e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 20s
+		}],
+		count: 12L
+	}]
+}

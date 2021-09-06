@@ -1,0 +1,43 @@
+{
+	title: "充能冶炼炉",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 0
+		},
+		Damage: 5s
+	},
+	x: -1.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "基础机器",
+	text: [
+		"充能冶炼炉可以像原版熔炉一样烧炼物品 不过他消耗的是能量 并且可以升级为工厂 一次处理更多材料（纸箱开局赠送）"
+	],
+	dependencies: [
+		"574c519c"
+	],
+	tasks: [{
+		uid: "85615361",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:ingot",
+			Damage: 1s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 10s
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}]
+}

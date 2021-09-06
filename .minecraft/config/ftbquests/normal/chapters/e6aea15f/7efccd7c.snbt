@@ -1,0 +1,33 @@
+{
+	title: "工业基本",
+	x: -3.0d,
+	y: -3.5d,
+	description: "木龙头",
+	text: [
+		"木龙头可以获取橡胶树上的粘性橡胶 获取一些来领取奖励！"
+	],
+	tasks: [{
+		uid: "8bf440dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "99716dab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:misc_resource",
+			Damage: 4s
+		}],
+		count: 16L
+	}]
+}

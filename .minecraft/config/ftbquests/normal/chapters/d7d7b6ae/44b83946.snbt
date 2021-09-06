@@ -1,0 +1,25 @@
+{
+	title: "§d元件编写",
+	x: 20.0d,
+	y: 2.5d,
+	text: [
+		"元件工作台可以编写存储元件的存储规则",
+		"在其中标记一个物品",
+		"则这个元件就只会存储该物品§c（白名单）§r",
+		"流体元件和显示元件同理",
+		"如果加入了反相卡则效果相反§c（黑名单）"
+	],
+	dependencies: [
+		"6ea6516f"
+	],
+	tasks: [{
+		uid: "fe9938e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:cell_workbench"
+		}]
+	}]
+}

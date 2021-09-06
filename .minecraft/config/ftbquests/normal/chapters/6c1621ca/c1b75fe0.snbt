@@ -1,0 +1,21 @@
+{
+	title: "泰拉钢锭",
+	x: 20.0d,
+	y: -2.5d,
+	dependencies: [
+		"959e5ca9"
+	],
+	tasks: [{
+		uid: "b507554a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 4s
+		}],
+		count: 2L,
+		consume_items: true
+	}]
+}

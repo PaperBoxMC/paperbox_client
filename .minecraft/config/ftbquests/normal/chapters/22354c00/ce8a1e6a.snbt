@@ -1,0 +1,41 @@
+{
+	title: "基础材料",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mekanism:enrichedalloy"
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"使用你的新机器来完成制作一些富集合金和基础控制电路",
+		"右键基础通用线缆可以升级为高级通用线缆"
+	],
+	dependencies: [
+		"b0cfec8e"
+	],
+	tasks: [{
+		uid: "3c34a969",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:enrichedalloy"
+		}],
+		count: 16L
+	},
+	{
+		uid: "77beebb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:controlcircuit"
+		}],
+		count: 8L
+	}]
+}

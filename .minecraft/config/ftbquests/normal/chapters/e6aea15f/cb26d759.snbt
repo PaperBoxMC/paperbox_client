@@ -1,0 +1,70 @@
+{
+	title: "§6进阶+ 套装",
+	x: 18.0d,
+	y: 2.5d,
+	dependencies: [
+		"d7f67522",
+		"e3a12460",
+		"584cfa42"
+	],
+	tasks: [{
+		uid: "e79dbc08",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:quantum_helmet",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbbbf8a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:quantum_chestplate",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d2972ca9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:quantum_leggings",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "631e55a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:quantum_boots",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

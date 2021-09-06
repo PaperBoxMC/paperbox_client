@@ -1,0 +1,19 @@
+{
+	x: 48.0d,
+	y: -3.5d,
+	dependencies: [
+		"6a0b109b"
+	],
+	tasks: [{
+		uid: "ec3c38b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "super_solar_panels:crafting",
+			Damage: 7s
+		}],
+		consume_items: false
+	}]
+}

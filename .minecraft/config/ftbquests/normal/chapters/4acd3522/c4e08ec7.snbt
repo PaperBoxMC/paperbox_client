@@ -1,0 +1,19 @@
+{
+	title: "最高等级能量传输！",
+	x: 7.5d,
+	y: 10.5d,
+	dependencies: [
+		"75f360d2"
+	],
+	tasks: [{
+		uid: "2ec2f52c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "draconicevolution:energy_crystal",
+			Damage: 2s
+		}]
+	}]
+}

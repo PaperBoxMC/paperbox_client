@@ -1,0 +1,26 @@
+{
+	title: "五倍矿物产线",
+	x: 20.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "化学溶解室",
+	text: [
+		"化学溶解室是五倍矿物产线的核心机器 它可以把矿物处理成矿物浆液"
+	],
+	dependencies: [
+		"97b9652f"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "d3c3ec2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock2",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

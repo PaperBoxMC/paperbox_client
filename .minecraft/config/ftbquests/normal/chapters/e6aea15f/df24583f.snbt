@@ -1,0 +1,27 @@
+{
+	title: "§6高能武器",
+	x: 30.0d,
+	y: 7.0d,
+	description: "量子剑",
+	text: [
+		""
+	],
+	dependencies: [
+		"97647c9a"
+	],
+	tasks: [{
+		uid: "aea9bb85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mets:advanced_iridium_sword",
+			tag: {
+				charge: 1.0E7d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

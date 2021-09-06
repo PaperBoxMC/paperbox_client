@@ -1,0 +1,75 @@
+{
+	title: "昂星团战斗女仆",
+	x: 35.0d,
+	y: 0.0d,
+	dependencies: [
+		"3db4b680"
+	],
+	tasks: [{
+		uid: "6cd5936d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:combatmaidhelm",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11288de1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:combatmaidchest",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7ff143d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:combatmaidlegs",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cf1387d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:combatmaidboots",
+			tag: {}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7df20c58",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrabotany:material",
+			Damage: 6s
+		}
+	}]
+}
