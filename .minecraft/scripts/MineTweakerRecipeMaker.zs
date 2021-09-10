@@ -12,7 +12,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<modularmachinery:itemmodularium>);
 recipes.remove(<tinymobfarm:gold_farm>);
 recipes.remove(<tinymobfarm:diamond_farm>);
 recipes.remove(<tinymobfarm:emerald_farm>);

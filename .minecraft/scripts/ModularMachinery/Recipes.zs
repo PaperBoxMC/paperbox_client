@@ -184,19 +184,19 @@ build();
 //电磁_0-85格
 RecipeBuilder.newBuilder("dici_1","di_ci", 20).
 setAltitude(0, 85).
-addEnergyPerTickInput(13000000).
+addEnergyPerTickOutput(13000000).
 build();
 
 //电磁_86_186格
 RecipeBuilder.newBuilder("dici_2","di_ci", 20).
 setAltitude(86, 186).
-addEnergyPerTickInput(20000000).
+addEnergyPerTickOutput(20000000).
 build();
 
 //电磁_187-256格
 RecipeBuilder.newBuilder("dici_3","di_ci", 20).
 setAltitude(187, 256).
-addEnergyPerTickInput(25000000).
+addEnergyPerTickOutput(25000000).
 build();
 
 //电磁发电机-蓝图
@@ -216,14 +216,14 @@ build();
 
 //==============================聚焦太阳能/大型聚焦太阳能==============================
 //聚焦太阳能-日间
-RecipeBuilder.newBuilder("solar_panel_0_day","solar_panel_0", 5).
+RecipeBuilder.newBuilder("solar_panel_0_day","solar_panel_0", 1).
 setTime(10, 12999).
 setWeather("sunny").
 addEnergyPerTickOutput(6000000).
 build();
 
 //聚焦太阳能-夜间
-RecipeBuilder.newBuilder("solar_panel_0_night","solar_panel_0", 5).
+RecipeBuilder.newBuilder("solar_panel_0_night","solar_panel_0", 1).
 setTime(13000, 23992).
 setWeather("sunny").
 addEnergyPerTickOutput(1500000).
@@ -242,14 +242,14 @@ addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularm
 build();
 
 //大型聚焦太阳能-日间
-RecipeBuilder.newBuilder("solar_panel_1_day","solar_panel_1", 5).
+RecipeBuilder.newBuilder("solar_panel_1_day","solar_panel_1", 1).
 setTime(10, 12999).
 setWeather("sunny").
 addEnergyPerTickOutput(12000000).
 build();
 
 //大型聚焦太阳能-夜间
-RecipeBuilder.newBuilder("solar_panel_1_night","solar_panel_1", 5).
+RecipeBuilder.newBuilder("solar_panel_1_night","solar_panel_1", 1).
 setTime(13000, 23992).
 setWeather("sunny").
 addEnergyPerTickOutput(3000000).
@@ -858,7 +858,7 @@ addItemInput(<minecraft:diamond>).setChance(0).
 addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.25).
 addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.20).
 addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:50000> * 5).setChance(0.20).
+addItemOutput(<thermalfoundation:ore> * 5).setChance(0.20).
 addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.10).
 build();
 
@@ -885,7 +885,7 @@ addItemOutput(<nuclearcraft:ore:7> * 6).setChance(0.40).
 build();
 
 //泰拉钢矿钻
-RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill",900).
+RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill").
 addManaInput(750000).
 addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
 addItemOutput(<minecraft:iron_ore> * 4).setChance(0.15).
@@ -900,7 +900,7 @@ addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.15).
 addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.15).
 addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.15).
 addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:50000> * 5).setChance(0.05).
+addItemOutput(<thermalfoundation:ore> * 5).setChance(0.05).
 addItemOutput(<mets:niobium_ore>).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.1).
@@ -922,7 +922,7 @@ addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularm
 build();
 
 //小型钢矿钻
-RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill",3200).
+RecipeBuilder.newBuilder("small_ore_drill_1","small_ore_drill",3200).
 addEnergyPerTickInput(400).
 addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
 addItemOutput(<minecraft:iron_ore> * 4).setChance(0.17).
@@ -940,7 +940,7 @@ addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.15).
 addItemOutput(<minecraft:diamond_ore> * 2).setChance(0.07).
 addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.05).
 addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:50000> * 5).setChance(0.05).
+addItemOutput(<thermalfoundation:ore> * 5).setChance(0.05).
 addItemOutput(<mets:niobium_ore>).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).

@@ -20,6 +20,10 @@
 <ic2:te:115>.addTooltip("§c请不要放入AE存储内，会导致§4无法取出§c的问题");
 <mets:te:15>.addTooltip("§c请不要放入AE存储内，会导致§4无法取出§c的问题");
 <mekanism:transmitter>.addTooltip("§c禁用,§e请使用EnderIO导管传输");
+<mekanism:transmitter:3>.addTooltip("§c禁用,§e请使用EnderIO导管传输");
+<mekanism:transmitter:4>.addTooltip("§c禁用,§e请使用EnderIO导管传输");
+<mekanism:transmitter:5>.addTooltip("§c禁用,§e请使用EnderIO导管传输");
+<mekanism:transmitter:6>.addTooltip("§c禁用,§e请使用EnderIO导管传输");
 <mekanism:basicblock2:1>.addTooltip("§c请不要跨区块建造输导矩阵,会导致§4卡顿");
 <integratedtunnels:part_interface_item_item>.addTooltip("§c请将更新周期调整至8tick以上,否则会导致§4卡顿");
 <integratedtunnels:part_exporter_item_item>.addTooltip("§c请将更新周期调整至5tick以上,否则会导致§4卡顿");
