@@ -182,19 +182,19 @@ build();
 //==============================发电机==============================\\
 //==============================电磁发电机==============================
 //电磁_0-85格
-RecipeBuilder.newBuilder("dici_1","di_ci", 20).
+RecipeBuilder.newBuilder("dici_1","di_ci", 5).
 setAltitude(0, 85).
 addEnergyPerTickOutput(13000000).
 build();
 
 //电磁_86_186格
-RecipeBuilder.newBuilder("dici_2","di_ci", 20).
+RecipeBuilder.newBuilder("dici_2","di_ci", 5).
 setAltitude(86, 186).
 addEnergyPerTickOutput(20000000).
 build();
 
 //电磁_187-256格
-RecipeBuilder.newBuilder("dici_3","di_ci", 20).
+RecipeBuilder.newBuilder("dici_3","di_ci", 5).
 setAltitude(187, 256).
 addEnergyPerTickOutput(25000000).
 build();
@@ -284,57 +284,6 @@ addEnergyPerTickOutput(70000).
 addItemOutput(<ic2:nuclear:16> * 8).
 build();
 
-//==============================释能器/高级释能器==============================
-//释能器-Lv1
-RecipeBuilder.newBuilder("crystal_lv1_1","the_interpreter", 120).
-addItemInput(<custommc:item535>.withTag({display:{Name:"§b1级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 40000).
-addEnergyPerTickOutput(750000000).
-build();
-
-//释能器-Lv2
-RecipeBuilder.newBuilder("crystal_lv2_1","the_interpreter", 90).
-addItemInput(<custommc:item514>.withTag({display:{Name:"§c2级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 180000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//释能器-Lv3
-RecipeBuilder.newBuilder("crystal_lv3_1","the_interpreter", 1800).
-addItemInput(<custommc:item513>.withTag({display:{Name:"§e3级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 480000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//高级释能器-Lv1
-RecipeBuilder.newBuilder("crystal_lv1_2","advanced_interpreter", 12).
-addItemInput(<custommc:item535>.withTag({display:{Name:"§b1级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 60000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//高级释能器-Lv2
-RecipeBuilder.newBuilder("crystal_lv2_2","advanced_interpreter", 9).
-addItemInput(<custommc:item514>.withTag({display:{Name:"§c2级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 180000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//高级释能器-Lv3
-RecipeBuilder.newBuilder("crystal_lv3_2","advanced_interpreter", 180).
-addItemInput(<custommc:item513>.withTag({display:{Name:"§e3级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 480000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//高级释能器-Lv4
-RecipeBuilder.newBuilder("crystal_lv4_2","advanced_interpreter", 1600).
-addItemInput(<custommc:item512>.withTag({display:{Name:"§64级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 2560000).
-addEnergyPerTickOutput(2147483647).
-addItemOutput(<custommc:item780>.withTag({display:{Name:"§5反物质"}})).setChance(0.6).
-build();
-
 //==============================α能量水晶/β能量水晶==============================
 //α水晶-蓝图
 RecipeBuilder.newBuilder("blueprints_Energy_crystal", "crafter_tier_2", 7200).
@@ -354,36 +303,6 @@ addItemInput(<ore:paper>).
 addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"},{display:{Lore:["§3Rank: §6§lS","§e拥有高能量转换比的大型能量核晶","§b使用纯度§c极高§b的注能水晶","§c由于极高的发热量 你需要注入大量的§b凛冰§c来冷却核晶本体"]}})).
 build();
 
-//β水晶-Lv1
-RecipeBuilder.newBuilder("crystal_lv1","energy_crystal_2", 1200).
-addItemInput(<custommc:item535>.withTag({display:{Name:"§b1级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 60000).
-addEnergyPerTickOutput(1000000000).
-addFluidOutput(<liquid:plasma> * 400).
-build();
-
-//β水晶-Lv2
-RecipeBuilder.newBuilder("crystal_lv2","energy_crystal_2", 1200).
-addItemInput(<custommc:item514>.withTag({display:{Name:"§c2级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 240000).
-addEnergyPerTickOutput(2147483647).
-build();
-
-//β水晶-Lv3
-RecipeBuilder.newBuilder("crystal_lv3","energy_crystal_2", 64000).
-addItemInput(<custommc:item513>.withTag({display:{Name:"§e3级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 720000).
-addEnergyPerTickOutput(1800000000).
-build();
-
-//β水晶-Lv4
-RecipeBuilder.newBuilder("crystal_lv4","energy_crystal_2", 1280000).
-addItemInput(<custommc:item512>.withTag({display:{Name:"§64级注能水晶"}})).
-addFluidInput(<liquid:cryotheum> * 3840000).
-addEnergyPerTickOutput(2147483647).
-addItemOutput(<custommc:item780>.withTag({display:{Name:"§5反物质"}})).
-build();
-
 //β水晶-蓝图
 RecipeBuilder.newBuilder("blueprints_Energy_crystal_2", "crafter_tier_2", 512000).
 addEnergyPerTickInput(15000000).
@@ -391,8 +310,6 @@ addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularma
 addItemInput(<custommc:item968>.withTag({display:{Name:"§e寰§c宇§d能§a源§9核§6心"}})).
 addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"},{display:{Lore:["§3Rank: §c§lSS","§cECO实验室最新报告","§eData:2J2I2A11J2I175A7XD §6ID:754823_β §9第3044次实验报告","§bα型水晶升级版试做型水晶","§b普通的输导单元已经无法承受其极高的发电量","§b我们使用了最新研究的能量水晶: ID:344887_SNO 寰宇能源核心","§b在转换试验中,其核心能够90%效率转换其注能水晶的能量","§b效率是α水晶的15倍","§e最终报告 安全率97% 爆炸率0% 允许投入商业使用"]}})).
 build();
-
-//未完成-α水晶-Lv1~Lv4
 
 //==============================混合燃料发电机==============================
 //废料盒
@@ -615,19 +532,6 @@ addItemInput(<avaritia:resource:4>).
 addItemOutput(<avaritia:singularity:14>).
 build();
 
-//核融起爆机-蓝图
-RecipeBuilder.newBuilder("blueprints_nuclear_melt_detonator","crafter_tier_2", 2400).
-addEnergyPerTickInput(120000).
-addItemInput(<mekanismgenerators:reactor>).
-addItemInput(<mekanism:machineblock2:13> * 4).
-addItemInput(<mekanism:machineblock2:14>).
-addItemInput(<mets:field_generator> * 50).
-addItemInput(<ic2:resource:11> *35).
-addItemInput(<additions:novaextended-ingot6> * 8).
-addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:nuclear_melt_detonator", display:{Lore:["§3Rank: §d§lA+"]}})).
-build();
-
 //==============================粉碎机==============================
 //粉碎-圆石
 RecipeBuilder.newBuilder("item_shredder_cobblestone", "item_shredder", 30).
@@ -838,7 +742,6 @@ addItemOutput(<ic2:resource:1> * 4).setChance(0.33).
 addItemOutput(<ic2:resource:2> * 4).setChance(0.33).
 build();
 
-
 //矿物提取机-定向-金银红石青金石铀铅
 RecipeBuilder.newBuilder("Mineral_extractor_2","Mineral_extractor",2400).
 addEnergyPerTickInput(40000).
@@ -874,7 +777,7 @@ addItemOutput(<additions:novaextended-ore8> * 1).setChance(0.1).
 build();
 
 //泰拉钢矿钻-定向-核电工艺
-RecipeBuilder.newBuilder("mana_ore_drill_2","mana_ore_drill",1200).
+RecipeBuilder.newBuilder("mana_ore_drill_2","mana_ore_drill", 1200).
 addManaInput(750000).
 addItemInput(<nuclearcraft:pickaxe_boron>).setChance(0).
 addItemOutput(<nuclearcraft:ore:3> * 6).setChance(0.30).
@@ -885,7 +788,7 @@ addItemOutput(<nuclearcraft:ore:7> * 6).setChance(0.40).
 build();
 
 //泰拉钢矿钻
-RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill").
+RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill", 1200).
 addManaInput(750000).
 addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
 addItemOutput(<minecraft:iron_ore> * 4).setChance(0.15).
@@ -924,7 +827,6 @@ build();
 //小型钢矿钻
 RecipeBuilder.newBuilder("small_ore_drill_1","small_ore_drill",3200).
 addEnergyPerTickInput(400).
-addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
 addItemOutput(<minecraft:iron_ore> * 4).setChance(0.17).
 addItemOutput(<ic2:resource:1> * 6).setChance(0.21).
 addItemOutput(<ic2:resource:2> * 6).setChance(0.18).
@@ -946,4 +848,17 @@ addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
 addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.06).
+build();
+
+//物质熵变器
+ReciperBuilder.newBuilder("alloy-ingot5","Material_entropy_converter").
+addItemInput(<enderio:item_alloy_ingot:1> * 5).
+addFluidInput(<liquid:cryotheum> * 16000).
+addItemInput(<minecraft:diamond_block> * 64).
+addItemInput(<minecraft:emerald_block> * 64).
+addItemInput(<mekanism:basicblock> * 64).
+addItemOutput(<additions:novaextended-ingot5>).
+addItemOutput(<mekanism:enrichedalloy> * 64).
+addItemOutput(<mekanism:enrichedalloy> * 64).
+addItemOutput(<mekanism:enrichedalloy> * 64).
 build();

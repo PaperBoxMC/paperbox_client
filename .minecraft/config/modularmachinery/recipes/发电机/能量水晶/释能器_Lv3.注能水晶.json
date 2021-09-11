@@ -1,0 +1,29 @@
+{
+    "machine": "the_interpreter",
+    "registryName": "crystal_lv3_1",
+    "recipeTime": 1800,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "custommc:item513",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§e3级注能水晶"
+            }
+            }
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 480000
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 324000000000
+        }
+    ]
+}

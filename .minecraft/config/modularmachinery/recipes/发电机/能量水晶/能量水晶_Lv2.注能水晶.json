@@ -1,0 +1,29 @@
+{
+    "machine": "energy_crystal_2",
+    "registryName": "crystal_lv2",
+    "recipeTime": 900,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "custommc:item514",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§c2级注能水晶"
+            }
+            }
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 240000
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 15000000000
+        }
+    ]
+}

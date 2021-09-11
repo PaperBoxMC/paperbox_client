@@ -1,0 +1,41 @@
+{
+    "machine": "advanced_interpreter",
+    "registryName": "crystal_lv4_2",
+    "recipeTime": 1600,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "custommc:item512",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§64级注能水晶"
+            }
+            }
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 2560000
+        },
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 120000000000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "custommc:item780",
+            "amount": 1,
+            "nbt":{
+                "display":{
+                "Name":"§5反物质"
+                }
+            },
+            "chance": 0.5
+        }
+    ]
+}
