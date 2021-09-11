@@ -3,13 +3,13 @@
 +C:Avaritia={
   +C:solarflux:infinity={
     # How many RF/FE does this solar panel store? (Default: 262144000000, Range: [1;9223372036854775807])
-    +L:Capacity=5000000000000
+    +L:Capacity=75000000000000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
 
     # How many RF/FE does this solar panel produce per tick? (Default: 16777216, Range: [1;9223372036854775807])
-    +L:Generation Rate=500000000
+    +L:Generation Rate=750000000
 
     # How high is this solar panel? (Default: 6.0, Range: [0.0;16.0])
     +F:Height=6.0

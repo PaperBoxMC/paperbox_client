@@ -13,13 +13,13 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 460000000
+            "energyPerTick": 450000000
         },
         {
             "type": "fluid",
             "io-type": "output",
             "fluid": "ic2uu_matter",
-            "amount": 11520
+            "amount": 11500
         }
     ]
 }
