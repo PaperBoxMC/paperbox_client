@@ -162,7 +162,7 @@ build();
 //低阶通用合金
 RecipeBuilder.newBuilder("tongyonghejin_1","Pure_crystal_synthesis_instrument", 600).
 addEnergyPerTickInput(128000).
-addFluidInput(<liquid:ic2hot_coolant> * 24000).
+addFluidInput(<liquid:cryotheum> * 24000).
 addItemInput(<ore:blockDiamond> , 64).
 addItemInput(<ore:blockOsmium> , 64).
 addItemInput(<ore:blockEmerald> , 64).
@@ -848,17 +848,4 @@ addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
 addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.06).
-build();
-
-//物质熵变器
-ReciperBuilder.newBuilder("alloy-ingot5","Material_entropy_converter").
-addItemInput(<enderio:item_alloy_ingot:1> * 5).
-addFluidInput(<liquid:cryotheum> * 16000).
-addItemInput(<minecraft:diamond_block> * 64).
-addItemInput(<minecraft:emerald_block> * 64).
-addItemInput(<mekanism:basicblock> * 64).
-addItemOutput(<additions:novaextended-ingot5>).
-addItemOutput(<mekanism:enrichedalloy> * 64).
-addItemOutput(<mekanism:enrichedalloy> * 64).
-addItemOutput(<mekanism:enrichedalloy> * 64).
 build();
