@@ -1,0 +1,9 @@
+{
+  "name": "§c※※中阶通用合金※※",
+  "tooltip": [
+    "§7§o这是什么？",
+    "§b可以在纸箱物品商人购买~"
+  ],
+  "ore_dict": "ingotAlloyT2",
+  "type": "additions:simple"
+}
