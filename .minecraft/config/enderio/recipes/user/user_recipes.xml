@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <recipe name="BlueAlloyIngot" required="false">
+        <alloying energy="14000" exp="0">
+            <input name="ingotPlatinum" amount="12"/>
+            <input name="ingotCrystallineAlloy" amount="8" />
+            <input name="ingotAlloyT1"/>
+            <output name="additions:novaextended-blue_alloy_ingot" />
+        </alloying>
+    </recipe>
 
+    <recipe name="TerraAlloy" required="false">
+        <alloying energy="28000" exp="0">
+            <input name="ingotTerrasteel"/>
+            <input name="ingotOrichalcos"/>
+            <output name="additions:novaextended-terraalloy" />
+        </alloying>
+    </recipe>
+
+    <recipe name="PsiAlloy" required="false">
+        <alloying energy="22000" exp="0">
+            <input name="ingotPsi" amount="8"/>
+            <input name="ingotPlatinum" amount="8"/>
+            <output name="additions:novaextended-psi_alloy" />
+        </alloying>
+    </recipe>
+
+    <recipe name="FallenStarAlloy" required="false">
+        <alloying energy="36000" exp="0">
+            <input name="ingotBlueAlloy" amount="4"/>
+            <input name="ingotTerraAlloy" amount="2"/>
+            <input name="dustSkyStone" amount="24"/>
+            <output name="additions:novaextended-fallen_star_alloy" amount="2"/>
+        </alloying>
+    </recipe>
+
+    <recipe name="Modularium" required="false">
+        <alloying energy="12000" exp="0">
+            <input name="ingotTinSilver" amount="4"/>
+            <input name="ingotBoron" amount="2"/>
+            <input name="dustRedstone" amount="10"/>
+            <output name="modularmachinery:itemmodularium" amount="4"/>
+        </alloying>
+    </recipe>
 </enderio:recipes>
