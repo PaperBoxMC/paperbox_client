@@ -45,12 +45,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:Material_entropy_converter",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:Material_entropy_converter"
             }
         }
     ]

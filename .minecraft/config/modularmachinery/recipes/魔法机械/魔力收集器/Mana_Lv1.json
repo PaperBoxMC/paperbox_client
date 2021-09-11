@@ -13,11 +13,6 @@
             "io-type": "input",
             "item": "custommc:item794",
             "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b1级魔力水晶"
-            }
-            },
             "chance": 0.1
         },
         {

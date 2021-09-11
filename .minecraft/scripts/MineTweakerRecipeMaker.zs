@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<redstonearsenal:tool.wrench_flux>);
+recipes.remove(<thermalexpansion:strongbox>);
 recipes.remove(<modularmachinery:itemmodularium>);
 recipes.remove(<tinymobfarm:gold_farm>);
 recipes.remove(<tinymobfarm:diamond_farm>);

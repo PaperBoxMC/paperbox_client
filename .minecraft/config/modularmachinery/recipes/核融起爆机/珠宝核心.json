@@ -162,11 +162,6 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item112",
-            "nbt":{
-                "display":{
-                    "Name": "§e珠宝核心"
-                }
-            },
             "amount": 1
         }
     ]

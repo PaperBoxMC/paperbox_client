@@ -18,12 +18,7 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item535",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b1级注能水晶"
-            }
-            }
+            "amount": 1
         },
         {
             "type": "fluid",
@@ -35,12 +30,7 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item514",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§c2级注能水晶"
-            }
-        }
+            "amount": 1
         }
     ]
 }

@@ -21,85 +21,85 @@
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@2",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@3",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@4",
             "amount": 64
         },
-         {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@5",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@6",
             "amount": 64
         },
-         {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@7",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@8",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@9",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@10",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@11",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@12",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@13",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "avaritia:singularity@14",
             "amount": 64
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "input",
             "item": "eternalsingularity:eternal_singularity",
             "amount": 64
@@ -114,14 +114,7 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item14",
-             "nbt":{
-                "display":{
-                
-                "Lore": [   "§d吸收了§c生命力§f§e和§1所有奇点§4的力量§3让它拥有了再生的力量"],
-               "Name":"§c生命再生核心"
-                }
-            },
             "amount": 1
-           }
+        }
     ]
 }

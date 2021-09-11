@@ -18,68 +18,36 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item882",
-            "nbt":{
-                "display":{
-                    "Name": "§e农业核心"
-                }
-            },
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "custommc:item112",
-            "nbt":{
-                "display":{
-                    "Name": "§e珠宝核心"
-                }
-            },
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "custommc:item380",
-            "nbt":{
-                "display":{
-                    "Name": "§e进阶核心"
-                }
-            },
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "custommc:item83",
-            "nbt":{
-                "display":{
-                    "Name": "§e机械合金"
-                }
-            },
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "custommc:item169",
-            "nbt":{
-                "display":{
-                    "Name": "§e核心粘黏剂"
-                }
-            },
             "amount": 2
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "custommc:item352",
-            "nbt":{
-                "display": {
-                    "Lore":[
-                    "§b可在纸箱物品商人购买~"],
-                    "Name": "§d全能核心"
-                }
-            },
             "amount": 1
         }
     ]

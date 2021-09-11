@@ -13,11 +13,6 @@
             "io-type": "input",
             "item": "custommc:item798",
             "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§c2级魔力水晶"
-            }
-            },
             "chance": 0.25
         },
         {

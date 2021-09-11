@@ -43,14 +43,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:mana_collector",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA-",
-                        "§a收集空气中的mana凝聚成液体",
-                        "§e消耗魔力水晶"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:mana_collector"
             }
         }
     ]

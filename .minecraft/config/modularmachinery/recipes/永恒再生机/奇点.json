@@ -3,7 +3,7 @@
     "registryName": "regeneration_machine_2",
     "recipeTime": 12000,
     "requirements":[
-         {
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 500000000
@@ -12,22 +12,16 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item14",
-            "nbt":{
-                "display":{
-                "Name":"§c生命再生核心"
-                }
-            },
             "amount": 1,
             "chance": 0.001
         },
-          {
+        {
             "type": "item",
             "io-type": "input",
             "item": "additions:novaextended-crystal2",
             "amount": 16,
             "chance": 0
         },
-
         {
             "type": "item",
             "io-type": "output",
@@ -41,79 +35,79 @@
             "amount": 2
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@2",
             "amount": 2
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@3",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@4",
             "amount": 2
         },
-         {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@5",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@6",
             "amount": 2
         },
-         {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@7",
             "amount": 2
         },
-       {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@8",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@9",
             "amount": 2
         },
-       {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@10",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@11",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@12",
             "amount": 2
         },
-     {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@13",
             "amount": 2
         },
-      {
-           "type": "item",
+        {
+            "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@14",
             "amount": 2

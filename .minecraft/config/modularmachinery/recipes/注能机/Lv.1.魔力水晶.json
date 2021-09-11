@@ -18,17 +18,12 @@
             "type": "gugu-utils:mana",
             "io-type": "input",
             "mana": 400000
-          },
+        },
         {
             "type": "item",
             "io-type": "output",
             "item": "custommc:item794",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b1级魔力水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

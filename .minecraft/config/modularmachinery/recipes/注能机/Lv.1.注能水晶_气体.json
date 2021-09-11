@@ -24,12 +24,7 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item535",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b1级注能水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

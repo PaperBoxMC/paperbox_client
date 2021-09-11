@@ -8,10 +8,6 @@
             "io-type": "input",
             "item": "custommc:item800",
             "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b2级UU水晶"
-            }},
             "chance": 0.03
         },
         {

@@ -12,12 +12,7 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item798",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§c2级魔力水晶"
-            }
-            }
+            "amount": 1
         },
         {
             "type": "item",
@@ -35,12 +30,7 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item75",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§d3级魔力水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

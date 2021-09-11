@@ -55,12 +55,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:Nuclear_melt_detonator",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA+"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:Nuclear_melt_detonator"
             }
         }
     ]

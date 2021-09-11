@@ -54,11 +54,6 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item882",
-            "nbt":{
-                "display":{
-                    "Name": "§e农业核心"
-                }
-            },
             "amount": 1
         }
     ]

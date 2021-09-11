@@ -55,16 +55,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:Iridescentobservatory",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA-",
-                        "§f利用§b魔力钻石§f和§c龙石§f制成的增幅透镜，观测星座的§b观象台",
-                        "§f天空中的繁星蕴含着人们所不曾发觉的力量。",
-                        "§f只能在§b夜晚§f工作。",
-						"§3§m不是五彩祭坛（"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:Iridescentobservatory"
             }
         }
     ]

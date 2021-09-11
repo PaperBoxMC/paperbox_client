@@ -7,7 +7,7 @@
 			"type": "gugu-utils:environment",
 			"io-type": "input",
 			"subType": "time",
-			"begin": 13000,          
+			"begin": 13000,
 			"end": 23999
 		},
 		{

@@ -55,12 +55,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:Crystal_injection",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:Crystal_injection"
             }
         }
     ]

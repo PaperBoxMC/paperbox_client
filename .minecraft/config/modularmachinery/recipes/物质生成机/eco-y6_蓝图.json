@@ -61,15 +61,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:ECO_Y6",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §d§lA",
-                        "§cECO量产实验室作品",
-                        "§d大型工厂必备机械",
-                        "§e单耗能模式"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:ECO_Y6"
             }
         }
     ]

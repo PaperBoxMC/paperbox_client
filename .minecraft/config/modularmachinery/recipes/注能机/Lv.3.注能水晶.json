@@ -24,23 +24,13 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item514",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§c2级注能水晶"
-            }
-            }
+            "amount": 1
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "custommc:item513",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§e3级注能水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

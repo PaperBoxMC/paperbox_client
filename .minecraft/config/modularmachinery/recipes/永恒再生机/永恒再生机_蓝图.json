@@ -55,12 +55,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:regeneration_machine",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §c§lSS"                      
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:regeneration_machine"
             }
         }
     ]

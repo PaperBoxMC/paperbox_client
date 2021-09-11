@@ -43,14 +43,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:battery_tier_2",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §b§lB",
-                        "§a量产化储电站电池",
-                        "§b可以存储大量能量"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:battery_tier_2"
             }
         }
     ]

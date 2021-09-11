@@ -75,15 +75,7 @@
             "io-type": "output",
             "item": "modularmachinery:itemblueprint",
             "nbt":{
-                "dynamicmachine": "modularmachinery:ECO_Y7",
-                "display":{
-                    "Lore": [
-                        "§3Rank: §6§lS+",
-                        "§cECO实例实验室§b量产化作品",
-                        "§d使用外置稳定外环来降低不稳定性以进一步提高转换效率",
-                        "§e支持多种耗能模式"
-                    ]
-                }
+                "dynamicmachine": "modularmachinery:ECO_Y7"
             }
         }
     ]

@@ -7,14 +7,14 @@
 			"type": "gugu-utils:environment",
 			"io-type": "input",
 			"subType": "time",
-			"begin": 13000,          
+			"begin": 13000,
 			"end": 23999
 		},
 		{
 		"type": "gugu-utils:environment",
 		"io-type": "input",
 		"subType": "moonphase",
-		"moonphases": [   
+		"moonphases": [
 				4
 			]
 		},
@@ -53,7 +53,6 @@
             "item": "botania:manaresource@4",
             "amount": 1
         },
-
         {
             "type": "item",
             "io-type": "output",

@@ -18,23 +18,13 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item513",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§e3级注能水晶"
-            }
-            }
+            "amount": 1
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "custommc:item512",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§64级注能水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

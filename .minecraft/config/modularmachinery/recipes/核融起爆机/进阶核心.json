@@ -195,11 +195,6 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item380",
-            "nbt":{
-                "display":{
-                    "Name": "§e进阶核心"
-                }
-            },
             "amount": 1
         }
     ]

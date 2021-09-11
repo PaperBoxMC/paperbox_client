@@ -14,7 +14,7 @@ import mod.mekanism.gas.IGasStack;
 RecipeBuilder.newBuilder("ARS_LSMA_blueprints_2", "Atomic_resetter", 6000).
 addEnergyPerTickInput(700000000).
 addItemInput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b精密装配机完成了初步的机械蓝图绘画","§b你需要使用原子重置机来制作复杂零件",], Name:"§c§l未完成的§6§l超光速物质加速器蓝图"}})).
-addItemInput(<custommc:item132>.withTag({display:{Name:"§d超§e光§b速§a核§6心"}})).
+addItemInput(<custommc:item132>).
 addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b原子重置机完成了机械零件的组装","§b在最后,你需要注入六大星座的能量"], Name:"§c§l即将完成的§6§l超光速§e§l物质加速器§b§l蓝图"}})).
 build();
 
@@ -29,7 +29,7 @@ build();
 //高阶通用合金
 RecipeBuilder.newBuilder("ARS_gaojitongyonhejin","Atomic_resetter", 600).
 addEnergyPerTickInput(200000000).
-addItemInput(<custommc:item352>.withTag({display:{Lore:["§b可在纸箱物品商人购买~"],Name:"§d全能核心"}}) * 12).
+addItemInput(<custommc:item352> * 12).
 addItemInput(<additions:novaextended-ingot6> * 20).
 addItemOutput(<additions:novaextended-ingot9>).
 build();
@@ -176,7 +176,7 @@ build();
 RecipeBuilder.newBuilder("energycrystal_lv1","Pure_crystal_synthesis_instrument", 1200).
 addEnergyPerTickInput(500000).
 addItemInput(<enderio:item_material:15> * 16).
-addItemOutput(<custommc:item929>.withTag({display:{Name:"§a盈能水晶"}})).
+addItemOutput(<custommc:item929>).
 build();
 
 //==============================发电机==============================\\
@@ -307,7 +307,7 @@ build();
 RecipeBuilder.newBuilder("blueprints_Energy_crystal_2", "crafter_tier_2", 512000).
 addEnergyPerTickInput(15000000).
 addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
-addItemInput(<custommc:item968>.withTag({display:{Name:"§e寰§c宇§d能§a源§9核§6心"}})).
+addItemInput(<custommc:item968>).
 addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"},{display:{Lore:["§3Rank: §c§lSS","§cECO实验室最新报告","§eData:2J2I2A11J2I175A7XD §6ID:754823_β §9第3044次实验报告","§bα型水晶升级版试做型水晶","§b普通的输导单元已经无法承受其极高的发电量","§b我们使用了最新研究的能量水晶: ID:344887_SNO 寰宇能源核心","§b在转换试验中,其核心能够90%效率转换其注能水晶的能量","§b效率是α水晶的15倍","§e最终报告 安全率97% 爆炸率0% 允许投入商业使用"]}})).
 build();
 
@@ -481,7 +481,7 @@ addFluidInput(<liquid:knightslime> * 24000).
 addItemInput(<minecraft:clay> * 32).
 addItemInput(<minecraft:slime> * 12).
 addItemInput(<tconstruct:ingots:3> * 2).
-addItemOutput(<custommc:item169>.withTag({display:{Name:"§e核心粘黏剂"}})).
+addItemOutput(<custommc:item169>).
 build();
 
 //机械合金

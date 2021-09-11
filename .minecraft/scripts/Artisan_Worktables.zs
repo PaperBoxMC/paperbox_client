@@ -83,7 +83,7 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 100)
   .addTool(<ore:artisansQuill>, 50)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bot_crafter", display: {Lore: ["§3Rank: §b§lB-"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bot_crafter"}))
   .setName("Artisan:008")
   .create();
 
@@ -171,7 +171,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 20)
   .addTool(<ore:artisansSpanner>, 50)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:niu_niu", display: {Lore: ["§3Rank: §4§l§mSSSS", "§3Rank: §b§lB","§b感受它的压迫力吧", "§d§m美团外卖 送啥都快，电你牛子更快", ]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:niu_niu"}))
   .setName("Artisan:017")
   .create();
 
@@ -186,7 +186,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 50)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 60)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator", display: {Lore: ["§3Rank: §a§lC+", ",§b中型工厂用发电机", "§e可以燃烧多种燃料"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator"}))
   .setName("Artisan:018")
   .create();
 
@@ -201,7 +201,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 50)
   .addTool(<ore:artisansSpanner>, 80)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Ultimate_Combiner", display: {Lore: ["§3Rank: §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Ultimate_Combiner"}))
   .setName("Artisan:019")
   .create();
 
@@ -216,7 +216,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 125)
   .addTool(<ore:artisansTSquare>, 75)
   .addTool(<ore:artisansSpanner>, 50)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor", display: {Lore: ["§3Rank: §b§lB", "§b提供矿物样本", "§b提取机将会根据样本自动提取相似的地下矿物"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor"}))
   .setName("Artisan:020")
   .create();
 
@@ -231,7 +231,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 40)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 25)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill", display: {Lore: ["§3Rank: §a§lC", "§a民用版矿钻", "§b从地下采集矿物", "§e§m家里有矿"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill"}))
   .setName("Artisan:021")
   .create();
 
@@ -1033,7 +1033,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 40)
   .addTool(<ore:artisansTSquare>, 30)
   .addTool(<ore:artisansSpanner>, 32)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:item_shredder", display: {Lore: ["§3Rank: §b§lB-", "§b批量粉碎圆石并输出废料"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:item_shredder"}))
   .setName("Artisan:095")
   .create();
 
@@ -1047,7 +1047,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 15)
   .addTool(<ore:artisansTSquare>, 15)
   .addTool(<ore:artisansSpanner>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mach_crafter", display: {Lore: ["§3Rank: §a§lC"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mach_crafter"}))
   .setName("Artisan:096")
   .create();
 
@@ -1061,7 +1061,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 25)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 15)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cosmic_ray_receiver", display: {Lore: ["§3Rank: §a§lC §a- §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cosmic_ray_receiver"}))
   .setName("Artisan:097")
   .create();
 
@@ -1075,33 +1075,33 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 45)
   .addTool(<ore:artisansTSquare>, 30)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ion_generator", display: {Lore: ["§3Rank: §b§lB-"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ion_generator"}))
   .setName("Artisan:098")
   .create();
 
 RecipeBuilder.get("designer")
   .setShaped([
     [null, <thermalfoundation:material:1025>, <mets:field_generator>, <thermalfoundation:material:1025>, null],
-    [null, <mets:te:33>, <custommc:item535>.withTag({display: {Name: "§b1级注能水晶"}}), <mets:te:33>, null],
+    [null, <mets:te:33>, <custommc:item535>, <mets:te:33>, null],
     [null, <thermalfoundation:material:1025>, <mets:field_generator>, <thermalfoundation:material:1025>, null],
     [<thermalfoundation:storage_alloy:5>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:7>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:5>]])
   .addTool(<ore:artisansPencil>, 50)
   .addTool(<ore:artisansTSquare>, 35)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter", display: {Lore: ["§3Rank: §b§lB-","§b快速释放注能水晶强大的能量","§c但是转换效率只有能源转换核晶α的1/3"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter"}))
   .setName("Artisan:099")
   .create();
 
 RecipeBuilder.get("designer")
   .setShaped([
     [null, <ore:circuitUltimate>, <super_solar_panels:crafting:10>, <ore:circuitUltimate>, null],
-    [null, <avaritia:block_resource>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter", display: {Lore: ["§3Rank: §b§lB-"]}}), <avaritia:block_resource>, null],
+    [null, <avaritia:block_resource>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter"}), <avaritia:block_resource>, null],
     [null, <ore:circuitUltimate>, <avaritia:block_resource:2>, <ore:circuitUltimate>, null],
-    [<ore:circuitUltimate>, <custommc:item535>.withTag({display: {Name: "§b1级注能水晶"}}), <extrabotany:material:1>, <custommc:item535>.withTag({display: {Name: "§b1级注能水晶"}}), <ore:circuitUltimate>]])
+    [<ore:circuitUltimate>, <custommc:item535>, <extrabotany:material:1>, <custommc:item535>, <ore:circuitUltimate>]])
   .addTool(<ore:artisansPencil>, 150)
   .addTool(<ore:artisansTSquare>, 85)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_interpreter", display: {Lore: ["§3Rank: §d§lA","§b瞬间释放注能水晶强大的能量", "§c但是转换效率只有能源转换核晶α的1/3"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_interpreter"}))
   .setName("Artisan:100")
   .create();
 
@@ -1112,7 +1112,7 @@ RecipeBuilder.get("designer")
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
   .addTool(<ore:artisansSpanner>, 25)
   .addTool(<ore:artisansSolderer>, 15)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_bridge", display: {Lore: ["§3Rank: §a§lC+","§a从其他多方块机械的能源输入仓中提取能量","§4能量转换损耗率85%"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_bridge"}))
   .setName("Artisan:101")
   .create();
 
@@ -1120,14 +1120,14 @@ RecipeBuilder.get("designer")
   .setShaped([
     [<botania:storage:3>, <botania:storage>, <botania:pool:3>, <botania:storage>, <botania:storage:3>],
     [null, <botania:pool:3>, <mets:living_circuit>, <botania:pool:3>, null],
-    [null, <avaritia:block_resource:2>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_collector", display: {Lore: ["§3Rank: §d§lA-"]}}), <avaritia:block_resource:2>, null],
+    [null, <avaritia:block_resource:2>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_collector"}), <avaritia:block_resource:2>, null],
     [null, <mets:living_circuit>, <extrabotany:quantummanabuffer>, <mets:living_circuit>, null],
     [<botania:manaresource:4>, <mets:living_circuit>, <extrabotany:blockorichalcos>, <mets:living_circuit>, <botania:manaresource:4>]])
   .setSecondaryIngredients([<avaritia:block_resource:2> * 10])
   .addTool(<ore:artisansPencil>, 320)
   .addTool(<ore:artisansTSquare>, 225)
   .addTool(<ore:artisansSpanner>, 285)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco-t7", display: {Lore: ["§3Rank: §d§lA+","§dECO实验室新作品","§b结合Mana收集器并使用水晶矩阵会放大Mana收集器的范围","§e并且可以降低水晶消耗率"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco-t7"}))
   .setName("Artisan:102")
   .create();
 
@@ -1142,7 +1142,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 50)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor_ic2_2", display: {Lore: ["§3Rank: §b§lB-"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor_ic2_2"}))
   .setName("Artisan:103")
   .create();
 
@@ -1156,7 +1156,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 125)
   .addTool(<ore:artisansTSquare>, 75)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ultimate_zhongzi", display: {Lore: ["§3Rank: §d§lA"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ultimate_zhongzi"}))
   .setName("Artisan:104")
   .create();
 
@@ -1169,7 +1169,7 @@ RecipeBuilder.get("engineer")
     [null, <gravisuite:crafting:2>, <mets:te:34>, <gravisuite:crafting:2>, null]])
   .addTool(<ore:artisansSpanner>, 1000)
   .addTool(<ore:artisansGrimoire>, 850)
-  .addOutput(<custommc:item968>.withTag({display: {Name: "§e寰§c宇§d能§a源§9核§6心"}}))
+  .addOutput(<custommc:item968>)
   .setName("Artisan:105")
   .create();
 
@@ -1181,7 +1181,7 @@ RecipeBuilder.get("engineer")
     [<nuclearcraft:fertile_isotope:2>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fertile_isotope>, <nuclearcraft:fertile_isotope:3>, <nuclearcraft:fertile_isotope:1>],
     [null, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fertile_isotope>, <nuclearcraft:fertile_isotope:3>, null]])
   .addTool(<ore:artisansSpanner>, 900)
-  .addOutput(<custommc:item547>.withTag({display: {Name: "§c混沌超辐射核心"}}))
+  .addOutput(<custommc:item547>)
   .setName("Artisan:106")
   .create();
 
@@ -1192,11 +1192,11 @@ RecipeBuilder.get("engineer")
     [<thermalexpansion:dynamo:2>, <ore:circuitBasic>, <forge:bucketfilled>.withTag({FluidName: "ic2biogas", Amount: 1000}), <ore:circuitBasic>, <thermalexpansion:dynamo:2>],
     [<ore:circuitBasic>, <mekanismgenerators:generator:4>, <ore:circuitBasic>, <mekanismgenerators:generator:4>, <ore:circuitBasic>],
     [<thermalexpansion:dynamo:2>, null, <ore:circuitAdvanced>, null, <thermalexpansion:dynamo:2>]])
-  .setSecondaryIngredients([<minecraft:paper>.withTag({display: {Name: "1145141919810"}}) * 19, <minecraft:paper>.withTag({display: {Name: "1145141919810"}}) * 19, <minecraft:paper>.withTag({display: {Name: "1145141919810"}}) * 8, <minecraft:paper>.withTag({display: {Name: "1145141919810"}}) * 10])
+  .setSecondaryIngredients([<minecraft:paper> * 19, <minecraft:paper> * 8, <minecraft:paper> * 10])
   .addTool(<ore:artisansPan>, 11)
   .addTool(<ore:artisansPan>, 45)
   .addTool(<ore:artisansPan>, 14)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:biomass/biogas_generator", display: {Lore: ["§3Rank: §a§lC - §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:biomass/biogas_generator"}))
   .setName("Artisan:107")
   .create();
 
@@ -1211,7 +1211,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 20)
   .addTool(<ore:artisansPencil>, 30)
   .addTool(<ore:artisansTSquare>, 25)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:board_assembly_room", display: {Lore: ["§3Rank: §a§lC - §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:board_assembly_room"}))
   .setName("Artisan:108")
   .create();
 
@@ -1226,7 +1226,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 35)
   .addTool(<ore:artisansPencil>, 45)
   .addTool(<ore:artisansTSquare>, 30)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pure_crystal_synthesis_instrument", display: {Lore: ["§3Rank: §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pure_crystal_synthesis_instrument"}))
   .setName("Artisan:109")
   .create();
 
@@ -1241,7 +1241,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 10)
   .addTool(<ore:artisansPencil>, 15)
   .addTool(<ore:artisansTSquare>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:purpur_furance", display: {Lore: ["§3Rank: §a§lC+"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:purpur_furance"}))
   .setName("Artisan:110")
   .create();
 
@@ -1256,7 +1256,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_spanner_wood>, 50)
   .addTool(<artisanworktables:artisans_pencil_wood>, 75)
   .addTool(<artisanworktables:artisans_tsquare_wood>, 60)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_dissolver", display: {Lore: ["§3Rank: §a§lC - §b§lB"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_dissolver"}))
   .setName("Artisan:111")
   .create();
 
@@ -1271,7 +1271,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_spanner_wood>, 10)
   .addTool(<artisanworktables:artisans_pencil_wood>, 15)
   .addTool(<artisanworktables:artisans_tsquare_wood>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanical_housing_molding_machine", display: {Lore: ["§3Rank: §a§lC+"]}}))
+  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanical_housing_molding_machine"}))
   .setName("Artisan:112")
   .create();
 
@@ -1323,7 +1323,7 @@ RecipeBuilder.get("chef")
   .addTool(<ore:artisansMortar>, 90)
   .addTool(<ore:artisansKnife>, 90)
   .addTool(<ore:artisansBeaker>, 90)
-  .addOutput(<custommc:item882>.withTag({display: {Name: "§e农业核心"}}))
+  .addOutput(<custommc:item882>)
   .setName("Artisan:115")
   .create();
 
@@ -1335,7 +1335,7 @@ RecipeBuilder.get("jeweler")
     [<enderio:block_alloy:3>, <enderio:block_alloy:4>, <enderio:block_alloy:5>, <enderio:block_alloy:7>, <enderio:block_alloy:6>],
     [<enderio:block_alloy:8>, <enderio:block_alloy:9>, <enderio:block_alloy_endergy:6>, <enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:2>]])
   .addTool(<ore:artisansToolBoronnitride>, 90)
-  .addOutput(<custommc:item112>.withTag({display: {Name: "§e珠宝核心"}}))
+  .addOutput(<custommc:item112>)
   .setName("Artisan:116")
   .create();
 
@@ -1348,7 +1348,7 @@ RecipeBuilder.get("engineer")
     [<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), <thermalexpansion:augment:448>, <thermalexpansion:augment:401>, <thermalexpansion:augment:704>, <thermalexpansion:augment:688>]])
   .setSecondaryIngredients([<ic2:upgrade> * 64, <ic2:upgrade> * 64, <ic2:upgrade> * 64])
   .addTool(<ore:artisansToolBoronnitride>, 90)
-  .addOutput(<custommc:item380>.withTag({display: {Name: "§e进阶核心"}}))
+  .addOutput(<custommc:item380>)
   .setName("Artisan:117")
   .create();
 
@@ -1361,17 +1361,17 @@ RecipeBuilder.get("engineer")
     [<enderio:item_material:13>, <thermalfoundation:material:295>, <enderio:item_material:12>, <thermalfoundation:material:295>, <enderio:item_material:13>]])
   .setSecondaryIngredients([<ore:ingotAlloyT2> * 32])
   .addTool(<ore:artisansToolBoronnitride>, 90)
-  .addOutput(<custommc:item83>.withTag({display: {Name: "§e机械合金"}}))
+  .addOutput(<custommc:item83>)
   .setName("Artisan:118")
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}})],
-    [<ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>],
-    [<ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>, <ore:ingotAlloyT2>],
-    [<ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>],
-    [<custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}), <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}})]])
+    [<custommc:item352>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>],
+    [<ore:ingotAlloyT2>, <custommc:item352>, <ore:ingotAlloyT2>, <custommc:item352>, <ore:ingotAlloyT2>],
+    [<ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>],
+    [<ore:ingotAlloyT2>, <custommc:item352>, <ore:ingotAlloyT2>, <custommc:item352>, <ore:ingotAlloyT2>],
+    [<custommc:item352>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <ore:ingotAlloyT2>, <custommc:item352>]])
   .addTool(<ore:artisansToolBoronnitride>, 180)
   .addTool(<ore:artisansToolBoronnitride>, 180)
   .addTool(<ore:artisansToolBoronnitride>, 180)
@@ -1387,16 +1387,16 @@ RecipeBuilder.get("engineer")
     [<minecraft:clay>, <minecraft:slime>, <minecraft:slime>, <minecraft:slime>, <minecraft:clay>],
     [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>]])
   .setFluid(<liquid:knightslime> * 16000)
-  .addOutput(<custommc:item169>.withTag({display: {Name: "§e核心粘黏剂"}}))
+  .addOutput(<custommc:item169>)
   .setName("Artisan:120")
   .create();
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<custommc:item112>.withTag({display: {Name: "§e珠宝核心"}}), null, <custommc:item83>.withTag({display: {Name: "§e机械合金"}})],
-    [null, <custommc:item169>.withTag({display: {Name: "§e核心粘黏剂"}}), null],
-    [<custommc:item380>.withTag({display: {Name: "§e进阶核心"}}), null, <custommc:item882>.withTag({display: {Name: "§e农业核心"}})]])
-  .addOutput(<custommc:item352>.withTag({display: {Lore: ["§b可在纸箱物品商人购买~"], Name: "§d全能核心"}}))
+    [<custommc:item112>, null, <custommc:item83>],
+    [null, <custommc:item169>, null],
+    [<custommc:item380>, null, <custommc:item882>]])
+  .addOutput(<custommc:item352>)
   .setName("Artisan:121")
   .create();
 

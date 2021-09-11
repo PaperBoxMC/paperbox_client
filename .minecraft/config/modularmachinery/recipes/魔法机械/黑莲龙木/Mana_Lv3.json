@@ -7,23 +7,13 @@
             "type": "modularmachinery:item",
             "io-type": "input",
             "item": "custommc:item929",
-            "amount": 32,
-            "nbt":{
-                "display":{
-                "Name":"§a盈能水晶"
-                }
-            }
+            "amount": 32
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "custommc:item75",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§d3级魔力水晶"
-                }
-            }
+            "amount": 1
         },
         {
             "type": "item",
@@ -56,6 +46,6 @@
             "item": "botania:blacklotus@1",
             "amount": 32,
             "chance": 0.25
-        }    
+        }
     ]
 }

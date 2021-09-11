@@ -13,11 +13,6 @@
             "io-type": "input",
             "item": "custommc:item75",
             "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§d3级魔力水晶"
-            }
-            },
             "chance": 0.4
         },
         {

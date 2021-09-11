@@ -12,12 +12,7 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item796",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§a1级UU水晶"
-            }
-            }
+            "amount": 1
         },
         {
             "type": "fluid",
@@ -29,12 +24,7 @@
             "type": "item",
             "io-type": "output",
             "item": "custommc:item800",
-            "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§b2级UU水晶"
-            }
-            }
+            "amount": 1
         }
     ]
 }

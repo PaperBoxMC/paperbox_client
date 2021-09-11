@@ -3,7 +3,7 @@
     "registryName": "regeneration_machine_4",
     "recipeTime": 3000,
     "requirements":[
-         {
+        {
             "type": "energy",
             "io-type": "input",
             "energyPerTick": 30000000
@@ -12,11 +12,6 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item14",
-             "nbt":{
-                "display":{
-                "Name":"§c生命再生核心"
-                }
-            },
             "amount": 1,
             "chance": 0
         },
@@ -31,7 +26,6 @@
             "type": "item",
             "io-type": "input",
             "item": "extrabotany:material@3",
-             
             "amount": 1
         },
         {
@@ -41,7 +35,7 @@
             "amount": 4
         },
         {
-           "type": "item",
+            "type": "item",
             "io-type": "output",
             "item": "extrabotany:material@1",
             "amount": 2
