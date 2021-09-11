@@ -235,6 +235,7 @@ recipes.addShapeless(<modularmachinery:blockcasing:3>, [<modularmachinery:blockc
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<nuclearcraft:ingot_block:14>, [[<ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>], [<ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>], [<ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>, <ore:ingotManganeseOxide>]]);
 recipes.addShaped(<nuclearcraft:ingot_block:15>, [[<ore:ingotManganeseDioxide>, <ore:ingotManganeseDioxide>, <ore:ingotManganeseDioxide>], [<ore:ingotManganeseDioxide>, <ore:ingotManganeseDioxide>, <nuclearcraft:ingot:15>], [<nuclearcraft:ingot:15>, <ore:ingotManganeseDioxide>, <ore:ingotManganeseDioxide>]]);
 recipes.addShaped(<enderio:block_powered_spawner>, [[<tinymobfarm:ultimate_farm>]]);
 recipes.addShaped(<tinymobfarm:ultimate_farm>, [[<enderio:block_powered_spawner>]]);
