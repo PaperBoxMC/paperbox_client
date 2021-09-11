@@ -11,11 +11,11 @@ bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:3
 fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","新版Mod材质包.zip","Unity-1.6.5-1.12-YABBandaid.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip","de16x - 1.11.2-1.4.zip"]
+resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","Unity-1.6.5-1.12-YABBandaid.zip","de16x - 1.11.2-1.4.zip","Modernity-format3-v3.5.0(3).zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1
 lang:zh_cn
@@ -98,6 +98,7 @@ key_key.conarm.toggle_helm.desc:0
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:0
 key_key.fart.desc:34
+key_keybind.hammercorerenderstack:77
 key_Scene1 start/pause:0
 key_Scene2 start/pause:0
 key_Scene3 start/pause:0
@@ -110,7 +111,6 @@ key_key.open_menu:43
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:0
 key_Gravi Fly Key:45
-key_keybind.hammercorerenderstack:77
 key_dshuds.keybind.SelectionBox:48
 key_dshuds.keybind.LightLevel:65
 key_dshuds.keybind.ChunkBorders:67
@@ -166,14 +166,22 @@ key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_minimap_settings:36
 key_key.toggle_focus.desc:15
-key_keys.armourers_workshop.undo:0
-key_keys.armourers_workshop.open-wardrobe:24
-key_bbw.key.mode:0
-key_bbw.key.fluidmode:0
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:0
 key_mekanism.key.feetMode:0
 key_mekanism.key.voice:0
+key_key.plustic_release_entity.desc:82
+key_key.plustic_toggle_gui.desc:0
+key_key.plustic_set_portal.desc:0
+key_key.plustic_brown_magic.desc:0
+key_key.plustic_toggle_tool.desc:0
+key_key.plustic_fruit_salad.desc:0
+key_key.plustic_mots.desc:0
+key_key.taiga.alt_action:29
+key_keys.armourers_workshop.undo:0
+key_keys.armourers_workshop.open-wardrobe:24
+key_bbw.key.mode:0
+key_bbw.key.fluidmode:0
 key_key.sakura.sheath_in:47
 key_key.itemzoom.toggle:0
 key_key.itemzoom.hold:0
@@ -184,14 +192,6 @@ key_key.integrateddynamics.logic_programmer_focus_search:0
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.overload:0
 key_key.chaosInjection:0
-key_key.plustic_release_entity.desc:82
-key_key.plustic_toggle_gui.desc:0
-key_key.plustic_set_portal.desc:0
-key_key.plustic_brown_magic.desc:0
-key_key.plustic_toggle_tool.desc:0
-key_key.plustic_fruit_salad.desc:0
-key_key.plustic_mots.desc:0
-key_key.taiga.alt_action:29
 key_Profile GUI:199
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
