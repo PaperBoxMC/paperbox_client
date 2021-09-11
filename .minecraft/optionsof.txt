@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ofFogType:3
 ofFogStart:0.8
 ofMipmapType:0
@@ -144,4 +143,3 @@ ofFastMath:true
 ofFastRender:false
 ofTranslucentBlocks:1
 key_of.key.zoom:46
->>>>>>> a55bcff0705dbd72cddb85fe2fb367af3fc654b3
