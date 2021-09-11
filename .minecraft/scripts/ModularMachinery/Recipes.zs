@@ -270,7 +270,7 @@ build();
 //==============================裂变反应堆T2 IC2==============================
 //铀燃料棒
 RecipeBuilder.newBuilder("reactor_ic2_2_uranium","reactor_ic2_2", 100000).
-addFluidInput(<liquid:water> * 75000000).
+addFluidInput(<liquid:water> * 7500000).
 addItemInput(<ic2:quad_uranium_fuel_rod> * 8).
 addEnergyPerTickOutput(40000).
 addItemOutput(<ic2:nuclear:13> * 8).
@@ -278,9 +278,9 @@ build();
 
 //MOX燃料棒
 RecipeBuilder.newBuilder("reactor_ic2_2_mox","reactor_ic2_2", 50000).
-addFluidInput(<liquid:water> * 150000000).
+addFluidInput(<liquid:water> * 15000000).
 addItemInput(<ic2:quad_mox_fuel_rod> * 8).
-addEnergyPerTickOutput(70000).
+addEnergyPerTickOutput(75000).
 addItemOutput(<ic2:nuclear:16> * 8).
 build();
 
@@ -305,7 +305,7 @@ build();
 
 //β水晶-蓝图
 RecipeBuilder.newBuilder("blueprints_Energy_crystal_2", "crafter_tier_2", 512000).
-addEnergyPerTickInput(15000000).
+addEnergyPerTickInput(7500000).
 addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
 addItemInput(<custommc:item968>).
 addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"},{display:{Lore:["§3Rank: §c§lSS","§cECO实验室最新报告","§eData:2J2I2A11J2I175A7XD §6ID:754823_β §9第3044次实验报告","§bα型水晶升级版试做型水晶","§b普通的输导单元已经无法承受其极高的发电量","§b我们使用了最新研究的能量水晶: ID:344887_SNO 寰宇能源核心","§b在转换试验中,其核心能够90%效率转换其注能水晶的能量","§b效率是α水晶的15倍","§e最终报告 安全率97% 爆炸率0% 允许投入商业使用"]}})).
@@ -393,25 +393,25 @@ build();
 //末影钢锭
 RecipeBuilder.newBuilder("CRR_Enderium", "cosmic_ray_receiver", 1800).
 addItemInput(<ore:ingotEndSteel> , 8).
-addEnergyPerTickOutput(128000).
+addEnergyPerTickOutput(64000).
 build();
 
 //末影锭
 RecipeBuilder.newBuilder("CRR_Enderium", "cosmic_ray_receiver", 1800).
 addItemInput(<ore:ingotEnderium> , 8).
-addEnergyPerTickOutput(256000).
+addEnergyPerTickOutput(128000).
 build();
 
 //铱锭
 RecipeBuilder.newBuilder("CRR_Iridium", "cosmic_ray_receiver", 2400).
 addItemInput(<ore:ingotIridium> , 12).
-addEnergyPerTickOutput(512000).
+addEnergyPerTickOutput(256000).
 build();
 
 //恒星合金锭
 RecipeBuilder.newBuilder("CRR_alloy_endergy_ingot@3", "cosmic_ray_receiver", 4800).
 addItemInput(<enderio:item_alloy_endergy_ingot:3> * 8).
-addEnergyPerTickOutput(1024000).
+addEnergyPerTickOutput(512000).
 build();
 
 //觉醒龙锭
@@ -423,46 +423,46 @@ build();
 //奥利哈刚
 RecipeBuilder.newBuilder("CRR_EB_material", "cosmic_ray_receiver", 25600).
 addItemInput(<extrabotany:material:1>).
-addEnergyPerTickOutput(3072000).
-build();
-
-//水晶矩阵锭
-RecipeBuilder.newBuilder("CRR_Ava_resource@1", "cosmic_ray_receiver", 51200).
-addItemInput(<avaritia:resource:1> * 8).
 addEnergyPerTickOutput(6144000).
 build();
 
-//中子素
-RecipeBuilder.newBuilder("CRR_Ava_resource@4", "cosmic_ray_receiver", 25600).
-addItemInput(<avaritia:resource:4> * 8).
+//水晶矩阵锭
+RecipeBuilder.newBuilder("CRR_Ava_resource@1", "cosmic_ray_receiver", 25600).
+addItemInput(<avaritia:resource:1> * 8).
 addEnergyPerTickOutput(12288000).
+build();
+
+//中子素
+RecipeBuilder.newBuilder("CRR_Ava_resource@4", "cosmic_ray_receiver", 51200).
+addItemInput(<avaritia:resource:4> * 8).
+addEnergyPerTickOutput(6144000).
 build();
 
 //==============================光质子注能器==============================
 //炽焰
 RecipeBuilder.newBuilder("NA_pyrotheum","neutron_activator", 15).
-addEnergyPerTickInput(256000).
+addEnergyPerTickInput(128000).
 addFluidInput(<liquid:lava> * 10000).
 addFluidOutput(<liquid:pyrotheum> * 1000).
 build();
 
 //凛冰
 RecipeBuilder.newBuilder("NA_cyrotheum","neutron_activator", 15).
-addEnergyPerTickInput(256000).
+addEnergyPerTickInput(128000).
 addFluidInput(<liquid:water> * 10000).
 addFluidOutput(<liquid:cryotheum> * 1000).
 build();
 
 //氚
 RecipeBuilder.newBuilder("NA_tritium", "neutron_activator", 20).
-addEnergyPerTickInput(384000).
+addEnergyPerTickInput(256000).
 addGasInput("lithium" , 21000).
 addGasOutput("tritium" , 21000).
 build();
 
 //光质子注能器-蓝图
 RecipeBuilder.newBuilder("blueprints_neutron_activator", "crafter_tier_2", 1200).
-addEnergyPerTickInput(16000).
+addEnergyPerTickInput(12000).
 addItemInput(<mekanism:polyethene:2> * 32).
 addItemInput(<mets:super_circuit> * 64).
 addItemInput(<mekanism:basicblock:8> * 32).
@@ -535,7 +535,7 @@ build();
 //==============================粉碎机==============================
 //粉碎-圆石
 RecipeBuilder.newBuilder("item_shredder_cobblestone", "item_shredder", 30).
-addEnergyPerTickInput(120000).
+addEnergyPerTickInput(60000).
 addItemInput(<minecraft:cobblestone> * 64).
 addItemInput(<minecraft:cobblestone> * 64).
 addItemInput(<minecraft:cobblestone> * 64).
@@ -549,7 +549,7 @@ build();
 //==============================霍金恒星坍缩机==============================
 //霍金恒星坍缩机-蓝图
 RecipeBuilder.newBuilder("blueprints_star_collapser","crafter_tier_2", 7200).
-addEnergyPerTickInput(750000).
+addEnergyPerTickInput(500000).
 addItemInput(<ore:circuitUltimate> , 64).
 addItemInput(<enderio:item_capacitor_stellar> * 16).
 addItemInput(<enderio:block_alloy_endergy:3> * 32).
@@ -564,7 +564,7 @@ build();
 
 //混沌核心
 RecipeBuilder.newBuilder("star_collapser_ChaoticCore", "star_collapser", 100).
-addEnergyPerTickInput(25000000).
+addEnergyPerTickInput(20000000).
 addItemInput(<draconicevolution:draconic_ingot> * 4).
 addItemInput(<draconicevolution:chaos_shard>).
 addItemInput(<draconicevolution:awakened_core>).
@@ -590,7 +590,7 @@ build();
 
 //龙蛋
 RecipeBuilder.newBuilder("star_collapser_DragonEgg", "star_collapser" , 1200).
-addEnergyPerTickInput(250000000).
+addEnergyPerTickInput(200000000).
 addItemInput(<draconicevolution:chaos_shard:1>).
 addItemInput(<draconicevolution:mob_soul>).
 addItemOutput(<minecraft:dragon_egg>).
@@ -598,7 +598,7 @@ build();
 
 //无尽之锭
 RecipeBuilder.newBuilder("star_collapser_InfIngot","star_collapser", 1200).
-addEnergyPerTickInput(350000000).
+addEnergyPerTickInput(250000000).
 addItemInput(<avaritia:resource:4> * 20).
 addItemInput(<avaritia:resource:1> * 8).
 addItemInput(<avaritia:resource:5> * 8).
@@ -608,7 +608,7 @@ build();
 
 //永恒奇点
 RecipeBuilder.newBuilder("star_collapser_ES", "star_collaper", 2400).
-addEnergyPerTickInput(500000000).
+addEnergyPerTickInput(350000000).
 addItemInput(<avaritia:singularity>).
 addItemInput(<avaritia:singularity:1>).
 addItemInput(<avaritia:singularity:2>).
@@ -827,7 +827,7 @@ build();
 
 //小型钢矿钻
 RecipeBuilder.newBuilder("small_ore_drill_1","small_ore_drill",3200).
-addEnergyPerTickInput(400).
+addEnergyPerTickInput(600).
 addItemOutput(<minecraft:iron_ore> * 4).setChance(0.17).
 addItemOutput(<ic2:resource:1> * 6).setChance(0.21).
 addItemOutput(<ic2:resource:2> * 6).setChance(0.18).
@@ -849,4 +849,13 @@ addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
 addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.06).
+build();
+
+//==============================物质熵变机==============================
+//龙之心_混沌碎片
+RecipeBuilder.newBuilder("Dragon_heart", "Material_entropy_converter", 6400).
+addEnergyPerTickInput(100000).
+addItemInput(<draconicadditions:chaos_heart>).
+addItemOutput(<draconicevolution:dragon_heart>).
+addItemOutput(<draconicevolution:chaos_shard> * 5).
 build();
