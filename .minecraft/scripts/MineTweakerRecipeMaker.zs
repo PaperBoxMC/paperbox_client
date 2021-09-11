@@ -208,6 +208,7 @@ recipes.remove(<nuclearcraft:compound:2>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:dragon_breath>, [<minecraft:skull:5>.giveBack(<minecraft:skull:5>), <minecraft:glass_bottle>]);
 recipes.addShapeless(<nuclearcraft:compound:2> * 4, [<minecraft:redstone>, <ore:alloyBasic>, <ore:dustGlowstone>, <ore:dustGlowstone>]);
 recipes.addShapeless(<gugu-utils:environmenthatch>, [<minecraft:daylight_detector>, <ore:alloyBasic>, <modularmachinery:blockcasing>]);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:7>, [<ic2:te:134>, <ic2:te:134>, <modularmachinery:blockfluidoutputhatch:6>, <ic2:te:134>, <ic2:te:134>]);
