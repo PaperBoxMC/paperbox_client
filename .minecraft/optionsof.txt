@@ -48,7 +48,7 @@ ofBetterSnow:true
 ofSwampColors:true
 ofRandomEntities:true
 ofSmoothBiomes:true
-ofCustomFonts:true
+ofCustomFonts:false
 ofCustomColors:true
 ofCustomItems:true
 ofCustomSky:true
@@ -60,7 +60,7 @@ ofRenderRegions:true
 ofSmartAnimations:true
 ofDynamicFov:false
 ofAlternateBlocks:true
-ofDynamicLights:3
+ofDynamicLights:1
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
