@@ -33,3 +33,4 @@
 <integrateddynamics:cable>.addTooltip("§6集成网络中所有元件更新周期§c不得低于5tick§6,否则会导致§4卡顿");
 <extrabotany:coregod:2>.addTooltip("§d新§c一§b代§e欧§6皇");
 <extrabotany:firstfractal>.addTooltip("§a§m§lTERRARIA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"}).addTooltip("§9Rank: §d§lA-");

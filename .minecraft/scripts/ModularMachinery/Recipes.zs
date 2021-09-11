@@ -565,7 +565,7 @@ build();
 //混沌核心
 RecipeBuilder.newBuilder("star_collapser_ChaoticCore", "star_collapser", 100).
 addEnergyPerTickInput(25000000).
-addItemInput(<draconicevolution:draconium_ingot> * 4).
+addItemInput(<draconicevolution:draconic_ingot> * 4).
 addItemInput(<draconicevolution:chaos_shard>).
 addItemInput(<draconicevolution:awakened_core>).
 addItemOutput(<draconicevolution:chaotic_core>).
@@ -583,9 +583,9 @@ build();
 //觉醒核心
 RecipeBuilder.newBuilder("star_collapser_AwakenedCore","star_collapser",100).
 addEnergyPerTickInput(250000).
-addItemInput(<draconicevolution:draconium_ingot> * 4).
+addItemInput(<draconicevolution:draconic_ingot> * 4).
 addItemInput(<draconicevolution:wyvern_core> * 4).
-addItemOutput(<draconicevolution:draconic_core>).
+addItemOutput(<draconicevolution:awakened_core>).
 build();
 
 //龙蛋
@@ -593,11 +593,12 @@ RecipeBuilder.newBuilder("star_collapser_DragonEgg", "star_collapser" , 1200).
 addEnergyPerTickInput(250000000).
 addItemInput(<draconicevolution:chaos_shard:1>).
 addItemInput(<draconicevolution:mob_soul>).
-addItemInput(<minecraft:dragon_egg>).
+addItemOutput(<minecraft:dragon_egg>).
 build();
 
 //无尽之锭
 RecipeBuilder.newBuilder("star_collapser_InfIngot","star_collapser", 1200).
+addEnergyPerTickInput(350000000).
 addItemInput(<avaritia:resource:4> * 20).
 addItemInput(<avaritia:resource:1> * 8).
 addItemInput(<avaritia:resource:5> * 8).
