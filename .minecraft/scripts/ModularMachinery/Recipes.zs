@@ -155,7 +155,7 @@ addItemInput(<avaritia:resource:1> * 50).
 addItemInput(<extrabotany:buddhistrelics>).
 addItemInput(<avaritia:block_resource:1> * 6).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter", display:{Lore:["§3Rank: §c§lSS","§6ECO实验室的巅峰之作","§b这种无与伦比的机器可以改变各种分子或是重置各种原子","§c通过这种机械","§c你了解到了异世界科技"],}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"})).
 build();
 
 //==============================纯晶合成仪==============================
@@ -211,7 +211,7 @@ addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:di_ci", display:{Lore:["§3Rank: §d§lA-","§b灵感来自无人深空","§d依靠地磁场进行发电 24小时工作","§m§c没有高度限制"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:di_ci"})).
 build();
 
 //==============================聚焦太阳能/大型聚焦太阳能==============================
@@ -238,7 +238,7 @@ addItemInput(<advanced_solar_panels:machines:4> * 12).
 addItemInput(<mekanismgenerators:generator:5> * 16).
 addItemInput(<ore:blockSilver> , 48).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_0", display:{Lore:["§3Rank: §b§lB"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_0"})).
 build();
 
 //大型聚焦太阳能-日间
@@ -264,7 +264,7 @@ addItemInput(<enderio:block_solar_panel:3> * 32).
 addItemInput(<mekanismgenerators:generator:5> * 16).
 addItemInput(<ore:blockSilver> , 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_1", display:{Lore:["§3Rank: §b§lB+"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_1"})).
 build();
 
 //==============================裂变反应堆T2 IC2==============================
@@ -300,7 +300,7 @@ addItemInput(<extrabotany:blockorichalcos> * 6).
 addItemInput(<ore:dustCryotheum> , 64).
 addItemInput(<ore:dustCryotheum> , 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"},{display:{Lore:["§3Rank: §6§lS","§e拥有高能量转换比的大型能量核晶","§b使用纯度§c极高§b的注能水晶","§c由于极高的发热量 你需要注入大量的§b凛冰§c来冷却核晶本体"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
 build();
 
 //β水晶-蓝图
@@ -308,7 +308,7 @@ RecipeBuilder.newBuilder("blueprints_Energy_crystal_2", "crafter_tier_2", 512000
 addEnergyPerTickInput(7500000).
 addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
 addItemInput(<custommc:item968>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"},{display:{Lore:["§3Rank: §c§lSS","§cECO实验室最新报告","§eData:2J2I2A11J2I175A7XD §6ID:754823_β §9第3044次实验报告","§bα型水晶升级版试做型水晶","§b普通的输导单元已经无法承受其极高的发电量","§b我们使用了最新研究的能量水晶: ID:344887_SNO 寰宇能源核心","§b在转换试验中,其核心能够90%效率转换其注能水晶的能量","§b效率是α水晶的15倍","§e最终报告 安全率97% 爆炸率0% 允许投入商业使用"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"})).
 build();
 
 //==============================混合燃料发电机==============================
@@ -469,7 +469,7 @@ addItemInput(<mekanism:basicblock:8> * 32).
 addItemInput(<ore:blockCopper> , 48).
 addItemInput(<ic2:crafting:6> * 8).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:neutron_activator",display:{Lore:["§3Rank: §b§lB"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:neutron_activator"})).
 build();
 
 //==============================核融起爆机==============================
@@ -559,7 +559,7 @@ addItemInput(<draconicevolution:particle_generator> * 32).
 addItemInput(<enderio:block_infinity:2> * 4).
 addItemInput(<ore:gemCrystalRGP>).
 addItemInput(<draconicevolution:reactor_component> * 6).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:star_collapser", display:{Lore:["§3Rank: §c§lSS-","§c§m霍金赐予我力量吧"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:star_collapser"})).
 build();
 
 //混沌核心
@@ -719,7 +719,7 @@ addItemInput(<avaritia:resource:1> * 8).
 addItemInput(<mets:te:22>).
 addItemInput(<ic2:resource:13> * 30).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2",display:{Lore:["§3Rank: §d§lA-"]}})).
+addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"})).
 build();
 
 //==============================矿物提取机/小型钢矿钻/泰拉钢矿钻==============================

@@ -137,6 +137,47 @@
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Crystal_injection"}).addTooltip("§3Rank: §d§lA");
 
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"}).addTooltip("§3Rank: §c§lSS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"}).addTooltip("§6ECO实验室的巅峰之作");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"}).addTooltip("§b这种无与伦比的机器可以改变各种分子或是重置各种原子");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"}).addTooltip("§c通过这种机械");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"}).addTooltip("§c你了解到了异世界科技");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:di_ci"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:di_ci"}).addTooltip("§b灵感来自无人深空");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:di_ci"}).addTooltip("§d依靠地磁场进行发电 24小时工作");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:di_ci"}).addTooltip("§m§c没有高度限制");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:solar_panel_0"}).addTooltip("§3Rank: §b§lB");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:solar_panel_1"}).addTooltip("§3Rank: §b§lB+");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§3Rank: §6§lS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§e拥有高能量转换比的大型能量核晶");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§b使用纯度§c极高§b的注能水晶");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§c由于极高的发热量");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("你需要注入大量的§b凛冰§c来冷却核晶本体");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§3Rank: §c§lSS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§cECO实验室最新报告");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e实验人员:JiajiaXD §6ID:2221121757_β §9第792次实验报告");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§bα型水晶升级版试做型水晶");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b普通的输导单元已经无法承受其极高的发电量");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b我们使用了最新研究的能量水晶核心载体: ID:279377943_PB 寰宇能源核心");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b在转换试验中,其核心能够90%效率转换其注能水晶的能量");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b效率是α水晶的15倍");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e最终报告 安全率97% 爆炸率0% 允许投入纸箱使用");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutron_activator"}).addTooltip("§3Rank: §b§lB");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:star_collapser"}).addTooltip("§3Rank: §c§lSS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:star_collapser"}).addTooltip("§c§m霍金赐予我力量吧");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:star_collapser"}).addTooltip("§3Rank: §d§lA-");
+
+
+
+
 <custommc:item352>.addTooltip("§b可在纸箱物品商人购买~");
 <custommc:item782>.addTooltip("§b世界之色在于其中");
 <custommc:item957>.addTooltip("§b万千植物散发的魔力凝聚其中");
