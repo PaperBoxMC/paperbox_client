@@ -33,12 +33,6 @@
 <mekanism:machineblock:13>.addTooltip("§6限制使用");
 <mekanism:machineblock:13>.addTooltip("§6仅合成");
 <mekanism:basicblock2:1>.addTooltip("§c请不要跨区块建造输导矩阵,会导致§4卡顿");
-<integratedtunnels:part_interface_item_item>.addTooltip("§c请将更新周期调整至8tick以上,否则会导致§4卡顿");
-<integratedtunnels:part_exporter_item_item>.addTooltip("§c请将更新周期调整至5tick以上,否则会导致§4卡顿");
-<integratedtunnels:part_importer_item_item>.addTooltip("§c请将更新周期调整至5tick以上,否则会导致§4卡顿");
-<integratedtunnels:part_interface_energy_item>.addTooltip("§c请将更新周期调整至5tick以上,否则会导致§4卡顿");
-<integratedtunnels:part_player_simulator_item>.addTooltip("§c禁用");
-<integrateddynamics:cable>.addTooltip("§6集成网络中所有元件更新周期§c不得低于5tick§6,否则会导致§4卡顿");
 <extrabotany:coregod:2>.addTooltip("§d新§c一§b代§e欧§6皇");
 <extrabotany:firstfractal>.addTooltip("§a§m§lTERRARIA");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"}).addTooltip("§3Rank: §d§lA-");
@@ -160,7 +154,7 @@
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§3Rank: §c§lSS");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§cECO实验室最新报告");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e实验人员:JiajiaXD §6ID:2221121757_β §9第792次实验报告");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e实验人员: Jiajiaxd §6ID:2221121757_β §9第792次实验报告");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§bα型水晶升级版试做型水晶");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b普通的输导单元已经无法承受其极高的发电量");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b我们使用了最新研究的能量水晶核心载体: ID:279377943_PB 寰宇能源核心");

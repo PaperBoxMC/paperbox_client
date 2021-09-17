@@ -264,7 +264,7 @@ recipes.addShaped(<artisanworktables:workstation:3>, [[<enderio:block_tank>, <ar
 recipes.addShaped(<artisanworktables:worktable:3>, [[<minecraft:anvil>], [<artisanworktables:worktable:5>], [<ore:artisansHammer>]]);
 recipes.addShaped(<artisanworktables:workshop:7>, [[<artisanworktables:workstation:7>, <minecraft:chest>, <artisanworktables:workstation:7>], [<enderio:block_tank>, null, <enderio:block_tank>], [<artisanworktables:workstation:7>, <ic2:tool_box>, <artisanworktables:workstation:7>]]);
 recipes.addShaped(<artisanworktables:workstation:7>, [[<enderio:block_tank>, <artisanworktables:worktable:7>], [null, <ic2:tool_box>]]);
-recipes.addShaped(<artisanworktables:worktable:7>, [[<botania:storage>], [<artisanworktables:worktable:5>], [<embers:ancient_motive_core>]]);
+recipes.addShaped(<artisanworktables:worktable:7>, [[<botania:storage>], [<artisanworktables:worktable:5>], [<null>]]);
 recipes.addShaped(<artisanworktables:mechanical_toolbox>, [[<artisanworktables:toolbox>], [<thermalfoundation:material:256>]]);
 recipes.addShaped(<artisanworktables:toolbox>, [[<ore:chest>], [<ic2:tool_box>]]);
 recipes.addShaped(<artisanworktables:workshop:12>, [[<artisanworktables:workstation:12>, <minecraft:chest>, <artisanworktables:workstation:12>], [<enderio:block_tank>, null, <enderio:block_tank>], [<artisanworktables:workstation:12>, <ic2:tool_box>, <artisanworktables:workstation:12>]]);
@@ -276,14 +276,6 @@ recipes.addShaped(<artisanworktables:worktable:6>, [[null, <ore:blockBronze>, nu
 recipes.addShaped(<artisanworktables:workshop:5>, [[<artisanworktables:workstation:5>, null, <artisanworktables:workstation:5>], [<enderio:block_tank>, null, <ic2:tool_box>], [<artisanworktables:workstation:5>, <minecraft:chest>, <artisanworktables:workstation:5>]]);
 recipes.addShaped(<artisanworktables:workstation:5>, [[<enderio:block_tank>, <artisanworktables:worktable:5>], [null, <ic2:tool_box>]]);
 recipes.addShaped(<artisanworktables:worktable:5>, [[<minecraft:bucket>, <ore:chest>], [<minecraft:bucket>, <ore:workbench>], [<minecraft:bucket>, <ore:chest>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:7>, [[<embers:crystal_cell>], [<gugu-utils:emberinputhatch:6>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:6>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch:5>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:5>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch:4>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:4>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch:3>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:3>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch:2>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:2>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch:1>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch:1>, [[<embers:copper_cell>], [<gugu-utils:emberinputhatch>]]);
-recipes.addShaped(<gugu-utils:emberinputhatch>, [[<embers:copper_cell>], [<modularmachinery:blockcasing>]]);
 recipes.addShaped(<ic2:te:52>, [[<ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>], [<ore:ingotSteel>, <ic2:resource:13>, <ore:ingotSteel>], [<ore:ingotSteel>, <ic2:crafting:6>, <ore:ingotSteel>]]);
 recipes.addShaped(<super_solar_panels:machines:4>, [[<advanced_solar_panels:machines:5>, <avaritia:block_resource>, <advanced_solar_panels:machines:5>], [<avaritia:block_resource>, <avaritia:resource:5>, <avaritia:block_resource>], [<advanced_solar_panels:machines:5>, <avaritia:block_resource>, <advanced_solar_panels:machines:5>]]);
 recipes.addShaped(<gugu-utils:sparkmanahatch:1>, [[<modularmachinery:blockcasing>, <ore:manaPearl>, <modularmachinery:blockcasing>], [<ore:livingrock>, <botania:pool:3>, <ore:livingrock>], [<modularmachinery:blockcasing>, <modularmachinery:blockcasing:5>, <modularmachinery:blockcasing>]]);
