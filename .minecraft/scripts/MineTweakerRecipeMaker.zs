@@ -264,7 +264,7 @@ recipes.addShaped(<artisanworktables:workstation:3>, [[<enderio:block_tank>, <ar
 recipes.addShaped(<artisanworktables:worktable:3>, [[<minecraft:anvil>], [<artisanworktables:worktable:5>], [<ore:artisansHammer>]]);
 recipes.addShaped(<artisanworktables:workshop:7>, [[<artisanworktables:workstation:7>, <minecraft:chest>, <artisanworktables:workstation:7>], [<enderio:block_tank>, null, <enderio:block_tank>], [<artisanworktables:workstation:7>, <ic2:tool_box>, <artisanworktables:workstation:7>]]);
 recipes.addShaped(<artisanworktables:workstation:7>, [[<enderio:block_tank>, <artisanworktables:worktable:7>], [null, <ic2:tool_box>]]);
-recipes.addShaped(<artisanworktables:worktable:7>, [[<botania:storage>], [<artisanworktables:worktable:5>], [<null>]]);
+recipes.addShaped(<artisanworktables:worktable:7>, [[<botania:storage>], [<artisanworktables:worktable:5>], [null]]);
 recipes.addShaped(<artisanworktables:mechanical_toolbox>, [[<artisanworktables:toolbox>], [<thermalfoundation:material:256>]]);
 recipes.addShaped(<artisanworktables:toolbox>, [[<ore:chest>], [<ic2:tool_box>]]);
 recipes.addShaped(<artisanworktables:workshop:12>, [[<artisanworktables:workstation:12>, <minecraft:chest>, <artisanworktables:workstation:12>], [<enderio:block_tank>, null, <enderio:block_tank>], [<artisanworktables:workstation:12>, <ic2:tool_box>, <artisanworktables:workstation:12>]]);
