@@ -13,7 +13,7 @@
             "io-type": "input",
             "item": "custommc:item14",
             "amount": 1,
-            "chance": 0.001
+            "chance": 0.01
         },
         {
             "type": "item",
@@ -26,91 +26,91 @@
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@0",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@1",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@2",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@3",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@4",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@5",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@6",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@7",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@8",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@9",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@10",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@11",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@12",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@13",
-            "amount": 2
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "avaritia:singularity@14",
-            "amount": 2
+            "amount": 4
         }
     ]
 }

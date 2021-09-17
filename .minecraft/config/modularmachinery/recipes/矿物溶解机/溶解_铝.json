@@ -24,13 +24,13 @@
             "type": "item",
             "io-type": "output",
             "item": "thermalfoundation:material@68",
-            "amount": 8
+            "amount": 10
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "thermalfoundation:material@68",
-            "amount": 4,
+            "amount": 6,
             "chance": 0.5
         }
     ]
