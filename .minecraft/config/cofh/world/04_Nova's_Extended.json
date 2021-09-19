@@ -1,0 +1,32 @@
+{
+    "dependencies": "additions",
+    "populate": {
+        "Willowalloy": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "type": "sparse-cluster",
+                "block": [{
+                    "name": "additions:novaextended-ore8",
+                    "properties": {
+                        "type": "Willowalloy"
+                    }
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "cluster-count": 2,
+            "chunk-chance": 4,
+            "min-height": 10,
+            "max-height": 16,
+            "spread": 2,
+            "smoothness": 1,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        }
+    }
+}

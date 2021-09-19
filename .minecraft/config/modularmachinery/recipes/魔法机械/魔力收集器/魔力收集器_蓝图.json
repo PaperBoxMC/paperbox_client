@@ -35,16 +35,13 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "ore:paper",
+            "item": "modularmachinery:blockcasing",
             "amount": 1
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
-            "item": "modularmachinery:itemblueprint",
-            "nbt":{
-                "dynamicmachine": "modularmachinery:mana_collector"
-            }
+            "item": "modularcontroller:mana_collector_controller"
         }
     ]
 }

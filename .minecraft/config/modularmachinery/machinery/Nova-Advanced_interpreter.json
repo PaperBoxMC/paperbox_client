@@ -72,7 +72,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@1"
+                "appliedenergistics2:chiseled_quartz_stairs@1"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -128,7 +128,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "appliedenergistics2:fluix_stairs@0"
             ]
         },
         {
@@ -552,7 +552,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@3"
+                "appliedenergistics2:fluix_stairs@3"
             ]
         },
         {
@@ -560,7 +560,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@3"
+                "appliedenergistics2:chiseled_quartz_stairs@3"
             ]
         },
         {
@@ -568,7 +568,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@3"
+                "appliedenergistics2:chiseled_quartz_stairs@3"
             ]
         },
         {
@@ -576,7 +576,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@3"
+                "appliedenergistics2:chiseled_quartz_stairs@3"
             ]
         },
         {
@@ -584,7 +584,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@3"
+                "appliedenergistics2:chiseled_quartz_stairs@3"
             ]
         },
         {
@@ -632,7 +632,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "appliedenergistics2:fluix_stairs@0"
             ]
         },
         {
@@ -640,7 +640,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -648,7 +648,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -656,7 +656,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -664,7 +664,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -672,7 +672,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -680,7 +680,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@1"
+                "appliedenergistics2:chiseled_quartz_stairs@1"
             ]
         },
         {
@@ -752,7 +752,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "appliedenergistics2:fluix_stairs@0"
             ]
         },
         {
@@ -768,7 +768,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -832,7 +832,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -840,7 +840,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@1"
+                "appliedenergistics2:chiseled_quartz_stairs@1"
             ]
         },
         {
@@ -920,7 +920,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "appliedenergistics2:fluix_stairs@0"
             ]
         },
         {
@@ -952,7 +952,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -1008,7 +1008,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -1016,7 +1016,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@1"
+                "appliedenergistics2:chiseled_quartz_stairs@1"
             ]
         },
         {
@@ -1184,7 +1184,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "appliedenergistics2:fluix_stairs@0"
             ]
         },
         {
@@ -1208,7 +1208,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "appliedenergistics2:fluix_block"
             ]
         },
         {
@@ -1272,7 +1272,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "integrateddynamics:crystalized_menril_block@0"
+                "appliedenergistics2:quartz_block"
             ]
         },
         {
@@ -1280,7 +1280,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@1"
+                "appliedenergistics2:chiseled_quartz_stairs@1"
             ]
         },
         {
@@ -1440,7 +1440,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "integrateddynamics:crystalized_menril_block_stairs@2"
+                "appliedenergistics2:chiseled_quartz_stairs@2"
             ]
         },
         {
@@ -1464,7 +1464,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "appliedenergistics2:fluix_stairs@2"
             ]
         },
         {
@@ -1472,7 +1472,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "appliedenergistics2:fluix_stairs@2"
             ]
         },
         {
@@ -1504,7 +1504,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "appliedenergistics2:fluix_stairs@2"
             ]
         },
         {
@@ -1512,7 +1512,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "appliedenergistics2:fluix_stairs@2"
             ]
         },
         {

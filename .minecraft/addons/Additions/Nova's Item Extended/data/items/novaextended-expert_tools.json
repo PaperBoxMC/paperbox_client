@@ -7,6 +7,12 @@
   "max_stack": 1,
   "attribute_modifiers": [
     {
+      "attribute_name": "generic.attackSpeed",
+      "amount": 2.0,
+      "slot": "mainhand",
+      "uuid": "fa233e1c-4180-4865-b01b-bcce9785aca3"
+    },
+    {
       "attribute_name": "generic.attackDamage",
       "amount": 20.0,
       "slot": "mainhand",
@@ -23,7 +29,7 @@
   "harvest_level": 7,
   "harvest_radius_width": 0,
   "harvest_depth": 0,
-  "efficiency": 36.0,
+  "efficiency": 28.0,
   "enchantability": 60,
   "repair_stacks": {
     "ore_name": "ingotPsiAlloy"

@@ -888,7 +888,7 @@
             "y": -7,
             "z": 2,
             "elements": [
-                "embers:archaic_light@0"
+                "chisel:futura@4"
             ]
         },
         {
@@ -1792,7 +1792,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "embers:ember_emitter@0"
+                "mekanism:plasticfence@1"
             ]
         },
         {

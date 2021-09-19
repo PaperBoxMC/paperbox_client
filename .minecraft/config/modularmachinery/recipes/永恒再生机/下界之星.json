@@ -32,7 +32,7 @@
             "io-type": "output",
             "item": "minecraft:nether_star",
             "amount": 16,
-            "chance": 0.25
+            "chance": 50
         }
     ]
 }

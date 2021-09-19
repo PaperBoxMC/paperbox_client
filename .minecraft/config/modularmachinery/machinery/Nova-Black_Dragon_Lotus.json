@@ -192,7 +192,7 @@
             "y": 19,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": 15,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 13,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -288,7 +288,7 @@
             "y": 15,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "y": 18,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -488,7 +488,7 @@
             "y": 15,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -504,7 +504,7 @@
             "y": 15,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -536,7 +536,7 @@
             "y": 17,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -560,7 +560,7 @@
             "y": 20,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "minecraft:purpur_stairs@2"
             ]
         },
         {
@@ -576,7 +576,7 @@
             "y": 16,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -592,7 +592,7 @@
             "y": 14,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -600,7 +600,7 @@
             "y": 18,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -840,7 +840,7 @@
             "y": 16,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -1008,7 +1008,7 @@
             "y": 17,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "y": 16,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -1056,7 +1056,7 @@
             "y": 16,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -1168,7 +1168,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1200,7 +1200,7 @@
             "y": 17,
             "z": 4,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1336,7 +1336,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1392,7 +1392,7 @@
             "y": 1,
             "z": 11,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@3"
+                "minecraft:purpur_stairs@3"
             ]
         },
         {
@@ -1560,7 +1560,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1608,7 +1608,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -1792,7 +1792,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1800,7 +1800,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -1864,7 +1864,7 @@
             "y": 4,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -1880,7 +1880,7 @@
             "y": 2,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1960,7 +1960,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -1968,7 +1968,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2048,7 +2048,7 @@
             "y": 12,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -2064,7 +2064,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2080,7 +2080,7 @@
             "y": 6,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2136,7 +2136,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2208,7 +2208,7 @@
             "y": 13,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2224,7 +2224,7 @@
             "y": 13,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -2248,7 +2248,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "minecraft:purpur_stairs@2"
             ]
         },
         {
@@ -2256,7 +2256,7 @@
             "y": 5,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2272,7 +2272,7 @@
             "y": 3,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2288,7 +2288,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -2344,7 +2344,7 @@
             "y": 14,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@3"
+                "minecraft:purpur_stairs@3"
             ]
         },
         {
@@ -2408,7 +2408,7 @@
             "y": 4,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2512,7 +2512,7 @@
             "y": 9,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@3"
+                "minecraft:purpur_stairs@3"
             ]
         },
         {
@@ -2520,7 +2520,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "minecraft:purpur_stairs@2"
             ]
         },
         {
@@ -2528,7 +2528,7 @@
             "y": 7,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2544,7 +2544,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2552,7 +2552,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2560,7 +2560,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -2576,7 +2576,7 @@
             "y": 16,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -2656,7 +2656,7 @@
             "y": 6,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "minecraft:purpur_stairs@2"
             ]
         },
         {
@@ -2752,7 +2752,7 @@
             "y": 17,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2760,7 +2760,7 @@
             "y": 17,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2768,7 +2768,7 @@
             "y": 17,
             "z": 13,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -2808,7 +2808,7 @@
             "y": 9,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2824,7 +2824,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -2832,7 +2832,7 @@
             "y": 16,
             "z": 12,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2848,7 +2848,7 @@
             "y": 10,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -2856,7 +2856,7 @@
             "y": 16,
             "z": 12,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -2896,7 +2896,7 @@
             "y": 10,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -2928,7 +2928,7 @@
             "y": 8,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -2936,7 +2936,7 @@
             "y": 10,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -2968,7 +2968,7 @@
             "y": 10,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -3056,7 +3056,7 @@
             "y": 13,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -3088,7 +3088,7 @@
             "y": 11,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -3096,7 +3096,7 @@
             "y": 17,
             "z": 12,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -3120,7 +3120,7 @@
             "y": 11,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3136,7 +3136,7 @@
             "y": 11,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -3160,7 +3160,7 @@
             "y": 12,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -3216,7 +3216,7 @@
             "y": 12,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@3"
+                "minecraft:purpur_stairs@3"
             ]
         },
         {
@@ -3232,7 +3232,7 @@
             "y": 10,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3256,7 +3256,7 @@
             "y": 12,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3280,7 +3280,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3288,7 +3288,7 @@
             "y": 12,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3312,7 +3312,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3384,7 +3384,7 @@
             "y": 13,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@1"
+                "minecraft:purpur_stairs@1"
             ]
         },
         {
@@ -3408,7 +3408,7 @@
             "y": 15,
             "z": 10,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -3424,7 +3424,7 @@
             "y": 11,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3432,7 +3432,7 @@
             "y": 13,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3448,7 +3448,7 @@
             "y": 13,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -3512,7 +3512,7 @@
             "y": 14,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@7"
+                "minecraft:purpur_stairs@7"
             ]
         },
         {
@@ -3552,7 +3552,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3616,7 +3616,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3672,7 +3672,7 @@
             "y": 15,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@2"
+                "minecraft:purpur_stairs@2"
             ]
         },
         {
@@ -3688,7 +3688,7 @@
             "y": 13,
             "z": 8,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3696,7 +3696,7 @@
             "y": 11,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@6"
+                "minecraft:purpur_stairs@6"
             ]
         },
         {
@@ -3704,7 +3704,7 @@
             "y": 15,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3712,7 +3712,7 @@
             "y": 15,
             "z": 9,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block@0"
+                "minecraft:purpur_stairs@0"
             ]
         },
         {
@@ -3896,7 +3896,7 @@
             "y": 13,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -3912,7 +3912,7 @@
             "y": 13,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {
@@ -3928,7 +3928,7 @@
             "y": 14,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@4"
+                "minecraft:purpur_stairs@4"
             ]
         },
         {
@@ -3960,7 +3960,7 @@
             "y": 14,
             "z": 7,
             "elements": [
-                "integrateddynamics:crystalized_chorus_block_stairs@5"
+                "minecraft:purpur_stairs@5"
             ]
         },
         {

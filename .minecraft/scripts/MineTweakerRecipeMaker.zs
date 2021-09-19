@@ -197,6 +197,36 @@ recipes.remove(<enderio:block_simple_crafter>);
 recipes.remove(<enderio:block_crafter>);
 recipes.remove(<modularmachinery:blockcasing:4>);
 recipes.remove(<nuclearcraft:compound:2>);
+recipes.remove(<openmodularturrets:intermediate_tiered:0>);
+recipes.remove(<openmodularturrets:intermediate_tiered:1>);
+recipes.remove(<openmodularturrets:intermediate_tiered:2>);
+recipes.remove(<openmodularturrets:intermediate_tiered:3>);
+recipes.remove(<openmodularturrets:intermediate_tiered:4>);
+recipes.remove(<openmodularturrets:intermediate_tiered:14>);
+recipes.remove(<openmodularturrets:intermediate_tiered:13>);
+recipes.remove(<openmodularturrets:intermediate_tiered:12>);
+recipes.remove(<openmodularturrets:intermediate_tiered:11>);
+recipes.remove(<openmodularturrets:intermediate_tiered:10>);
+recipes.remove(<openmodularturrets:intermediate_tiered:9>);
+recipes.remove(<openmodularturrets:intermediate_tiered:8>);
+recipes.remove(<openmodularturrets:intermediate_tiered:7>);
+recipes.remove(<openmodularturrets:intermediate_tiered:6>);
+recipes.remove(<openmodularturrets:intermediate_tiered:5>);
+recipes.remove(<openmodularturrets:addon_meta:1>);
+recipes.remove(<openmodularturrets:addon_meta:3>);
+recipes.remove(<openmodularturrets:addon_meta:6>);
+recipes.remove(<openmodularturrets:addon_meta:7>);
+recipes.remove(<openmodularturrets:turret_base:0>);
+recipes.remove(<openmodularturrets:turret_base:1>);
+recipes.remove(<openmodularturrets:turret_base:2>);
+recipes.remove(<openmodularturrets:turret_base:3>);
+recipes.remove(<openmodularturrets:turret_base:4>);
+recipes.remove(<openmodularturrets:rail_gun_turret>);
+recipes.remove(<openmodularturrets:laser_turret>);
+recipes.remove(<openmodularturrets:rocket_turret>);
+recipes.remove(<openmodularturrets:teleporter_turret>);
+recipes.remove(<openmodularturrets:relativistic_turret>);
+recipes.remove(<ae2stuff:inscriber>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 

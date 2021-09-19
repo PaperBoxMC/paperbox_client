@@ -30,11 +30,15 @@
 <redstonearsenal:tool.wrench_flux>.addTooltip("§c禁用,§e请使用以太扳手");
 <appliedenergistics2:certus_quartz_wrench>.addTooltip("§c禁用,§e请使用以太扳手");
 <appliedenergistics2:nether_quartz_wrench>.addTooltip("§c禁用,§e请使用以太扳手");
+<ae2stuff:inscriber>.addTooltip("§3禁用,请使用ME电路板蚀刻器");
 <mekanism:machineblock:13>.addTooltip("§6限制使用");
 <mekanism:machineblock:13>.addTooltip("§6仅合成");
 <mekanism:basicblock2:1>.addTooltip("§c请不要跨区块建造输导矩阵,会导致§4卡顿");
 <extrabotany:coregod:2>.addTooltip("§d新§c一§b代§e欧§6皇");
 <extrabotany:firstfractal>.addTooltip("§a§m§lTERRARIA");
+<modularmachinery:blockenergyoutputhatch:6>.addTooltip("§e请不要连接能量塔,本物品自带能量塔功能");
+<modularmachinery:blockenergyoutputhatch:6>.addTooltip("§a直接放置在能量核心周围即可自动连接能量核心");
+
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"}).addTooltip("§3Rank: §d§lA-");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bot_crafter"}).addTooltip("§3Rank: §b§lB-");
@@ -44,15 +48,15 @@
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:niu_niu"}).addTooltip("§b感受它的压迫力吧");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:niu_niu"}).addTooltip("§d§m真·电牛子");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator"}).addTooltip("§3Rank: §a§lC+");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator"}).addTooltip("§b工厂级发电机");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator"}).addTooltip("§e其多功能仓室可以燃烧多种燃料");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hybrid_generator"}).addTooltip("§3Rank: §a§lC+");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hybrid_generator"}).addTooltip("§b工厂级发电机");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hybrid_generator"}).addTooltip("§e其多功能仓室可以燃烧多种燃料");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Ultimate_Combiner"}).addTooltip("§3Rank: §b§lB");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ultimate_combiner"}).addTooltip("§3Rank: §b§lB");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor"}).addTooltip("§3Rank: §b§lB");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor"}).addTooltip("§b提供矿物样本");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor"}).addTooltip("§b提取机将会根据样本自动提取相似的地下矿物");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_extractor"}).addTooltip("§3Rank: §b§lB");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_extractor"}).addTooltip("§b提供矿物样本");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_extractor"}).addTooltip("§b提取机将会根据样本自动提取相似的地下矿物");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill"}).addTooltip("§3Rank: §a§lC");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill"}).addTooltip("§a民用版矿钻");
@@ -109,31 +113,31 @@
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_collector"}).addTooltip("§a收集空气中的mana凝聚成液体");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_collector"}).addTooltip("§e消耗魔力水晶");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Material_entropy_converter"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:material_entropy_converter"}).addTooltip("§3Rank: §d§lA");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y6"}).addTooltip("§3Rank: §d§lA");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y6"}).addTooltip("§cECO实验室量产化作品");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y6"}).addTooltip("§d大型工厂必备机械");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y6"}).addTooltip("§e单耗能模式");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y6"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y6"}).addTooltip("§cECO实验室量产化作品");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y6"}).addTooltip("§d大型工厂必备机械");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y6"}).addTooltip("§e单耗能模式");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y7"}).addTooltip("§3Rank: §6§lS+");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y7"}).addTooltip("§cECO实例实验室作品");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y7"}).addTooltip("§d使用外置稳定外环来降低不稳定性以进一步提高转换效率");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ECO_Y7"}).addTooltip("§e支持多种耗能模式");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y7"}).addTooltip("§3Rank: §6§lS+");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y7"}).addTooltip("§cECO实例实验室作品");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y7"}).addTooltip("§d使用外置稳定外环来降低不稳定性以进一步提高转换效率");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco_y7"}).addTooltip("§e支持多种耗能模式");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Iridescentobservatory"}).addTooltip("§3Rank: §d§lA-");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Iridescentobservatory"}).addTooltip("§f利用§b魔力钻石§f和§c龙石§f制成的增幅透镜，观测星座的§b观象台");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Iridescentobservatory"}).addTooltip("§f天空中的繁星蕴含着人们所不曾发觉的力量。");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Iridescentobservatory"}).addTooltip("§f只能在§b夜晚§f工作。");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Iridescentobservatory"}).addTooltip("§3§m不是五彩祭坛（");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iridescentobservatory"}).addTooltip("§3Rank: §d§lA-");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iridescentobservatory"}).addTooltip("§f利用§b魔力钻石§f和§c龙石§f制成的增幅透镜，观测星座的§b观象台");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iridescentobservatory"}).addTooltip("§f天空中的繁星蕴含着人们所不曾发觉的力量。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iridescentobservatory"}).addTooltip("§f只能在§b夜晚§f工作。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:iridescentobservatory"}).addTooltip("§3§m不是五彩祭坛（");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:regeneration_machine"}).addTooltip("§3Rank: §c§lSS");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Crystal_injection"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crystal_injection"}).addTooltip("§3Rank: §d§lA");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§3Rank: §c§lSS");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§6ECO实验室的终极之作");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§b这种无与伦比的机器可以改变各种分子或是重构各种原子");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§b这种无与伦比的机器可以改变各种分子或是重置各种原子");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§c通过这种机械");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§c你接触到了异世界科技");
 
@@ -146,15 +150,15 @@
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:solar_panel_1"}).addTooltip("§3Rank: §b§lB+");
 
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§3Rank: §6§lS");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§e拥有高能量转换比的大型能量核晶");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§b使用纯度§c极高§b的注能水晶");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("§c由于极高的发热量");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Energy_crystal"}).addTooltip("你需要注入大量的§b凛冰§c来冷却核晶本体");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal"}).addTooltip("§3Rank: §6§lS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal"}).addTooltip("§e拥有高能量转换比的大型能量核晶");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal"}).addTooltip("§b使用纯度§c极高§b的注能水晶");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal"}).addTooltip("§c由于极高的发热量");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal"}).addTooltip("你需要注入大量的§b凛冰§c来冷却核晶本体");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§3Rank: §c§lSS");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§cECO实验室最新报告");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e实验人员: Jiajiaxd §6ID:2221121757_β §9第792次实验报告");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§e实验人员: JiajiaXD §6ID:2221121757_β §9第792次实验报告");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§bα型水晶升级版试做型水晶");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b普通的输导单元已经无法承受其极高的发电量");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_crystal_2"}).addTooltip("§b我们使用了最新研究的能量水晶核心载体: ID:279377943_PB 寰宇能源核心");
@@ -168,6 +172,47 @@
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:star_collapser"}).addTooltip("§c§m霍金赐予我力量吧");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:star_collapser"}).addTooltip("§3Rank: §d§lA-");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_ore_drill"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_ore_drill"}).addTooltip("§a使用魔力驱动的矿机");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_ore_drill"}).addTooltip("§b从地下较大范围内采集矿物" );
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_ore_drill"}).addTooltip("§d§m我保证这不是凝矿兰");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:black_dragon_lotus"}).addTooltip("§3Rank: §b§lB - §6§lS");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:black_dragon_lotus"}).addTooltip("§cECO生态实验室实验品");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:black_dragon_lotus"}).addTooltip("§e消耗§d紫颂花§e和§b魔力水晶§e产出可以转化为§d魔力§e的§8暗黑莲花");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:black_dragon_lotus"}).addTooltip("§e由于无法直接输入能量");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:black_dragon_lotus"}).addTooltip("§e你需要使用盈能水晶为其充能");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§f通过集成八台§b分子重组仪§f，实现批量重组物品的机器。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§f放入§3天琴座§f星图后，机器将得以运用天琴座所蕴含的力量。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§f只能在§b夜晚§f工作，放入§e时钟座星图§f后则无视工作时间。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§f或许能够获取一些§c异于世界§f的物质？");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellaformer"}).addTooltip("§b§o一个有用的小机器");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaseinsolator"}).addTooltip("§3Rank: §b§lB+");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaseinsolator"}).addTooltip("§f利用§a牧夫座§f滋养生物的力量催熟§a被遗忘的动物及植物§f的机器。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaseinsolator"}).addTooltip("§f只能在§b夜晚§f工作，放入§e时钟座星图§f后则无视工作时间。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaseinsolator"}).addTooltip("§a§o有机灌注器做得到吗！");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaselense"}).addTooltip("§3Rank: §b§lB+");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaselense"}).addTooltip("§f合并了§6炼金台§f与§6合金炉§f的机器。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaselense"}).addTooltip("§f通过聚焦§6天炉座§f的热量，机器得以§6批量熔炼合金§f，并§6加速炼金过程§f。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaselense"}).addTooltip("§f只能在§b夜晚§f工作，放入§e时钟座星图§f后则无视工作时间。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:phaselense"}).addTooltip("§e§o你必须建造水晶塔。");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellargenerator"}).addTooltip("§3Rank: §d§lA");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellargenerator"}).addTooltip("§f将§b星能[IRIS]§f转化为电势能的机器。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellargenerator"}).addTooltip("§f群星蕴含的力量，或许远超人们的想象。");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:stellargenerator"}).addTooltip("§f只能在§b夜晚§f工作，放入§e时钟座星图§f后则无视工作时间。");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:beng"}).addTooltip("§3Rank: §b§lB+");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:beng"}).addTooltip("§b工业化的量产型大型机器");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:beng"}).addTooltip("§b可以批量处理大量的液体");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:beng"}).addTooltip("§9并且集成了泵的功能 可以自行抽入水源并过滤为重水");
+
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nuclear_melt_detonator"}).addTooltip("§3Rank: §d§lA");
 
 
 

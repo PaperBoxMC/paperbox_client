@@ -144,7 +144,7 @@ addItemOutput(<additions:novaextended-crystal1>).setChance(0.01).
 build();
 
 //原子重置机-蓝图
-RecipeBuilder.newBuilder("blueprints_ARS","crafter_tier_2", 9600).
+RecipeBuilder.newBuilder("controller_ARS","crafter_tier_2", 9600).
 addEnergyPerTickInput(1200000).
 addItemInput(<mets:field_generator> * 64).
 addItemInput(<mets:field_generator> * 64).
@@ -155,7 +155,7 @@ addItemInput(<avaritia:resource:1> * 50).
 addItemInput(<extrabotany:buddhistrelics>).
 addItemInput(<avaritia:block_resource:1> * 6).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Atomic_resetter"})).
+addItemOutput(<modularcontroller:atomic_resetter_controller>).
 build();
 
 //==============================纯晶合成仪==============================
@@ -200,7 +200,7 @@ addEnergyPerTickOutput(25000000).
 build();
 
 //电磁发电机-蓝图
-RecipeBuilder.newBuilder("di_ci","crafter_tier_2", 600).
+RecipeBuilder.newBuilder("di_ci_controller","crafter_tier_2", 600).
 addEnergyPerTickInput(160000).
 addItemInput(<mets:geomagnetic_pedestal> * 64).
 addItemInput(<mets:geomagnetic_pedestal> * 64).
@@ -211,7 +211,7 @@ addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<mets:geomagnetic_antenna> * 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:di_ci"})).
+addItemOutput(<modularcontroller:di_ci_controller>).
 build();
 
 //==============================聚焦太阳能/大型聚焦太阳能==============================
@@ -230,7 +230,7 @@ addEnergyPerTickOutput(1500000).
 build();
 
 //聚焦太阳能-蓝图
-RecipeBuilder.newBuilder("solar_panel_0_blueprints", "mach_crafter", 1000).
+RecipeBuilder.newBuilder("controller_controller", "mach_crafter", 1000).
 addEnergyPerTickInput(1200).
 addItemInput(<mets:super_circuit> * 16).
 addItemInput(<mekanism:controlcircuit:3> * 16).
@@ -238,7 +238,7 @@ addItemInput(<advanced_solar_panels:machines:4> * 12).
 addItemInput(<mekanismgenerators:generator:5> * 16).
 addItemInput(<ore:blockSilver> , 48).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_0"})).
+addItemOutput(<modularcontroller:solar_panel_0_controller>).
 build();
 
 //大型聚焦太阳能-日间
@@ -256,7 +256,7 @@ addEnergyPerTickOutput(3000000).
 build();
 
 //大型聚焦太阳能-蓝图
-RecipeBuilder.newBuilder("solar_panel_1_blueprints", "crafter_tier_2", 600).
+RecipeBuilder.newBuilder("solar_panel_1_controller", "crafter_tier_2", 600).
 addEnergyPerTickInput(120000).
 addItemInput(<mets:super_circuit> * 32).
 addItemInput(<mekanism:controlcircuit:3> * 48).
@@ -264,7 +264,7 @@ addItemInput(<enderio:block_solar_panel:3> * 32).
 addItemInput(<mekanismgenerators:generator:5> * 16).
 addItemInput(<ore:blockSilver> , 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:solar_panel_1"})).
+addItemOutput(<modularcontroller:solar_panel_1_controller>).
 build();
 
 //==============================裂变反应堆T2 IC2==============================
@@ -286,13 +286,13 @@ build();
 
 //==============================α能量水晶/β能量水晶==============================
 //α水晶-蓝图
-RecipeBuilder.newBuilder("blueprints_Energy_crystal", "crafter_tier_2", 7200).
+RecipeBuilder.newBuilder("controller_Energy_crystal", "crafter_tier_2", 7200).
 addEnergyPerTickInput(750000).
 addItemInput(<mets:field_generator> * 64).
 addItemInput(<mets:field_generator> * 64).
 addItemInput(<mekanism:controlcircuit:3> * 60).
 addItemInput(<avaritia:block_resource:2> * 60).
-addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:advanced_interpreter"})).
+addItemInput(<modularcontroller:advanced_interpreter_controller>).
 addItemInput(<nuclearcraft:lithium_ion_battery_elite> * 10).
 addItemInput(<mets:living_circuit> * 64).
 addItemInput(<mets:living_circuit> * 64).
@@ -300,15 +300,15 @@ addItemInput(<extrabotany:blockorichalcos> * 6).
 addItemInput(<ore:dustCryotheum> , 64).
 addItemInput(<ore:dustCryotheum> , 64).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
+addItemOutput(<modularcontroller:energy_crystal_controller>).
 build();
 
 //β水晶-蓝图
-RecipeBuilder.newBuilder("blueprints_Energy_crystal_2", "crafter_tier_2", 512000).
+RecipeBuilder.newBuilder("controller_Energy_crystal_2", "crafter_tier_2", 512000).
 addEnergyPerTickInput(7500000).
-addItemInput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:Energy_crystal"})).
+addItemInput(<modularcontroller:energy_crystal_controller>).
 addItemInput(<custommc:item968>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:energy_crystal_2"})).
+addItemOutput(<modularcontroller:energy_crystal_2_controller>).
 build();
 
 //==============================混合燃料发电机==============================
@@ -461,7 +461,7 @@ addGasOutput("tritium" , 21000).
 build();
 
 //光质子注能器-蓝图
-RecipeBuilder.newBuilder("blueprints_neutron_activator", "crafter_tier_2", 1200).
+RecipeBuilder.newBuilder("controller_neutron_activator", "crafter_tier_2", 1200).
 addEnergyPerTickInput(12000).
 addItemInput(<mekanism:polyethene:2> * 32).
 addItemInput(<mets:super_circuit> * 64).
@@ -469,7 +469,7 @@ addItemInput(<mekanism:basicblock:8> * 32).
 addItemInput(<ore:blockCopper> , 48).
 addItemInput(<ic2:crafting:6> * 8).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:neutron_activator"})).
+addItemOutput(<modularcontroller:neutron_activator_controller>).
 build();
 
 //==============================核融起爆机==============================
@@ -507,31 +507,6 @@ build();
 
 //未完成-珠宝核心
 
-//奇点-铂
-RecipeBuilder.newBuilder("Sig:13", "nuclear_melt_detonator", 100).
-addEnergyPerTickInput(1000000000).
-addFluidInput(<liquid:hydrogen> * 64000).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<ore:blockPlatinum> , 64).
-addItemInput(<avaritia:resource:4>).
-addItemOutput(<avaritia:singularity:13>).
-build();
-
-//奇点-铱
-RecipeBuilder.newBuilder("Sig:14", "nuclear_melt_detonator", 100).
-addEnergyPerTickInput(1000000000).
-addFluidInput(<liquid:hydrogen> * 64000).
-addItemInput(<mets:super_iridium_compress_plate> * 64).
-addItemInput(<mets:super_iridium_compress_plate> * 64).
-addItemInput(<avaritia:resource:4>).
-addItemOutput(<avaritia:singularity:14>).
-build();
-
 //==============================粉碎机==============================
 //粉碎-圆石
 RecipeBuilder.newBuilder("item_shredder_cobblestone", "item_shredder", 30).
@@ -548,18 +523,18 @@ build();
 
 //==============================霍金恒星坍缩机==============================
 //霍金恒星坍缩机-蓝图
-RecipeBuilder.newBuilder("blueprints_star_collapser","crafter_tier_2", 7200).
+RecipeBuilder.newBuilder("controller_star_collapser","crafter_tier_2", 7200).
 addEnergyPerTickInput(500000).
 addItemInput(<ore:circuitUltimate> , 64).
 addItemInput(<enderio:item_capacitor_stellar> * 16).
 addItemInput(<enderio:block_alloy_endergy:3> * 32).
-addItemInput(<draconicevolution:draconium_block> * 16).
-addItemInput(<extrabotany:blockorichalcos> * 8).
+addItemInput(<draconicevolution:draconic_block> * 16).
+addItemInput(<extrabotany:blockorichalcos> * 6).
 addItemInput(<draconicevolution:particle_generator> * 32).
 addItemInput(<enderio:block_infinity:2> * 4).
 addItemInput(<ore:gemCrystalRGP>).
 addItemInput(<draconicevolution:reactor_component> * 6).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:star_collapser"})).
+addItemOutput(<modularcontroller:star_collapser_controller>).
 build();
 
 //混沌核心
@@ -710,7 +685,7 @@ addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b精密�
 build();
 
 //精密装配机-蓝图
-RecipeBuilder.newBuilder("blueprints_crafter_tier_2", "mach_crafter", 400).
+RecipeBuilder.newBuilder("controller_crafter_tier_2", "mach_crafter", 400).
 addEnergyPerTickInput(512).
 addItemInput(<mets:nano_living_metal> * 35).
 addItemInput(<mekanism:controlcircuit:3> * 50).
@@ -719,7 +694,7 @@ addItemInput(<avaritia:resource:1> * 8).
 addItemInput(<mets:te:22>).
 addItemInput(<ic2:resource:13> * 30).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"})).
+addItemOutput(<modularcontroller:crafter_tier_2_controller>).
 build();
 
 //==============================矿物提取机/小型钢矿钻/泰拉钢矿钻==============================
@@ -763,7 +738,6 @@ addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.25).
 addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.20).
 addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
 addItemOutput(<thermalfoundation:ore> * 5).setChance(0.20).
-addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.10).
 build();
 
 //矿物提取机-定向-铌铱铂龙柳钢
@@ -809,7 +783,6 @@ addItemOutput(<mets:niobium_ore>).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.1).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
-addItemOutput(<rftools:dimensional_shard_ore> * 4).setChance(0.1).
 addItemOutput(<tconstruct:ore:0> * 6).setChance(0.15).
 addItemOutput(<tconstruct:ore:1> * 6).setChance(0.15).
 addItemOutput(<additions:novaextended-ore8>).setChance(0.15).
@@ -822,7 +795,7 @@ addItemInput(<mets:field_generator> * 40).
 addItemInput(<ic2:mining_pipe> * 64).
 addItemInput(<botania:terrapick>).
 addItemInput(<ore:paper>).
-addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine:"modularmachinery:mana_ore_drill",display:{Lore:["§3Rank: §d§lA","§a使用魔力驱动的矿机","§b从地下较大范围内采集矿物","§d§m我保证这不是凝矿兰"]}})).
+addItemOutput(<modularcontroller:mana_ore_drill_controller>).
 build();
 
 //小型钢矿钻
@@ -848,7 +821,6 @@ addItemOutput(<mets:niobium_ore>).setChance(0.15).
 addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
 addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
-addItemOutput(<rftools:dimensional_shard_ore> * 2).setChance(0.06).
 build();
 
 //==============================物质熵变机==============================

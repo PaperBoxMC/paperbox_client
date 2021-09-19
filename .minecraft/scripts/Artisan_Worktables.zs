@@ -4,7 +4,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<ic2:resource:11>, <enderio:item_alloy_endergy_ingot:3>, <enderio:item_capacitor_stellar>, <enderio:item_alloy_endergy_ingot:3>, <ic2:resource:11>],
     [<ic2:plate:16>, <ic2:resource:13>, <extrabotany:material:1>, <ic2:resource:13>, <ic2:plate:13>],
-    [<mets:niobium_titanium_plate>, <ore:circuitElite>, <ore:superLapotronCrystal>, <ore:circuitElite>, <mets:niobium_titanium_plate>],
+    [<mets:niobium_titanium_plate>, <ore:circuitElite>, <mets:super_lapotron_crystal:*>, <ore:circuitElite>, <mets:niobium_titanium_plate>],
     [<ic2:plate:11>, <ore:plateWillowalloy>, <ic2:iridium_reflector>, <ore:plateWillowalloy>, <ic2:plate:15>],
     [<ic2:resource:11>, <thermalfoundation:material:326>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <thermalfoundation:material:358>, <ic2:resource:11>]])
   .addTool(<ore:artisansSpanner>, 120)
@@ -83,7 +83,7 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 100)
   .addTool(<ore:artisansQuill>, 50)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:bot_crafter"}))
+  .addOutput(<modularcontroller:bot_crafter_controller>)
   .setName("Artisan:008")
   .create();
 
@@ -171,7 +171,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 20)
   .addTool(<ore:artisansSpanner>, 50)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:niu_niu"}))
+  .addOutput(<modularcontroller:niu_niu_controller>)
   .setName("Artisan:017")
   .create();
 
@@ -186,7 +186,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 50)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 60)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Hybrid_generator"}))
+  .addOutput(<modularcontroller:hybrid_generator_controller>)
   .setName("Artisan:018")
   .create();
 
@@ -201,7 +201,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 50)
   .addTool(<ore:artisansSpanner>, 80)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Ultimate_Combiner"}))
+  .addOutput(<modularcontroller:ultimate_combiner_controller>)
   .setName("Artisan:019")
   .create();
 
@@ -212,11 +212,11 @@ RecipeBuilder.get("designer")
     [<minecraft:glowstone>, <ic2:mining_pipe>, <mets:super_circuit>, <ic2:mining_pipe>, <minecraft:glowstone>],
     [null, <ic2:mining_pipe>, null, <ic2:mining_pipe>, null],
     [null, <ic2:iridium_drill>, null, <ic2:iridium_drill>, null]])
-  .setSecondaryIngredients([<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill"}), <minecraft:paper>, <ic2:mining_pipe> * 60, <mets:super_circuit> * 31])
+  .setSecondaryIngredients([<modularcontroller:small_ore_drill_controller>, <minecraft:paper>, <ic2:mining_pipe> * 60, <mets:super_circuit> * 32])
   .addTool(<ore:artisansPencil>, 125)
   .addTool(<ore:artisansTSquare>, 75)
   .addTool(<ore:artisansSpanner>, 50)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:Mineral_extractor"}))
+  .addOutput(<modularcontroller:mineral_extractor_controller>)
   .setName("Artisan:020")
   .create();
 
@@ -231,7 +231,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 40)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 25)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_ore_drill"}))
+  .addOutput(<modularcontroller:small_ore_drill_controller>)
   .setName("Artisan:021")
   .create();
 
@@ -498,50 +498,6 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSolderer>, 6)
   .addOutput(<mets:super_circuit> * 2)
   .setName("Artisan:052")
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, null, null, <avaritia:resource:3>, null],
-    [<avaritia:resource:3>, <mets:super_iridium_compress_plate>, <avaritia:resource:3>, <mets:super_iridium_compress_plate>, null],
-    [null, <avaritia:resource:3>, <appliedenergistics2:material:47>, <avaritia:resource:3>, null],
-    [null, <mets:super_iridium_compress_plate>, <avaritia:resource:3>, <mets:super_iridium_compress_plate>, <avaritia:resource:3>],
-    [null, <avaritia:resource:3>, null, null, null]])
-  .addTool(<ore:artisansGrimoire>, 15)
-  .addTool(<ore:artisansAthame>, 10)
-  .addOutput(<avaritia:singularity:14>)
-  .setExtraOutputOne(<avaritia:singularity:14>, 0.05)
-  .setName("Artisan:053")
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, null, null, <avaritia:resource:3>, null],
-    [<avaritia:resource:3>, <thermalfoundation:storage:6>, <avaritia:resource:3>, <thermalfoundation:storage:6>, null],
-    [null, <avaritia:resource:3>, <appliedenergistics2:material:47>, <avaritia:resource:3>, null],
-    [null, <thermalfoundation:storage:6>, <avaritia:resource:3>, <thermalfoundation:storage:6>, <avaritia:resource:3>],
-    [null, <avaritia:resource:3>, null, null, null]])
-  .setFluid(<liquid:platinum> * 14400)
-  .addTool(<ore:artisansGrimoire>, 20)
-  .addTool(<ore:artisansAthame>, 10)
-  .addOutput(<avaritia:singularity:13>)
-  .setExtraOutputOne(<avaritia:singularity:13>, 0.1)
-  .setName("Artisan:054")
-  .create();
-
-RecipeBuilder.get("mage")
-  .setShaped([
-    [null, null, null, <avaritia:resource:3>, null],
-    [<avaritia:resource:3>, <thermalfoundation:storage_alloy:1>, <avaritia:resource:3>, <thermalfoundation:storage_alloy:1>, null],
-    [null, <avaritia:resource:3>, <avaritia:singularity:3>, <avaritia:resource:3>, null],
-    [null, <thermalfoundation:storage_alloy:1>, <avaritia:resource:3>, <thermalfoundation:storage_alloy:1>, <avaritia:resource:3>],
-    [null, <avaritia:resource:3>, null, null, null]])
-  .setFluid(<liquid:electrum> * 14400)
-  .addTool(<ore:artisansGrimoire>, 30)
-  .addTool(<ore:artisansAthame>, 15)
-  .addOutput(<avaritia:singularity:12>)
-  .setExtraOutputOne(<avaritia:singularity:12>, 0.2)
-  .setName("Artisan:055")
   .create();
 
 RecipeBuilder.get("engineer")
@@ -858,7 +814,7 @@ RecipeBuilder.get("engineer")
     [<mets:advanced_iridium_sword>, <ic2:crafting:3>, null, null, null],
     [<mets:super_iridium_compress_plate>, <extrabotany:lens:6>, <ic2:crafting:3>, null, null],
     [null, <mets:super_iridium_compress_plate>, <mets:advanced_electric_submachine_gun>, <ic2:crafting:3>, null],
-    [null, null, <mets:super_iridium_compress_plate>, <ore:superLapotronCrystal>, <ic2:crafting:3>],
+    [null, null, <mets:super_iridium_compress_plate>, <mets:super_lapotron_crystal:*>, <ic2:crafting:3>],
     [null, null, null, <mets:super_iridium_compress_plate>, <ore:circuitUltimate>]])
   .setSecondaryIngredients([<botania:manaringgreater>.withTag({mana: 2000000})])
   .addTool(<ore:artisansSpanner>, 96)
@@ -1002,7 +958,7 @@ RecipeBuilder.get("engineer")
     [<enderio:item_material:3>, <mets:te:17>, <enderio:item_material:3>, <mets:te:17>, <enderio:item_material:3>],
     [<ic2:crafting:4>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ic2:crafting:4>],
     [<ore:circuitElite>, <minecraft:daylight_detector>, <mets:super_iridium_compress_plate>, <minecraft:daylight_detector>, <ore:circuitElite>],
-    [<ic2:crafting:4>, <ore:circuitElite>, <ore:superLapotronCrystal>, <ore:circuitElite>, <ic2:crafting:4>],
+    [<ic2:crafting:4>, <ore:circuitElite>, <mets:super_lapotron_crystal:*>, <ore:circuitElite>, <ic2:crafting:4>],
     [<ore:circuitUltimate>, <ic2:neutron_reflector>, <ore:circuitUltimate>, <ic2:neutron_reflector>, <ore:circuitUltimate>]])
   .addTool(<ore:artisansSpanner>, 20)
   .addTool(<ore:artisansSolderer>, 10)
@@ -1015,7 +971,7 @@ RecipeBuilder.get("engineer")
     [<enderio:block_solar_panel:3>, <mets:te:18>, <enderio:block_solar_panel:3>, <mets:te:18>, <enderio:block_solar_panel:3>],
     [<ic2:crafting:4>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ore:enlightenedFusedQuartz>, <ic2:crafting:4>],
     [<ore:circuitUltimate>, <minecraft:daylight_detector>, <ic2:crafting:4>, <minecraft:daylight_detector>, <ore:circuitUltimate>],
-    [<mets:super_iridium_compress_plate>, <ore:superLapotronCrystal>, <ore:circuitUltimate>, <ore:superLapotronCrystal>, <mets:super_iridium_compress_plate>],
+    [<mets:super_iridium_compress_plate>, <mets:super_lapotron_crystal:*>, <ore:circuitUltimate>, <mets:super_lapotron_crystal:*>, <mets:super_iridium_compress_plate>],
     [<mets:living_circuit>, <ic2:thick_neutron_reflector>, <mets:living_circuit>, <ic2:thick_neutron_reflector>, <mets:living_circuit>]])
   .addTool(<ore:artisansSpanner>, 60)
   .addTool(<ore:artisansSolderer>, 30)
@@ -1033,7 +989,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 40)
   .addTool(<ore:artisansTSquare>, 30)
   .addTool(<ore:artisansSpanner>, 32)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:item_shredder"}))
+  .addOutput(<modularcontroller:item_shredder_controller>)
   .setName("Artisan:095")
   .create();
 
@@ -1047,7 +1003,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 15)
   .addTool(<ore:artisansTSquare>, 15)
   .addTool(<ore:artisansSpanner>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mach_crafter"}))
+  .addOutput(<modularcontroller:mach_crafter_controller>)
   .setName("Artisan:096")
   .create();
 
@@ -1061,7 +1017,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 25)
   .addTool(<ore:artisansTSquare>, 25)
   .addTool(<ore:artisansSpanner>, 15)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cosmic_ray_receiver"}))
+  .addOutput(<modularcontroller:cosmic_ray_receiver_controller>)
   .setName("Artisan:097")
   .create();
 
@@ -1075,7 +1031,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 45)
   .addTool(<ore:artisansTSquare>, 30)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ion_generator"}))
+  .addOutput(<modularcontroller:ion_generator_controller>)
   .setName("Artisan:098")
   .create();
 
@@ -1088,20 +1044,20 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 50)
   .addTool(<ore:artisansTSquare>, 35)
   .addTool(<ore:artisansSpanner>, 20)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter"}))
+  .addOutput(<modularcontroller:the_interpreter_controller>)
   .setName("Artisan:099")
   .create();
 
 RecipeBuilder.get("designer")
   .setShaped([
     [null, <ore:circuitUltimate>, <super_solar_panels:crafting:10>, <ore:circuitUltimate>, null],
-    [null, <avaritia:block_resource>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:the_interpreter"}), <avaritia:block_resource>, null],
+    [null, <avaritia:block_resource>, <modularcontroller:the_interpreter_controller>, <avaritia:block_resource>, null],
     [null, <ore:circuitUltimate>, <avaritia:block_resource:2>, <ore:circuitUltimate>, null],
     [<ore:circuitUltimate>, <custommc:item535>, <extrabotany:material:1>, <custommc:item535>, <ore:circuitUltimate>]])
   .addTool(<ore:artisansPencil>, 150)
   .addTool(<ore:artisansTSquare>, 85)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_interpreter"}))
+  .addOutput(<modularcontroller:advanced_interpreter_controller>)
   .setName("Artisan:100")
   .create();
 
@@ -1112,7 +1068,7 @@ RecipeBuilder.get("designer")
     [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]])
   .addTool(<ore:artisansSpanner>, 25)
   .addTool(<ore:artisansSolderer>, 15)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:energy_bridge"}))
+  .addOutput(<modularcontroller:energy_bridge_controller>)
   .setName("Artisan:101")
   .create();
 
@@ -1120,14 +1076,14 @@ RecipeBuilder.get("designer")
   .setShaped([
     [<botania:storage:3>, <botania:storage>, <botania:pool:3>, <botania:storage>, <botania:storage:3>],
     [null, <botania:pool:3>, <mets:living_circuit>, <botania:pool:3>, null],
-    [null, <avaritia:block_resource:2>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_collector"}), <avaritia:block_resource:2>, null],
+    [null, <avaritia:block_resource:2>, <modularcontroller:mana_collector_controller>, <avaritia:block_resource:2>, null],
     [null, <mets:living_circuit>, <extrabotany:quantummanabuffer>, <mets:living_circuit>, null],
     [<botania:manaresource:4>, <mets:living_circuit>, <extrabotany:blockorichalcos>, <mets:living_circuit>, <botania:manaresource:4>]])
   .setSecondaryIngredients([<avaritia:block_resource:2> * 10])
   .addTool(<ore:artisansPencil>, 320)
   .addTool(<ore:artisansTSquare>, 225)
   .addTool(<ore:artisansSpanner>, 285)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:eco-t7"}))
+  .addOutput(<modularcontroller:eco-t7_controller>)
   .setName("Artisan:102")
   .create();
 
@@ -1142,7 +1098,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 75)
   .addTool(<ore:artisansTSquare>, 50)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:reactor_ic2_2"}))
+  .addOutput(<modularcontroller:reactor_ic2_2_controller>)
   .setName("Artisan:103")
   .create();
 
@@ -1156,7 +1112,7 @@ RecipeBuilder.get("designer")
   .addTool(<ore:artisansPencil>, 125)
   .addTool(<ore:artisansTSquare>, 75)
   .addTool(<ore:artisansSpanner>, 75)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ultimate_zhongzi"}))
+  .addOutput(<modularcontroller:ultimate_zhongzi_controller>)
   .setName("Artisan:104")
   .create();
 
@@ -1196,7 +1152,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansPan>, 11)
   .addTool(<ore:artisansPan>, 45)
   .addTool(<ore:artisansPan>, 14)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:biomass/biogas_generator"}))
+  .addOutput(<modularcontroller:biomass/biogas_generator_controller>)
   .setName("Artisan:107")
   .create();
 
@@ -1211,7 +1167,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 20)
   .addTool(<ore:artisansPencil>, 30)
   .addTool(<ore:artisansTSquare>, 25)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:board_assembly_room"}))
+  .addOutput(<modularcontroller:board_assembly_room_controller>)
   .setName("Artisan:108")
   .create();
 
@@ -1226,7 +1182,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 35)
   .addTool(<ore:artisansPencil>, 45)
   .addTool(<ore:artisansTSquare>, 30)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:pure_crystal_synthesis_instrument"}))
+  .addOutput(<modularcontroller:pure_crystal_synthesis_instrument_controller>)
   .setName("Artisan:109")
   .create();
 
@@ -1241,7 +1197,7 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansSpanner>, 10)
   .addTool(<ore:artisansPencil>, 15)
   .addTool(<ore:artisansTSquare>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:purpur_furance"}))
+  .addOutput(<modularcontroller:purpur_furance_controller>)
   .setName("Artisan:110")
   .create();
 
@@ -1256,7 +1212,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_spanner_wood>, 50)
   .addTool(<artisanworktables:artisans_pencil_wood>, 75)
   .addTool(<artisanworktables:artisans_tsquare_wood>, 60)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mineral_dissolver"}))
+  .addOutput(<modularcontroller:mineral_dissolver_controller>)
   .setName("Artisan:111")
   .create();
 
@@ -1271,7 +1227,7 @@ RecipeBuilder.get("engineer")
   .addTool(<artisanworktables:artisans_spanner_wood>, 10)
   .addTool(<artisanworktables:artisans_pencil_wood>, 15)
   .addTool(<artisanworktables:artisans_tsquare_wood>, 10)
-  .addOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mechanical_housing_molding_machine"}))
+  .addOutput(<modularcontroller:mechanical_housing_molding_machine_controller>)
   .setName("Artisan:112")
   .create();
 
@@ -1436,4 +1392,356 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansDriver>, 100)
   .addOutput(<tinymobfarm:diamond_farm>)
   .setName("Artisan:124")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<minecraft:stonebrick>, <ore:ingotSteel>, null, null, null],
+    [<ore:ingotSteel>, <minecraft:stonebrick>, <ore:ingotIron>, null, null],
+    [null, <ore:ingotIron>, <minecraft:stonebrick>, <ore:ingotIron>, null],
+    [null, null, <ore:ingotIron>, <minecraft:stonebrick>, <ore:ingotSteel>],
+    [null, null, null, <ore:ingotSteel>, <minecraft:stonebrick>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<openmodularturrets:intermediate_tiered:10>)
+  .setName("Artisan:125")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotSteel>, <ore:ingotDarkSteel>, null, null, null],
+    [<ore:ingotDarkSteel>, <ore:ingotSteel>, <ore:ingotElectricalSteel>, null, null],
+    [null, <ore:ingotElectricalSteel>, <openmodularturrets:intermediate_tiered:10>, <ore:ingotElectricalSteel>, null],
+    [null, null, <ore:ingotElectricalSteel>, <ore:ingotSteel>, <ore:ingotDarkSteel>],
+    [null, null, null, <ore:ingotDarkSteel>, <ore:ingotSteel>]])
+  .addTool(<ore:artisansHammer>, 10)
+  .addOutput(<openmodularturrets:intermediate_tiered:11>)
+  .setName("Artisan:126")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotDarkSteel>, <ore:ingotSignalum>, null, null, null],
+    [<ore:ingotSignalum>, <ore:ingotVibrantAlloy>, <ore:ingotLumium>, null, null],
+    [null, <ore:ingotLumium>, <openmodularturrets:intermediate_tiered:11>, <ore:ingotLumium>, null],
+    [null, null, <ore:ingotLumium>, <ore:ingotVibrantAlloy>, <ore:ingotSignalum>],
+    [null, null, null, <ore:ingotSignalum>, <ore:ingotDarkSteel>]])
+  .addTool(<ore:artisansHammer>, 20)
+  .addOutput(<openmodularturrets:intermediate_tiered:12>)
+  .setName("Artisan:127")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<ore:ingotMelodicAlloy>, <ore:ingotEnderium>, null, null, null],
+    [<ore:ingotEnderium>, <ore:ingotIridium>, <ore:ingotDraconium>, null, null],
+    [null, <ore:ingotDraconium>, <openmodularturrets:intermediate_tiered:12>, <ore:ingotDraconium>, null],
+    [null, null, <ore:ingotDraconium>, <ore:ingotIridium>, <ore:ingotEnderium>],
+    [null, null, null, <ore:ingotEnderium>, <ore:ingotMelodicAlloy>]])
+  .addTool(<ore:artisansHammer>, 40)
+  .addOutput(<openmodularturrets:intermediate_tiered:13>)
+  .setName("Artisan:128")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<enderio:item_alloy_endergy_ingot:3>, <redstonerepository:material:1>, null, null, null],
+    [<redstonerepository:material:1>, <additions:novaextended-fallen_star_alloy>, <draconicevolution:draconic_ingot>, null, null],
+    [null, <draconicevolution:draconic_ingot>, <openmodularturrets:intermediate_tiered:13>, <draconicevolution:draconic_ingot>, null],
+    [null, null, <draconicevolution:draconic_ingot>, <additions:novaextended-fallen_star_alloy>, <redstonerepository:material:1>],
+    [null, null, null, <redstonerepository:material:1>, <enderio:item_alloy_endergy_ingot:3>]])
+  .addTool(<ore:artisansHammer>, 80)
+  .addOutput(<openmodularturrets:intermediate_tiered:14>)
+  .setName("Artisan:129")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, null, <ore:ingotSteel>, null, null],
+    [null, null, null, <ore:ingotSteel>, null],
+    [<ore:ingotSteel>, null, <ore:dustRedstone>, <minecraft:stonebrick>, <ore:ingotIron>],
+    [null, <ore:ingotSteel>, <minecraft:stonebrick>, <ore:ingotIron>, null],
+    [null, null, <ore:ingotIron>, null, null]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<openmodularturrets:intermediate_tiered:5>)
+  .setName("Artisan:130")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, null, <ore:ingotElectricalSteel>, null, null],
+    [null, null, null, <ore:ingotElectricalSteel>, null],
+    [<ore:ingotElectricalSteel>, null, <openmodularturrets:intermediate_tiered:5>, <enderio:item_basic_capacitor>, <ore:ingotSteel>],
+    [null, <ore:ingotElectricalSteel>, <enderio:item_basic_capacitor>, <ore:ingotSteel>, null],
+    [null, null, <ore:ingotSteel>, null, null]])
+  .addTool(<ore:artisansHammer>, 10)
+  .addOutput(<openmodularturrets:intermediate_tiered:6>)
+  .setName("Artisan:131")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, null, <ore:ingotEnergeticAlloy>, null, null],
+    [null, null, null, <ore:ingotDraconium>, null],
+    [<ore:ingotEnergeticAlloy>, null, <openmodularturrets:intermediate_tiered:6>, <enderio:item_basic_capacitor:1>, <ore:ingotDarkSteel>],
+    [null, <ore:ingotDraconium>, <enderio:item_basic_capacitor:1>, <ore:ingotDarkSteel>, null],
+    [null, null, <ore:ingotDarkSteel>, null, null]])
+  .addTool(<ore:artisansHammer>, 20)
+  .addOutput(<openmodularturrets:intermediate_tiered:7>)
+  .setName("Artisan:132")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, null, <ore:ingotMelodicAlloy>, null, null],
+    [null, null, null, <ore:ingotIridium>, null],
+    [<ore:ingotMelodicAlloy>, null, <openmodularturrets:intermediate_tiered:7>, <enderio:item_basic_capacitor:2>, <ore:ingotEnderium>],
+    [null, <ore:ingotIridium>, <enderio:item_basic_capacitor:2>, <ore:ingotEnderium>, null],
+    [null, null, <ore:ingotEnderium>, null, null]])
+  .addTool(<ore:artisansHammer>, 40)
+  .addOutput(<openmodularturrets:intermediate_tiered:8>)
+  .setName("Artisan:133")
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, null, <ore:ingotGelidEnderium>, null, null],
+    [null, null, null, <ore:ingotStellarAlloy>, null],
+    [<ore:ingotGelidEnderium>, null, <openmodularturrets:intermediate_tiered:8>, <enderio:item_capacitor_melodic>, <ore:ingotDraconiumAwakened>],
+    [null, <ore:ingotStellarAlloy>, <enderio:item_capacitor_melodic>, <ore:ingotDraconiumAwakened>, null],
+    [null, null, <ore:ingotDraconiumAwakened>, null, null]])
+  .addTool(<ore:artisansHammer>, 80)
+  .addOutput(<openmodularturrets:intermediate_tiered:9>)
+  .setName("Artisan:134")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, null, <ore:ingotDraconium>, <ore:ingotDraconium>],
+    [<ore:ingotRedstoneAlloy>, <enderio:item_basic_capacitor:2>, null, null, <ore:ingotDraconium>],
+    [null, null, <draconicevolution:tool_upgrade:3>, null, null],
+    [<ore:ingotDraconium>, null, null, <enderio:item_basic_capacitor:2>, <ore:ingotRedstoneAlloy>],
+    [<ore:ingotDraconium>, <ore:ingotDraconium>, null, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>]])
+  .addTool(<ore:artisansSpanner>, 50)
+  .addTool(<ore:artisansSolderer>, 40)
+  .addOutput(<openmodularturrets:addon_meta:1>)
+  .setName("Artisan:135")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, null, <ore:ingotDraconium>, <ore:ingotDraconium>],
+    [<ore:ingotRedstoneAlloy>, <enderio:item_basic_capacitor:1>, null, null, <ore:ingotDraconium>],
+    [null, null, <enderio:block_solar_panel:4>, null, null],
+    [<ore:ingotDraconium>, null, null, <enderio:item_basic_capacitor:1>, <ore:ingotRedstoneAlloy>],
+    [<ore:ingotDraconium>, <ore:ingotDraconium>, null, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>]])
+  .addTool(<ore:artisansSpanner>, 40)
+  .addTool(<ore:artisansSolderer>, 20)
+  .addOutput(<openmodularturrets:addon_meta:6>)
+  .setName("Artisan:136")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, null, <ore:ingotGelidEnderium>, <ore:ingotGelidEnderium>],
+    [<ore:ingotStellarAlloy>, <enderio:item_capacitor_melodic>, null, null, <ore:ingotGelidEnderium>],
+    [null, null, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 21}]}), null, null],
+    [<ore:ingotGelidEnderium>, null, null, <enderio:item_capacitor_melodic>, <ore:ingotStellarAlloy>],
+    [<ore:ingotGelidEnderium>, <ore:ingotGelidEnderium>, null, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]])
+  .addTool(<ore:artisansSpanner>, 60)
+  .addTool(<ore:artisansSolderer>, 50)
+  .addOutput(<openmodularturrets:addon_meta:7>)
+  .setName("Artisan:137")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>, null, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>],
+    [<enderio:item_alloy_ingot:1>, <enderio:item_basic_capacitor:1>, null, null, <enderio:item_alloy_ingot:6>],
+    [null, null, <enderio:block_vacuum_chest>, null, null],
+    [<enderio:item_alloy_ingot:6>, null, null, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:1>],
+    [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, null, <enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>]])
+  .addTool(<ore:artisansSpanner>, 40)
+  .addTool(<ore:artisansSolderer>, 20)
+  .addOutput(<openmodularturrets:addon_meta:3>)
+  .setName("Artisan:138")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <minecraft:redstone>, null, null],
+    [null, <ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>, null],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [null, <ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>, null],
+    [null, null, <minecraft:redstone>, null, null]])
+  .addTool(<ore:artisansSpanner>, 10)
+  .addOutput(<openmodularturrets:intermediate_tiered> * 2)
+  .setName("Artisan:139")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <ore:dustRedstone>, null, null],
+    [null, <ore:ingotElectricalSteel>, <ore:circuitBasic>, <ore:ingotElectricalSteel>, null],
+    [<ore:ingotSteel>, <openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered>, <openmodularturrets:intermediate_regular>, <ore:ingotSteel>],
+    [null, <ore:ingotElectricalSteel>, <ore:circuitBasic>, <ore:ingotElectricalSteel>, null],
+    [null, null, <ore:dustRedstone>, null, null]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<openmodularturrets:intermediate_tiered:1> * 2)
+  .setName("Artisan:140")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <ore:ingotRedstoneAlloy>, null, null],
+    [null, <ore:ingotMelodicAlloy>, <ore:circuitAdvanced>, <ore:ingotDraconium>, null],
+    [<enderio:item_alloy_ingot:1>, <openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:1>, <openmodularturrets:intermediate_regular>, <enderio:item_alloy_ingot:1>],
+    [null, <ore:ingotDraconium>, <ore:circuitAdvanced>, <ore:ingotMelodicAlloy>, null],
+    [null, null, <ore:ingotRedstoneAlloy>, null, null]])
+  .addTool(<ore:artisansSpanner>, 40)
+  .addOutput(<openmodularturrets:intermediate_tiered:2> * 2)
+  .setName("Artisan:141")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <ore:ingotRedstoneAlloy>, null, null],
+    [null, <ore:ingotEnderium>, <ore:circuitElite>, <ore:ingotIridium>, null],
+    [<ore:ingotEnergeticAlloy>, <openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:2>, <openmodularturrets:intermediate_regular>, <ore:ingotEnergeticAlloy>],
+    [null, <ore:ingotIridium>, <ore:circuitElite>, <ore:ingotEnderium>, null],
+    [null, null, <ore:ingotRedstoneAlloy>, null, null]])
+  .addTool(<ore:artisansSpanner>, 80)
+  .addOutput(<openmodularturrets:intermediate_tiered:3> * 2)
+  .setName("Artisan:142")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <ore:ingotEnergeticAlloy>, null, null],
+    [null, <ore:ingotGelidEnderium>, <ore:circuitUltimate>, <ore:ingotStellarAlloy>, null],
+    [<draconicevolution:draconic_ingot>, <openmodularturrets:intermediate_regular>, <openmodularturrets:intermediate_tiered:3>, <openmodularturrets:intermediate_regular>, <draconicevolution:draconic_ingot>],
+    [null, <ore:ingotStellarAlloy>, <ore:circuitUltimate>, <ore:ingotGelidEnderium>, null],
+    [null, null, <ore:ingotEnergeticAlloy>, null, null]])
+  .addTool(<ore:artisansSpanner>, 160)
+  .addOutput(<openmodularturrets:intermediate_tiered:4> * 2)
+  .setName("Artisan:143")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <mets:field_generator>, null, null],
+    [null, null, <openmodularturrets:intermediate_regular>, null, null],
+    [null, <ore:circuitAdvanced>, <enderio:item_material:1>, <ore:circuitAdvanced>, null],
+    [<ore:ingotIridium>, null, <openmodularturrets:intermediate_tiered:2>, null, <ore:ingotIridium>],
+    [<ore:ingotIridium>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotIridium>]])
+  .addTool(<ore:artisansSpanner>, 60)
+  .addOutput(<openmodularturrets:relativistic_turret>)
+  .setName("Artisan:144")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <ore:itemEnderCrystal>, null, null],
+    [null, null, <openmodularturrets:intermediate_regular>, null, null],
+    [null, <ore:circuitElite>, <enderio:item_material:66>, <ore:circuitElite>, null],
+    [<ore:ingotEnderium>, null, <openmodularturrets:intermediate_tiered:3>, null, <ore:ingotEnderium>],
+    [<ore:ingotEnderium>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotEnderium>]])
+  .addTool(<ore:artisansSpanner>, 120)
+  .addOutput(<openmodularturrets:teleporter_turret>)
+  .setName("Artisan:145")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <openmodularturrets:intermediate_tiered:13>, null, null],
+    [null, null, <openmodularturrets:intermediate_tiered:13>, null, null],
+    [null, <ore:circuitElite>, <openmodularturrets:intermediate_tiered:8>, <ore:circuitElite>, null],
+    [<ore:ingotEnderium>, null, <openmodularturrets:intermediate_tiered:3>, null, <ore:ingotEnderium>],
+    [<ore:ingotEnderium>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotEnderium>]])
+  .addTool(<ore:artisansSpanner>, 120)
+  .addOutput(<openmodularturrets:rocket_turret>)
+  .setName("Artisan:146")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, null, <openmodularturrets:intermediate_tiered:14>, null, null],
+    [null, null, <mets:diamond_lens>, null, null],
+    [null, <ore:circuitUltimate>, <enderio:item_material:54>, <ore:circuitUltimate>, null],
+    [<ore:ingotDraconiumAwakened>, null, <openmodularturrets:intermediate_tiered:4>, null, <ore:ingotDraconiumAwakened>],
+    [<ore:ingotDraconiumAwakened>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotDraconiumAwakened>]])
+  .addTool(<ore:artisansSpanner>, 240)
+  .addOutput(<openmodularturrets:laser_turret>)
+  .setName("Artisan:147")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <ic2:crafting:5>, null, <ic2:crafting:5>, null],
+    [null, <openmodularturrets:intermediate_tiered:14>, null, <openmodularturrets:intermediate_tiered:14>, null],
+    [null, <ic2:crafting:5>, null, <ic2:crafting:5>, null],
+    [<ore:ingotDraconiumAwakened>, <ore:circuitUltimate>, <openmodularturrets:intermediate_tiered:9>, <ore:circuitUltimate>, <ore:ingotDraconiumAwakened>],
+    [<ore:ingotStellarAlloy>, <enderio:item_material:54>, <openmodularturrets:intermediate_tiered:4>, <enderio:item_material:54>, <ore:ingotStellarAlloy>]])
+  .addTool(<ore:artisansSpanner>, 240)
+  .addOutput(<openmodularturrets:rail_gun_turret>)
+  .setName("Artisan:148")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>],
+    [<minecraft:stonebrick>, null, <ore:alloyBasic>, null, <minecraft:stonebrick>],
+    [<minecraft:stonebrick>, <openmodularturrets:intermediate_tiered>, <ic2:resource:12>, <openmodularturrets:intermediate_tiered>, <minecraft:stonebrick>],
+    [<minecraft:stonebrick>, null, <ore:alloyBasic>, null, <minecraft:stonebrick>],
+    [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]])
+  .addTool(<ore:artisansSpanner>, 10)
+  .addOutput(<openmodularturrets:turret_base>)
+  .setName("Artisan:149")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotSteel>, <ore:ingotSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<ore:ingotElectricalSteel>, null, <ore:ingotRedstoneAlloy>, null, <ore:ingotElectricalSteel>],
+    [<ore:ingotElectricalSteel>, <openmodularturrets:intermediate_tiered:1>, <ic2:resource:13>, <openmodularturrets:intermediate_tiered:1>, <ore:ingotElectricalSteel>],
+    [<ore:ingotElectricalSteel>, null, <ore:ingotRedstoneAlloy>, null, <ore:ingotElectricalSteel>],
+    [<ore:ingotSteel>, <ore:ingotSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotSteel>, <ore:ingotSteel>]])
+  .addTool(<ore:artisansSpanner>, 20)
+  .addOutput(<openmodularturrets:turret_base:1>)
+  .setName("Artisan:150")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotIridium>, <openmodularturrets:intermediate_regular>, <ore:ingotDarkSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotIridium>],
+    [<ore:ingotDraconium>, <ore:ingotElectrumFlux>, null, <ore:ingotElectrumFlux>, <ore:ingotDraconium>],
+    [<ore:ingotDraconium>, <openmodularturrets:intermediate_tiered:2>, <enderio:item_material:1>, <openmodularturrets:intermediate_tiered:2>, <ore:ingotDraconium>],
+    [<ore:ingotDraconium>, <ore:ingotElectrumFlux>, null, <ore:ingotElectrumFlux>, <ore:ingotDraconium>],
+    [<ore:ingotIridium>, <openmodularturrets:intermediate_regular>, <ore:ingotDarkSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotIridium>]])
+  .addTool(<ore:artisansSpanner>, 40)
+  .addOutput(<openmodularturrets:turret_base:2>)
+  .setName("Artisan:151")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotEnderium>, <openmodularturrets:intermediate_regular>, <ore:ingotDarkSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotEnderium>],
+    [<ore:ingotMelodicAlloy>, <ore:ingotElectrumFlux>, null, <ore:ingotElectrumFlux>, <ore:ingotMelodicAlloy>],
+    [<ore:ingotMelodicAlloy>, <openmodularturrets:intermediate_tiered:3>, <enderio:item_material:66>, <openmodularturrets:intermediate_tiered:3>, <ore:ingotMelodicAlloy>],
+    [<ore:ingotMelodicAlloy>, <ore:ingotElectrumFlux>, null, <ore:ingotElectrumFlux>, <ore:ingotMelodicAlloy>],
+    [<ore:ingotEnderium>, <openmodularturrets:intermediate_regular>, <ore:ingotDarkSteel>, <openmodularturrets:intermediate_regular>, <ore:ingotEnderium>]])
+  .addTool(<ore:artisansSpanner>, 80)
+  .addOutput(<openmodularturrets:turret_base:3>)
+  .setName("Artisan:152")
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotDraconiumAwakened>, <openmodularturrets:intermediate_regular>, <ore:ingotStellarAlloy>, <openmodularturrets:intermediate_regular>, <ore:ingotDraconiumAwakened>],
+    [<ore:ingotGelidEnderium>, <ore:ingotSignalum>, null, <ore:ingotSignalum>, <ore:ingotGelidEnderium>],
+    [<ore:ingotFallenStarAlloy>, <openmodularturrets:intermediate_tiered:4>, <enderio:item_material:54>, <openmodularturrets:intermediate_tiered:4>, <ore:ingotFallenStarAlloy>],
+    [<ore:ingotGelidEnderium>, <ore:ingotSignalum>, null, <ore:ingotSignalum>, <ore:ingotGelidEnderium>],
+    [<ore:ingotDraconiumAwakened>, <openmodularturrets:intermediate_regular>, <ore:ingotStellarAlloy>, <openmodularturrets:intermediate_regular>, <ore:ingotDraconiumAwakened>]])
+  .addTool(<ore:artisansSpanner>, 160)
+  .addOutput(<openmodularturrets:turret_base:4>)
+  .setName("Artisan:153")
   .create();

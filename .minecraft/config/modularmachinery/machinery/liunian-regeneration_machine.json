@@ -1,5 +1,5 @@
 {
-     "registryname": "regeneration_machine",
+    "registryname": "regeneration_machine",
     "localizedname": "§b永恒§6再生§e机",
     "requires-blueprint": true,
     "parts": [
@@ -7,7 +7,6 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            
             "elements": [
                 "modularmachinery:blockoutputbus@6"
             ]
@@ -16,7 +15,6 @@
             "x": 0,
             "y": 0,
             "z": 0,
-            
             "elements": [
                 "modularmachinery:blockcontroller@2"
             ]
@@ -33,7 +31,6 @@
             "x": 1,
             "y": 0,
             "z": 0,
-           
             "elements": [
                 "modularmachinery:blockinputbus@6"
             ]
