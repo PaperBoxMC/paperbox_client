@@ -176,7 +176,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "casings_energy"
+                "modularmachinery:blockenergyoutputhatch"
             ]
         },
         {

@@ -238,6 +238,7 @@ recipes.remove(<ae2stuff:inscriber>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<fluxnetworks:flux>, [<ore:dustObsidian>, <ore:alloyBasic>, <ore:dustBedrock>]);
 recipes.addShapeless(<minecraft:dragon_breath>, [<minecraft:skull:5>.giveBack(<minecraft:skull:5>), <minecraft:glass_bottle>]);
 recipes.addShapeless(<nuclearcraft:compound:2> * 4, [<minecraft:redstone>, <ore:alloyBasic>, <ore:dustGlowstone>, <ore:dustGlowstone>]);
 recipes.addShapeless(<gugu-utils:environmenthatch>, [<minecraft:daylight_detector>, <ore:alloyBasic>, <modularmachinery:blockcasing>]);

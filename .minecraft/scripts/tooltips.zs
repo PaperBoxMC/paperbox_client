@@ -38,6 +38,7 @@
 <extrabotany:firstfractal>.addTooltip("§a§m§lTERRARIA");
 <modularmachinery:blockenergyoutputhatch>.addTooltip("§e请不要连接能量塔,本物品自带能量塔功能");
 <modularmachinery:blockenergyoutputhatch>.addTooltip("§a直接放置在能量核心周围即可自动连接能量核心");
+<mets:tachyon_disruptor>.addTooltip("§c临时禁用,请勿合成");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"}).addTooltip("§3Rank: §d§lA-");
 
