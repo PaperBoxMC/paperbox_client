@@ -30,14 +30,14 @@
 <redstonearsenal:tool.wrench_flux>.addTooltip("§c禁用,§e请使用以太扳手");
 <appliedenergistics2:certus_quartz_wrench>.addTooltip("§c禁用,§e请使用以太扳手");
 <appliedenergistics2:nether_quartz_wrench>.addTooltip("§c禁用,§e请使用以太扳手");
-<ae2stuff:inscriber>.addTooltip("§3禁用,请使用ME电路板蚀刻器");
+<ae2stuff:inscriber>.addTooltip("§c禁用,请使用ME电路板蚀刻器");
 <mekanism:machineblock:13>.addTooltip("§6限制使用");
 <mekanism:machineblock:13>.addTooltip("§6仅合成");
 <mekanism:basicblock2:1>.addTooltip("§c请不要跨区块建造输导矩阵,会导致§4卡顿");
 <extrabotany:coregod:2>.addTooltip("§d新§c一§b代§e欧§6皇");
 <extrabotany:firstfractal>.addTooltip("§a§m§lTERRARIA");
-<modularmachinery:blockenergyoutputhatch:6>.addTooltip("§e请不要连接能量塔,本物品自带能量塔功能");
-<modularmachinery:blockenergyoutputhatch:6>.addTooltip("§a直接放置在能量核心周围即可自动连接能量核心");
+<modularmachinery:blockenergyoutputhatch>.addTooltip("§e请不要连接能量塔,本物品自带能量塔功能");
+<modularmachinery:blockenergyoutputhatch>.addTooltip("§a直接放置在能量核心周围即可自动连接能量核心");
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crafter_tier_2"}).addTooltip("§3Rank: §d§lA-");
 
