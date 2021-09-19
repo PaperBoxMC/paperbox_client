@@ -61,8 +61,8 @@
                     <str>$bFPS:{fps}</str>
                     <str>$aFPS:{fps}</str>
                     <str>$eFPS:{fps}</str>
-                    <str>$c$lFPS低:{fps}</str>
-                    <str>$4$lFPS过低:{fps}</str>
+                    <str>$cFPS低:{fps}</str>
+                    <str>$a$l(后台模式)$4FPS低:{fps}</str>
         </operation>
             <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
 
