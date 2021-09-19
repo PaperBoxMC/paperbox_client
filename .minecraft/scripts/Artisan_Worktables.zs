@@ -6,7 +6,7 @@ RecipeBuilder.get("engineer")
     [<ic2:plate:16>, <ic2:resource:13>, <extrabotany:material:1>, <ic2:resource:13>, <ic2:plate:13>],
     [<mets:niobium_titanium_plate>, <ore:circuitElite>, <ore:superLapotronCrystal>, <ore:circuitElite>, <mets:niobium_titanium_plate>],
     [<ic2:plate:11>, <ore:plateWillowalloy>, <ic2:iridium_reflector>, <ore:plateWillowalloy>, <ic2:plate:15>],
-    [<ic2:resource:11>, <thermalfoundation:material:326>, <appliedenergistics2:material:47>, <thermalfoundation:material:358>, <ic2:resource:11>]])
+    [<ic2:resource:11>, <thermalfoundation:material:326>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <thermalfoundation:material:358>, <ic2:resource:11>]])
   .addTool(<ore:artisansSpanner>, 120)
   .addTool(<ore:artisansDriver>, 65)
   .addTool(<ore:artisansSolderer>, 90)

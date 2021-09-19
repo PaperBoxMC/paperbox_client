@@ -2,68 +2,15 @@
 <config>
     <lines at="bottomcenter">
         <line>
-           <str>{offhandlargeicon}{offhandname}$d|{mainhandlargeicon}{mainhandname}</str>
+            <str>{offhandlargeicon}{offhandname}$d|$r{mainhandlargeicon}{mainhandname}</str>
         </line>
-        
+
         <line>
             <str>$e{offhanddamageleft}$f / $e{offhandmaxdamage}$d|$e{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
         </line>
 
         <line>
-            <str>$cHP:</str>
-            <round>
-                <var>health</var>
-                <num>1</num>
-            </round>
-            <str>/</str>
-            <round>
-                <var>maxhealth</var>
-                <num>1</num>
-            </round>
-            <operation>
-            <str>GE</str>
-            <var>health</var>
-                <num>100</num>
-                <num>80</num>
-                <num>60</num>
-                <num>40</num>
-                <num>20</num>
-                <num>17</num>
-                <num>13</num>
-                <num>8</num>
-                <num>4</num>
-                <num>0</num>
-                    <str> $9(???) </str>
-                    <str> $3(极限) </str>
-                    <str> $d(强盛) </str>
-                    <str> $a(健康) </str>
-                    <str> $b(正常) </str>
-                    <str> $e(微伤) </str>
-                    <str> $6(受伤) </str>
-                    <str> $c(重伤) </str>
-                    <str> $4(垂危) </str>
-            </operation>
-
-            <operation>
-            <str>GT</str>
-            <var>armor</var>
-                <num>59</num>
-                <num>29</num>
-                <num>19</num>
-                <num>14</num>
-                <num>9</num>
-                <num>5</num>
-                <num>0</num>
-                    <str>$d盔甲:{armor}$d⭐⭐ </str>
-                    <str>$9盔甲:{armor}$d⭐ </str>
-                    <str>$a盔甲:{armor} </str>
-                    <str>$e盔甲:{armor} </str>
-                    <str>$6盔甲:{armor} </str>
-                    <str>$c盔甲:{armor} </str>
-                    <str>$4盔甲:{armor} </str>
-            </operation>
-
-            <str>$3移速:</str>
+            <str>$9SPD:</str>
             <op>
                 <str>LE</str>
                 <var>speed</var>
@@ -75,7 +22,7 @@
                 <num>73</num>
                 <num>145</num>
                 <str></str>
-                <str>$3</str>
+                <str>$9</str>
                 <str>$b</str>
                 <str>$a</str>
                 <str>$e</str>
@@ -97,51 +44,6 @@
         </line>
 
         <line>
-                <operation>
-                    <str>GE</str>
-                    <pct>
-                        <var>memused</var>
-                        <var>memmax</var>
-                    </pct>
-                    <num>90</num>
-                    <num>80</num>
-                    <num>70</num>
-                    <num>0</num>
-                        <str>$4$lMem: </str>
-                        <str>$cMem: </str>
-                        <str>$6Mem: </str>
-                        <str>$aMem: </str>
-                </operation>
-
-            <round>
-                <pct>
-                    <var>memused</var>
-                    <var>memmax</var>
-                </pct>
-                <num>0</num>
-            </round>
-            <str>% </str>
-
-            <round>
-                <mul>
-                    <var>memused</var>
-                    <num>0.000000001024</num>
-                </mul>
-                <num>1</num>
-            </round>
-
-            <str>G/</str>
-
-            <round>
-                <mul>
-                    <var>memmax</var>
-                    <num>0.000000001024</num>
-                </mul>
-                <num>1</num>
-            </round>
-
-            <str>G </str>
-
         <operation>
             <str>GT</str>
             <var>fps</var>
@@ -162,23 +64,84 @@
                     <str>$c$lFPS低:{fps}</str>
                     <str>$4$lFPS过低:{fps}</str>
         </operation>
+            <str>$7 | $eEnt:$e{entitiestotal}$6/$c{entitiesrendered}</str>
+
+        <str>$7 | $9MEM$f: $e</str>
+                <round>
+                    <div>
+                        <var>memused</var>
+                        <num>1048576</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <str>M$f (</str>
+                <op>
+                    <str>le</str>
+                    <pct>
+                        <var>memused</var>
+                        <var>memtotal</var>
+                    </pct>
+                    <num>70</num>
+                    <num>80</num>
+                    <num>90</num>
+                    <num>100</num>
+                    <str>$a</str>
+                    <str>$e</str>
+                    <str>$c</str>
+                    <str>$4</str>
+                    <str />
+                </op>
+                <round>
+                    <pct>
+                        <var>memused</var>
+                        <var>memtotal</var>
+                    </pct>
+                    <num>0</num>
+                </round>
+            <str>%$f)$f</str>
+            <op>
+                <str>gt</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memtotal</var>
+                </pct>
+                <num>92</num>
+                <num>0</num>
+                <str>$c</str>
+                <str />
+            </op>
         </line>
+
         <line>
-           <operation>
+            <operation>
             <str>EQ</str>
             <var>abrroughdirection</var>
                 <num>E</num>
                 <num>S</num>
                 <num>W</num>
                 <num>N</num>
-                    <str>$d东 $c正X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d南 $cX:{xi} $aY:{yi} $9正Z:{zi}</str>
-                    <str>$d西 $c负X:{xi} $aY:{yi} $9Z:{zi}</str>
-                    <str>$d北 $cX:{xi} $aY:{yi} $9负Z:{zi}</str>
+                    <str>$d东 丨$c+X:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$d南 丨$cX:{xi} $aY:{yi} $9+Z:{zi}</str>
+                    <str>$d西 丨$c-X:{xi} $aY:{yi} $9Z:{zi}</str>
+                    <str>$d北 丨$cX:{xi} $aY:{yi} $9-Z:{zi}</str>
             </operation>
         </line>
+
+        <line>
+        <str>$eDay:{day}$c$7丨$bTime:$6{mctime24}</str>
+        </line>
+
+                <line>
+            <if>
+                <var>invisible</var>
+                <str>$7当前处于隐身状态 </str>
+            </if>
+            <if>
+                <var>inwater</var>
+                <str>$b当前处于水中</str>
+            </if>
+        </line>
     </lines>
-    
 
     <lines at="bottomright">
         <line>
@@ -211,7 +174,7 @@
         <line>
             <str> </str>
         </line>
-        
+
         <line>
             <op>
                 <str>GE</str>
@@ -219,7 +182,7 @@
                     <var>chestplatedamageleft</var>
                     <var>chestplatemaxdamage</var>
                 </pct>
-               <num>60</num>
+                <num>60</num>
                 <num>35</num>
                 <num>10</num>
                 <num>0</num>
@@ -300,81 +263,23 @@
             </round>
             <str>% {bootslargeicon}</str>
         </line>
+    </lines>
 
+    <lines at="bottomleft">
         <line>
             <str> </str>
         </line>
 
         <line>
-            <str>$e周围实体$6/$c已渲染:$e{entitiestotal}$6|$c{entitiesrendered}</str>
+        <str>$bPlayer: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
         </line>
 
         <line>
-            <if>
-                <var>invisible</var>
-                <str>$7当前处于隐身状态 </str>
-            </if>
-            <if>
-                <var>inwater</var>
-                <str>$b当前处于水中</str>
-            </if>
+        <str>$bPlayer: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
         </line>
 
         <line>
-        <str>$b游戏日/时间:$e第{day}天$c|$6{mctime24}</str>
-        </line>
-        
-        <line>
-        <operation>
-            <str>EQ</str>
-            <var>moonphase</var>
-                <num>0</num>
-                <num>1</num>
-                <num>2</num>
-                <num>3</num>
-                <num>4</num>
-                <num>5</num>
-                <num>6</num>
-                <num>7</num>
-                    <str>$b月相:$a满月</str>
-                    <str>$b月相:$c亏凸月</str>
-                    <str>$b月相:$d下弦月</str>
-                    <str>$b月相:$e残月</str>
-                    <str>$b月相:$6新月</str>
-                    <str>$b月相:$9娥眉月</str>
-                    <str>$b月相:$3上弦月</str>
-                    <str>$b月相:$b盈凸月</str>
-        </operation>
-        </line>
-
-        <line>
-            <str></str>
-            <if>
-                <var>raining</var>
-                <str> $1天气:雨天</str>
-                <str></str>
-            </if>
-            <if>
-                <var>thundering</var>
-                <str> $e天气:雷雨天</str>
-                <str></str>
-            </if>
-            <if>
-                <var>snowing</var>
-                <str> $b天气:雪天</str>
-                <str></str>
-            </if>
-        </line>
-        <line>
-        <str>$b附近玩家: {nearbyplayericon0}$d{nearbyplayername0} $a{nearbyplayerdistance0}m$r</str>
-        </line>
-
-        <line>
-        <str>$b附近玩家: {nearbyplayericon1}$d{nearbyplayername1} $a{nearbyplayerdistance1}m$r</str>
-        </line>
-
-        <line>
-        <str>$b附近玩家: {nearbyplayericon2}$d{nearbyplayername2} $a{nearbyplayerdistance2}m$r</str>
+        <str> </str>
         </line>
 
     </lines>
@@ -392,17 +297,6 @@
     </line>
 
     <line>
-    <operation>
-            <str>LE</str>
-            <var>foodlevel</var>
-                <num>3</num>
-                <num>7</num>
-                    <str>$4$l饥饿值极低:{foodlevel}</str>
-                    <str>$c$l饥饿值过低:{foodlevel}</str>
-    </operation>
-    </line>
-
-    <line>
 
             <operation>
                 <str>GE</str>
@@ -410,8 +304,8 @@
                     <var>memused</var>
                     <var>memtotal</var>
                 </pct>
-                <num>96</num>
-                <num>92</num>
+                <num>97</num>
+                <num>93</num>
                     <str>$4内存占用过高,请检查是否为程序分配足够内存</str>
                     <str>$c内存占用高</str>
             </operation>
@@ -427,7 +321,7 @@
     </line>
 
     </lines>
-    
+
     <lines at="topright">
     <line>
     </line>

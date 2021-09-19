@@ -5,7 +5,7 @@ fov:0.5
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:2
+guiScale:4
 particles:1
 bobView:false
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","Unity-1.6.5-1.12-YABBandaid.zip","de16x - 1.11.2-1.4.zip","Modernity-format3-v4.0.7.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip"]
+resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","Unity-1.6.5-1.12-YABBandaid.zip","de16x - 1.11.2-1.4.zip","Modernity-format3-v4.0.9.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1
 lang:zh_cn
@@ -29,16 +29,16 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:false
 touchscreen:false
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:false
 chatHeightFocused:1.0
-chatHeightUnfocused:0.8802817
+chatHeightUnfocused:0.75352114
 chatScale:1.0
-chatWidth:1.0
+chatWidth:0.92957747
 mipmapLevels:4
 forceUnicodeFont:true
 reducedDebugInfo:false
@@ -94,6 +94,9 @@ key_Hub Expand Key:0
 key_keybind.baublesinventory:0
 key_key.betterquesting.quests:41
 key_psimisc.keybind:44
+key_bloodmagic.keybind.open_holding:35
+key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
+key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_key.conarm.toggle_helm.desc:0
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:0
@@ -107,13 +110,10 @@ key_Quest Log:0
 key_Fly Key:0
 key_Reload Default Sound Device:157
 key_ingameinfoxml.key.toggle:0
-key_key.open_menu:43
+key_key.open_menu:19
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:0
 key_Gravi Fly Key:45
-key_dshuds.keybind.SelectionBox:48
-key_dshuds.keybind.LightLevel:65
-key_dshuds.keybind.ChunkBorders:67
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:0
@@ -130,7 +130,7 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.cofh.multimode:47
 key_key.draconicevolution.placeItem:25
-key_key.draconicevolution.toolConfig:0
+key_key.draconicevolution.toolConfig:55
 key_key.draconicevolution.toolProfileChange:43
 key_key.draconicevolution.armorProfileChange:43:ALT
 key_key.draconicevolution.toggleFlight:0
@@ -145,26 +145,6 @@ key_key.debugDumpNBTBlock:0
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_nei.options.keys.gui.botania_corporea_request:0
-key_gui.xaero_open_map:21:SHIFT
-key_gui.xaero_open_settings:0
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:54
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map_waypoints:0
-key_gui.xaero_toggle_map:0
-key_gui.xaero_enlarge_map:0
-key_gui.xaero_waypoints_key:0
-key_gui.xaero_zoom_in:0
-key_gui.xaero_zoom_out:0
-key_gui.xaero_new_waypoint:0
-key_gui.xaero_display_all_sets:0
-key_gui.xaero_toggle_light_overlay:0
-key_gui.xaero_minimap_settings:36
 key_key.toggle_focus.desc:15
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:0
@@ -188,11 +168,25 @@ key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
 key_打开按键向导:65
-key_key.integrateddynamics.logic_programmer_focus_search:0
-key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.overload:0
 key_key.chaosInjection:0
 key_Profile GUI:199
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
+key_key.journeymap.fullscreen_create_waypoint:48
+key_key.journeymap.fullscreen_chat_position:0
+key_key.journeymap.map_toggle_alt:36
+key_key.journeymap.fullscreen_waypoints:48:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:81
@@ -224,8 +218,6 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:1.0
-soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

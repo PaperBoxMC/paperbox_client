@@ -133,7 +133,7 @@
 
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§3Rank: §c§lSS");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§6ECO实验室的终极之作");
-<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§b这种无与伦比的机器可以改变各种分子或是重置各种原子");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§b这种无与伦比的机器可以改变各种分子或是重构各种原子");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§c通过这种机械");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:atomic_resetter"}).addTooltip("§c你接触到了异世界科技");
 
