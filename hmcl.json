@@ -9,7 +9,7 @@
   "proxyPort": 0,
   "width": 886.0,
   "height": 514.0,
-  "theme": "#9980e6",
+  "theme": "#4d66cc",
   "localization": "def",
   "autoDownloadThreads": false,
   "downloadThreads": 64,
@@ -20,7 +20,7 @@
     "Default": {
       "global": {
         "usesGlobal": true,
-        "javaArgs": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:MaxInlineSize\u003d420 -Xverify:none -XX:MaxGCPauseMillis\u003d50 -XX:+DisableExplicitGC -XX:G1HeapRegionSize\u003d32M -XX:TargetSurvivorRatio\u003d90 -XX:G1NewSizePercent\u003d20 -XX:G1ReservePercent\u003d20 -XX:G1MaxNewSizePercent\u003d80 -XX:G1MixedGCLiveThresholdPercent\u003d35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -Dusing.aikars.flags\u003dmcflags.emc.gs",
+        "javaArgs": "-d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads\u003d8 -Dsun.rmi.dgc.server.gcInterval\u003d3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis\u003d50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies\u003dtrue -Dfml.ignoreInvalidMinecraftCertificates\u003dtrue -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio\u003d3 -Dfml.readTimeout\u003d90 -XX:+UseFastAccessorMethods -Xincgc",
         "minecraftArgs": "",
         "maxMemory": 6144,
         "autoMemory": true,
@@ -48,7 +48,8 @@
         "nativesDirType": 0
       },
       "gameDir": ".minecraft",
-      "useRelativePath": true
+      "useRelativePath": true,
+      "selectedMinecraftVersion": "纸箱工艺 VI"
     },
     "Home": {
       "global": {
