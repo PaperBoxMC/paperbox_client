@@ -2,7 +2,7 @@
     "registryname": "Energy_crystal",
 	"localizedname": "§e能量转换§d核晶 α型",
     "color": "FFFFFF",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "modifiers": [
         {
             "elements": "modularmachinery:blockfluidinputhatch@7",

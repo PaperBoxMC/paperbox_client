@@ -1,7 +1,7 @@
 {
     "registryname": "Board_assembly_room",
     "localizedname": "§b元件装配室",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

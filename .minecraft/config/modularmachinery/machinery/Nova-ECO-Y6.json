@@ -1,7 +1,7 @@
 {
     "registryname": "ECO_Y6",
     "localizedname": "§bECO-§dY6 §e物质生成机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

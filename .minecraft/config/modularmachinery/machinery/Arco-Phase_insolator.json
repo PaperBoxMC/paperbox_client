@@ -1,7 +1,7 @@
 {
     "registryname": "Phaseinsolator",
     "localizedname": "§a相位§f灌注机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "color": "f2efed",
 	"parts": [
         {

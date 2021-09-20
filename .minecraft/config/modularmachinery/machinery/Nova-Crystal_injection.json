@@ -2,7 +2,7 @@
     "registryname": "Crystal_injection",
 	"localizedname": "§e水晶注能机",
     "color": "FFFFFF",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "modifiers":[
         {
             "elements": "modularmachinery:blockenergyinputhatch@6",

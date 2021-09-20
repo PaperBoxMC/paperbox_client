@@ -1,7 +1,7 @@
 {
     "registryname": "advanced_liquid_conversion_machine",
     "localizedname": "§b先进液体转化装置",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

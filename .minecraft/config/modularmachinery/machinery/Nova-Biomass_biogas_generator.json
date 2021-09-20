@@ -1,7 +1,7 @@
 {
     "registryname": "Biomass/biogas_generator",
     "localizedname": "§b生物质/沼气发电机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

@@ -1,7 +1,7 @@
 {
     "registryname": "mach_crafter",
     "localizedname": "§a机械核心装配机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": 0,

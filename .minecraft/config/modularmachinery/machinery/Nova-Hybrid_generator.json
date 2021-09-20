@@ -1,7 +1,7 @@
 {
     "registryname": "Hybrid_generator",
     "localizedname": "§b混合燃料发电机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "color": "A9A9A9",
     "parts": [
         {

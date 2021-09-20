@@ -1,7 +1,7 @@
 {
     "registryname": "battery_tier_3",
     "localizedname": "§d终极锂电池组",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

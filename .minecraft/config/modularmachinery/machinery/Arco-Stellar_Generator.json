@@ -1,7 +1,7 @@
 {
     "registryname": "Stellargenerator",
     "localizedname": "§3[§fIRIS§3]§b星能§f发电机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
 	"color": "f2efed",
 	"modifiers": [
         {

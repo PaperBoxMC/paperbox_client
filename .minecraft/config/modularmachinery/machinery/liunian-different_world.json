@@ -1,7 +1,7 @@
 {
     "registryname": "different_world",
     "localizedname": "§6异世界§a矿物提取§b机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

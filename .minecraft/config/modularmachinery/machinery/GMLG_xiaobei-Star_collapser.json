@@ -1,7 +1,7 @@
 {
     "registryname": "Star_collapser",
     "localizedname": "§d霍金恒星坍缩机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": 0,

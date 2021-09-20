@@ -1,7 +1,7 @@
 {
     "registryname": "super_star_dyson_ball",
     "localizedname": "§5超微缩§c恒星§9戴森球",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

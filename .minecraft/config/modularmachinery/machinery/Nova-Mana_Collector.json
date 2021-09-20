@@ -1,7 +1,7 @@
 {
     "registryname": "mana_collector",
     "localizedname": "§aMana收集器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": 2,

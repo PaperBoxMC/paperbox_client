@@ -1,7 +1,7 @@
 {
     "registryname": "Pure_crystal_synthesis_instrument",
     "localizedname": "§b纯晶合成仪",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

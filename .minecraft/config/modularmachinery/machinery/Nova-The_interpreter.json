@@ -1,7 +1,7 @@
 {
     "registryname": "The_interpreter",
     "localizedname": "§c释能器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

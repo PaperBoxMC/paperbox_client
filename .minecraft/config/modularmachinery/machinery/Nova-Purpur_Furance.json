@@ -1,7 +1,7 @@
 {
     "registryname": "Purpur_Furance",
     "localizedname": "§d紫珀炉",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

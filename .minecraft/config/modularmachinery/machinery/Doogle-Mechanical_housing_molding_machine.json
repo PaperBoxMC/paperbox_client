@@ -1,7 +1,7 @@
 {
     "registryname": "Mechanical_housing_molding_machine",
     "localizedname": "§a机械外壳成型机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

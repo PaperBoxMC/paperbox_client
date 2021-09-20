@@ -1,7 +1,7 @@
 {
     "registryname": "Atomic_resetter",
 	"localizedname": "§6[ARS] §d原子重构机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": 2,

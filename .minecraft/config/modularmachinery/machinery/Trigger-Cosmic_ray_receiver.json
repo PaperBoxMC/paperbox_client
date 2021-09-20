@@ -1,7 +1,7 @@
 {
     "registryname": "Cosmic_ray_receiver",
     "localizedname": "§c宇宙射线接收器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

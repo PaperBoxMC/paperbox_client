@@ -1,7 +1,7 @@
 {
     "registryname": "Material_entropy_converter",
     "localizedname": "§e物§6质§c熵§e变§6器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

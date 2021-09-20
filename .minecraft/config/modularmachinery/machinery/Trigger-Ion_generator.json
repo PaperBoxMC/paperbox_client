@@ -1,7 +1,7 @@
 {
     "registryname": "Ion_generator",
 	"localizedname": "小型离子发生器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,

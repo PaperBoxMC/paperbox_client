@@ -1,7 +1,7 @@
 {
     "registryname": "ALPPM",
     "localizedname": "异变光粒子聚合机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "parts": [
         {
             "x": -1,
