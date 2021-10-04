@@ -1,7 +1,7 @@
 {
     "machine": "Board_assembly_room",
     "registryName": "ic2:upgrade_1",
-    "recipeTime": 600,
+    "recipeTime": 300,
     "requirements": [
         {
             "type": "energy",

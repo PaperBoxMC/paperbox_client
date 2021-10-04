@@ -1,7 +1,7 @@
 {
     "registryname": "Light-speed_material_accelerator",
     "localizedname": "§b超§a光§c速§d物§6质§e加速器",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": 0,

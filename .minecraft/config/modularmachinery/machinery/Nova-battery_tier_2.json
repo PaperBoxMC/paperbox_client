@@ -1,7 +1,7 @@
 {
     "registryname": "battery_tier_2",
     "localizedname": "§d先进锂电池组",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

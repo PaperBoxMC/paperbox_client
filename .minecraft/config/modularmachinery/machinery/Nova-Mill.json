@@ -1,7 +1,7 @@
 {
     "registryname": "Item_shredder",
     "localizedname": "§b物品粉碎机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color": "A9A9A9",
     "parts": [
         {

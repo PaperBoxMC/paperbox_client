@@ -5,7 +5,7 @@ fov:0.5
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:4
+guiScale:3
 particles:1
 bobView:false
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:0
 fancyGraphics:false
 ao:2
 renderClouds:false
-resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","Unity-1.6.5-1.12-YABBandaid.zip","de16x - 1.11.2-1.4.zip","Modernity-format3-v4.0.9.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip"]
+resourcePacks:["CustomNPCsFix.zip","Minecraft-Mod-Language-Modpack.zip","Unity-1.6.6-1.12-YABBandaid.zip","de16x - 1.11.2-1.4.zip","Modernity-format3-v4.1.5.zip","Dark Mode.zip","Dark Modern GUIs - 1.0.2.zip","Modular-Machinery-CTM-v1.0.5.zip"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1
 lang:zh_cn
@@ -36,9 +36,9 @@ overrideWidth:0
 overrideHeight:0
 heldItemTooltips:false
 chatHeightFocused:1.0
-chatHeightUnfocused:0.75352114
+chatHeightUnfocused:0.8802817
 chatScale:1.0
-chatWidth:0.92957747
+chatWidth:1.0
 mipmapLevels:4
 forceUnicodeFont:true
 reducedDebugInfo:false
@@ -127,6 +127,7 @@ key_key.jei.previousPage:0
 key_key.jei.nextPage:0
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.toggle_focus.desc:15
 key_key.cofh.multimode:47
 key_key.draconicevolution.placeItem:25
 key_key.draconicevolution.toolConfig:55
@@ -137,12 +138,7 @@ key_key.draconicevolution.toggleDislocator:0
 key_key.draconicevolution.cycleDigAOE:0
 key_key.draconicevolution.cycleAttackAOE:0
 key_key.draconicevolution.toggleShields:0
-key_key.toggle_focus.desc:15
 key_nei.options.keys.gui.botania_corporea_request:0
-key_key.porterNextDestination:27
-key_key.porterPrevDestination:26
-key_key.debugDumpNBTItem:0
-key_key.debugDumpNBTBlock:0
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_mekanism.key.mode:50
@@ -162,6 +158,8 @@ key_keys.armourers_workshop.open-wardrobe:24
 key_bbw.key.mode:0
 key_bbw.key.fluidmode:0
 key_key.sakura.sheath_in:47
+key_FpsReducer.key.guiOpen:207
+key_FpsReducer.key.forceIdle:197
 key_key.itemzoom.toggle:0
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
@@ -169,6 +167,10 @@ key_key.itemzoom.zoom.out:0
 key_打开按键向导:65
 key_key.overload:0
 key_key.chaosInjection:0
+key_key.porterNextDestination:27
+key_key.porterPrevDestination:26
+key_key.debugDumpNBTItem:0
+key_key.debugDumpNBTBlock:0
 key_Profile GUI:199
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12

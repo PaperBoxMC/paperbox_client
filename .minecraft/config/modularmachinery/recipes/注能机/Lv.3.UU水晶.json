@@ -1,7 +1,7 @@
 {
     "machine": "Crystal_injection",
     "registryName": "Lv3.UUCry",
-    "recipeTime": 400,
+    "recipeTime": 900,
     "requirements": [
         {
             "type": "modularmachinery:energy",

@@ -2,7 +2,7 @@
     "registryname": "bot_crafter",
 	"localizedname": "魔力聚合机",
     "color": "FFFAF0",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
 	"parts": [
         {
             "x": -1,

@@ -104,34 +104,34 @@ draconicevolution:enchant_reaper
    - Max Level: 5
 
 
-endercore:autosmelt
-   - Id: 12
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 13
+   - Id: 12
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-enderio:witherarrow
-   - Id: 14
-   - Rarity: UNCOMMON
+endercore:autosmelt
+   - Id: 13
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
 enderio:shimmer
-   - Id: 15
+   - Id: 14
    - Rarity: VERY_RARE
    - Treasure: true
+   - Min Level: 1
+   - Max Level: 1
+
+
+enderio:soulbound
+   - Id: 15
+   - Rarity: VERY_RARE
+   - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
@@ -192,25 +192,25 @@ minecraft:sweeping
    - Max Level: 3
 
 
-enderio:repellent
-   - Id: 23
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
 enderio:witherweapon
-   - Id: 24
+   - Id: 23
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:soulbound
-   - Id: 25
+enderio:repellent
+   - Id: 24
    - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+enderio:witherarrow
+   - Id: 25
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
@@ -350,6 +350,14 @@ variedcommodities:vc_infinite
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
+
+
+oeintegration:oreexcavation
+   - Id: 43
+   - Rarity: VERY_RARE
+   - Treasure: true
+   - Min Level: 1
+   - Max Level: 5
 
 
 minecraft:power

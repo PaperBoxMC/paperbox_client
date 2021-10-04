@@ -1,5 +1,5 @@
 {
-    "machine": "crafter_tier_2",
+    "machine": "acar",
     "registryName": "blueprints_ECO_Y7",
     "recipeTime": 3200,
     "requirements": [
@@ -23,19 +23,7 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "mekanism:controlcircuit@3",
-            "amount": 64
-        },
-        {
-            "type": "modularmachinery:item",
-            "io-type": "input",
-            "item": "mets:super_circuit",
-            "amount": 64
-        },
-        {
-            "type": "modularmachinery:item",
-            "io-type": "input",
-            "item": "mets:super_circuit",
+            "item": "mets:living_circuit",
             "amount": 64
         },
         {
@@ -65,7 +53,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "ic2uu_matter",
-            "amount": 500000000
+            "amount": 350000000
         },
         {
             "type": "modularmachinery:item",

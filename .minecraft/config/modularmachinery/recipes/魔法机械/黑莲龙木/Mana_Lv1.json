@@ -25,20 +25,20 @@
             "type": "item",
             "io-type": "output",
             "item": "botania:blacklotus@1",
-            "amount": 4
+            "amount": 8
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "botania:blacklotus@1",
-            "amount": 2,
+            "amount": 4,
             "chance": 0.5
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "botania:blacklotus@1",
-            "amount": 2,
+            "amount": 4,
             "chance": 0.25
         }
     ]

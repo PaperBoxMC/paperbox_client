@@ -7,7 +7,7 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 500000
+            "energyPerTick": 600000
         },
         {
             "type": "fluid",

@@ -25,11 +25,6 @@
             "io-type": "output",
             "item": "custommc:item780",
             "amount": 1,
-            "nbt":{
-                "display":{
-                "Name":"§5反物质"
-                }
-            },
             "chance": 0.5
         }
     ]

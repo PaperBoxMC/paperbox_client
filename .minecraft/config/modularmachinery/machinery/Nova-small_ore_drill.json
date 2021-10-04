@@ -1,7 +1,7 @@
 {
     "registryname": "small_ore_drill",
     "localizedname": "§7小型钢矿钻",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color": "A9A9A9",
     "parts": [
         {

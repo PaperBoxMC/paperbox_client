@@ -1,7 +1,48 @@
 {
     "registryname": "super_star_dyson_ball",
     "localizedname": "§5超微缩§c恒星§9戴森球",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
+    "modifiers": [
+        {
+            "elements": "tconevo:metal_block@2",
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "description": "将机械控制器上方的中间一个龙块更换成§e混沌金属块§r以提高§c25%§r能量产出",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.25
+            }
+        },
+        {
+            "elements": "enderio:block_alloy_endergy@3",
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "description": "将机械控制器上方的中间一个龙块更换成§e恒星合金块§r以提高§c10%§r能量产出",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.1
+            }
+        },
+        {
+            "elements": "avaritia:block_resource@1",
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "description": "将机械控制器上方的中间一个龙块更换成§e无尽块§r以提高§c100%§r能量产出",
+            "modifier": {
+                "io": "output",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,
@@ -352,7 +393,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -816,7 +857,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -824,7 +865,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -832,7 +873,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -840,7 +881,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -848,7 +889,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -2640,7 +2681,7 @@
             "y": 6,
             "z": -1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -2648,7 +2689,7 @@
             "y": 6,
             "z": -1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -2664,7 +2705,7 @@
             "y": 6,
             "z": -1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -4128,7 +4169,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -4136,7 +4177,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -4144,7 +4185,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {
@@ -5016,7 +5057,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "modularmachinery:blockenergyoutputhatch"
+                "casing_energy"
             ]
         },
         {
@@ -5344,7 +5385,7 @@
             "y": 6,
             "z": -2,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "draconicevolution:draconium_block"
             ]
         },
         {

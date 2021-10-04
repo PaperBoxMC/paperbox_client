@@ -1,7 +1,7 @@
 {
     "registryname": "Ultimate_zhongzi",
     "localizedname": "终极中子收集器",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color": "A9A9A9",
         "parts": [
             {

@@ -1,7 +1,7 @@
 {
     "registryname": "mana_ore_drill",
     "localizedname": "§a泰拉钢§d矿钻",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -4,

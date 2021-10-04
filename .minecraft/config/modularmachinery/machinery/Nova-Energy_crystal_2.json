@@ -1,7 +1,7 @@
 {
     "registryname": "Energy_crystal_2",
     "localizedname": "§e能量转换§d核晶 β型",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": 4,

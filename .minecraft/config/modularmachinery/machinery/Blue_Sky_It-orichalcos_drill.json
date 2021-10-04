@@ -1,7 +1,7 @@
 {
     "registryname": "orichalcos_drill",
     "localizedname": "§d奥利哈刚矿钻",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

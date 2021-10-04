@@ -1,7 +1,7 @@
 {
     "registryname": "Nuclear_melt_detonator",
     "localizedname": "§6核融§c起爆机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -2,

@@ -1,7 +1,7 @@
 {
     "registryname": "Neutron_activator",
     "localizedname": "§e光质子§6注能器",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "modifiers": [
         {
             "elements": "modularmachinery:blockfluidoutputhatch@5",

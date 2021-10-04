@@ -57,6 +57,12 @@
             "amount": 50
         },
         {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ic2uu_matter",
+            "amount": 100000
+        },
+        {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "modularcontroller:eco_y6_controller"

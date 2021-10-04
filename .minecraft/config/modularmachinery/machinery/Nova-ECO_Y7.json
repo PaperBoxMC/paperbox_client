@@ -1,7 +1,7 @@
 {
     "registryname": "ECO_Y7",
 	"localizedname": "§bECO-§dY7 §e物质生成机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "modifiers": [
         {
             "elements": "modularmachinery:blockenergyinputhatch@6",

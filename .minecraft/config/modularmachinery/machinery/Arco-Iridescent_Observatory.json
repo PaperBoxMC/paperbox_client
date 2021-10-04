@@ -1,7 +1,7 @@
 {
     "registryname": "Iridescentobservatory",
     "localizedname": "§c五§6彩§e观§a象§b台",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
 	"color": "f2efed",
 	"parts": [
         {

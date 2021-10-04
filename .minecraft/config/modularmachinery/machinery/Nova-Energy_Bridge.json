@@ -1,7 +1,7 @@
 {
     "registryname": "Energy_Bridge",
     "localizedname": "§c能源桥",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

@@ -186,16 +186,6 @@ minecraft:luck
        minecraft:luck - 6000 - 0 - false - true
 
 
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
 enderio:withering
    - Effects: 
        minecraft:wither - 900 - 0 - false - true
@@ -221,9 +211,14 @@ enderio:long_floating
        minecraft:levitation - 560 - 0 - false - true
 
 
-cuisine:cuisine.dispersal
+enderio:confusion
    - Effects: 
-       cuisine:dispersal - 1200 - 0 - false - true
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
 
 
 cuisine:cuisine.hot
@@ -231,14 +226,19 @@ cuisine:cuisine.hot
        cuisine:hot - 1200 - 0 - false - true
 
 
-cuisine:cuisine.toughness
+cuisine:cuisine.dispersal
    - Effects: 
-       cuisine:toughness - 1200 - 0 - false - true
+       cuisine:dispersal - 1200 - 0 - false - true
 
 
 cuisine:cuisine.cold_blood
    - Effects: 
        cuisine:cold_blood - 1200 - 0 - false - true
+
+
+cuisine:cuisine.toughness
+   - Effects: 
+       cuisine:toughness - 1200 - 0 - false - true
 
 
 cofhcore:haste

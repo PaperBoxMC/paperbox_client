@@ -1,7 +1,7 @@
 {
     "registryname": "di_ci",
     "localizedname": "§b电磁发电机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": 2,

@@ -6,9 +6,9 @@
     "text": "status",
     "position": {
         "x": "0",
-        "y": "screen_height * 0.3 + 0",
+        "y": "screen_height * 0.35 + 0",
         "width": "0",
         "height": "0"
     },
-    "colour": "0xFFFFFFFF"
+    "colour": "0xFFFFA500"
 }

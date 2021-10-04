@@ -6,7 +6,7 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 1000000
+            "energyPerTick": 500000
         },
         {
             "type": "fluid",
@@ -23,7 +23,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "botania:manaresource:23",
+            "item": "botania:manaresource@23",
             "amount": 32
         },
         {

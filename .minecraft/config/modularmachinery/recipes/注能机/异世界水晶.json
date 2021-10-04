@@ -6,13 +6,13 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 350000000
+            "energyPerTick": 175000000
         },
         {
             "type": "fluid",
             "io-type": "input",
             "fluid": "ic2uu_matter",
-            "amount": 1500000000
+            "amount": 1250000000
         },
         {
             "type": "gugu-utils:mana",

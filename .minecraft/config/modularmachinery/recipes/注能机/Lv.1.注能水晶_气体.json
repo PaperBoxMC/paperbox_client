@@ -1,7 +1,7 @@
 {
     "machine": "Crystal_injection",
     "registryName": "Lv1.Cry_gas",
-    "recipeTime": 400,
+    "recipeTime": 600,
     "requirements": [
         {
             "type": "modularmachinery:energy",
@@ -18,7 +18,7 @@
             "type": "gas",
             "io-type": "input",
             "gas": "fusionfuel",
-            "amount": 200000
+            "amount": 300000
         },
         {
             "type": "item",

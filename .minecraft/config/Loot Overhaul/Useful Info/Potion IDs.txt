@@ -480,36 +480,36 @@ extrabotany:healreverse
 	- Is Beneficial: true
 
 
-cuisine:dispersal
-   - Id: 59
-   - Color: 13416604
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
 cuisine:hot
-   - Id: 60
+   - Id: 59
    - Color: 16729344
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-cuisine:effect_resistance
+cuisine:sustained_release
+   - Id: 60
+   - Color: 16262179
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cuisine:dispersal
    - Id: 61
-   - Color: 13421823
+   - Color: 13416604
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
-cuisine:drunk
+cuisine:cold_blood
    - Id: 62
-   - Color: 16048973
+   - Color: 10451438
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
 cuisine:toughness
@@ -520,140 +520,20 @@ cuisine:toughness
 	- Is Beneficial: true
 
 
-cuisine:cold_blood
+cuisine:drunk
    - Id: 64
-   - Color: 10451438
+   - Color: 16048973
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
-cuisine:sustained_release
+cuisine:effect_resistance
    - Id: 65
-   - Color: 16262179
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaeroworldmap:no_world_map
-   - Id: 66
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaeroworldmap:no_world_map_harmful
-   - Id: 67
-   - Color: -16777216
+   - Color: 13421823
    - Is Instant: false
    - Is Bad: true
 	- Is Beneficial: false
-
-
-xaeroworldmap:no_world_map_beneficial
-   - Id: 68
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaerominimap:no_minimap
-   - Id: 69
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_minimap_harmful
-   - Id: 70
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_minimap_beneficial
-   - Id: 71
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaerominimap:no_entity_radar
-   - Id: 72
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_entity_radar_harmful
-   - Id: 73
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_entity_radar_beneficial
-   - Id: 74
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaerominimap:no_waypoints
-   - Id: 75
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_waypoints_harmful
-   - Id: 76
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_waypoints_beneficial
-   - Id: 77
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-xaerominimap:no_cave_maps
-   - Id: 78
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-xaerominimap:no_cave_maps_harmful
-   - Id: 79
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-xaerominimap:no_cave_maps_beneficial
-   - Id: 80
-   - Color: -16777216
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
 
 
 tconevo:immortality
@@ -686,5 +566,181 @@ tconevo:damage_boost
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
+
+
+bloodmagic:soul_fray
+   - Id: 85
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+bloodmagic:fire_fuse
+   - Id: 86
+   - Color: 16724787
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+teastory:agility
+   - Id: 87
+   - Color: 8553090
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bloodmagic:flight
+   - Id: 88
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:heavy_heart
+   - Id: 89
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+bloodmagic:deafness
+   - Id: 90
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+teastory:life_drain
+   - Id: 91
+   - Color: 8323072
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bloodmagic:grounded
+   - Id: 92
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+bloodmagic:suspended
+   - Id: 93
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+teastory:excitement
+   - Id: 94
+   - Color: 16763493
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bloodmagic:bounce
+   - Id: 95
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:sacrificial_lamb
+   - Id: 96
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:feathered
+   - Id: 97
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:whirlwind
+   - Id: 98
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:constrict
+   - Id: 99
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+teastory:defence
+   - Id: 100
+   - Color: 9804454
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bloodmagic:cling
+   - Id: 101
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:boost
+   - Id: 102
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:planar_binding
+   - Id: 103
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+teastory:photosynthesis
+   - Id: 104
+   - Color: 16750848
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bloodmagic:soul_snare
+   - Id: 105
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+bloodmagic:plant_leech
+   - Id: 106
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
 
 

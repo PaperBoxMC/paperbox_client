@@ -1,7 +1,7 @@
 {
     "registryname": "Mineral_extractor",
 	"localizedname": "§6矿物提取机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": 0,

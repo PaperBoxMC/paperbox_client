@@ -11,7 +11,10 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "modularcontroller:ion_generator_controller"
+            "item": "modularmachinery:itemblueprint",
+            "nbt":{
+                "dynamicmachine": "modularmachinery:Ion_generator"
+            }
         },
         {
             "type": "modularmachinery:item",

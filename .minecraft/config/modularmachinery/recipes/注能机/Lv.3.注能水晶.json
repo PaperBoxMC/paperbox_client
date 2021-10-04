@@ -1,24 +1,24 @@
 {
     "machine": "Crystal_injection",
     "registryName": "Lv3.Cry",
-    "recipeTime": 4800,
+    "recipeTime": 6400,
     "requirements": [
         {
             "type": "modularmachinery:energy",
             "io-type": "input",
-            "energyPerTick": 1600000
+            "energyPerTick": 3200000
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "draconicevolution:draconic_block",
-            "amount": 3
+            "amount": 4
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "draconicevolution:chaos_shard",
-            "amount": 6
+            "amount": 10
         },
         {
             "type": "item",

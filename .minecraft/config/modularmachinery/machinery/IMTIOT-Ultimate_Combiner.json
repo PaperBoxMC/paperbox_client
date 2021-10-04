@@ -1,7 +1,7 @@
 {
     "registryname": "Ultimate_Combiner",
     "localizedname": "§d终极-§b融合机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color": "808080",
     "parts": [
         {

@@ -1,7 +1,7 @@
 {
     "machine": "different_world",
     "registryName": "different_world_2",
-    "recipeTime": 1800,
+    "recipeTime": 1200,
     "requirements":[
         {
             "type": "energy",
@@ -41,6 +41,13 @@
             "io-type": "output",
             "item": "thermalfoundation:ore_fluid@4",
             "amount": 12,
+            "chance": 0.1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "rftools:dimensional_shard_ore@2",
+            "amount": 8,
             "chance": 0.1
         },
         {

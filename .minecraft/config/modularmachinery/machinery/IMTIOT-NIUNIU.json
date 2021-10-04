@@ -1,7 +1,7 @@
 {
     "registryname": "niu_niu",
     "localizedname": "§e牛牛机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color":"FFAA33",
     "parts": [
         {

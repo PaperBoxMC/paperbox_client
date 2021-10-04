@@ -37,14 +37,14 @@
             "type": "item",
             "io-type": "output",
             "item": "botania:blacklotus@1",
-            "amount": 32,
+            "amount": 64,
             "chance": 0.5
         },
         {
             "type": "item",
             "io-type": "output",
             "item": "botania:blacklotus@1",
-            "amount": 32,
+            "amount": 48,
             "chance": 0.25
         }
     ]

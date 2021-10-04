@@ -1,7 +1,7 @@
 {
     "registryname": "regeneration_machine",
     "localizedname": "§b永恒§6再生§e机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

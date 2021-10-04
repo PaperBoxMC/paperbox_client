@@ -1,7 +1,7 @@
 {
     "registryname": "Stellaformer",
     "localizedname": "§b相位§f构筑仪",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
 	"color": "f2efed",
 	"modifiers": [
         {

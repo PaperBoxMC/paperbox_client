@@ -1,77 +1,87 @@
 {
     "images":
     {
-        "title": {
-            "image": "custommainmenu:banner3.png",
-            "posX": -190,
-            "posY": 15,
-            "width": 365.1,
-            "height": 112.1,
-            "imageWidth": 2191,
-            "imageHeight": 673,
-            "alignment": "top_center"
+        "title":
+        {
+            "image" : "custommainmenu:logo-1.png",
+            "posX" : 45,
+            "posY" : -40,
+            "width" : 150,
+            "height" : 355,
+            "alignment" : "center_left"
         }
     },
-    
-    "buttons":{
-        "singleplayer":{
-            "texture" : "custommainmenu:ui1-long-4.png",
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 68,
-            "width" : 200,
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "§b单人游戏",
+            "hoverText" : "§c孤身一人,探索这个世界...",
+            "posX" : 71,
+            "posY" : 100,
+            "width" : 98,
             "height" : 20,
-            "imageWidth": 900,
-            "imageHeight": 90,
-            "hoverTextColor": 65484,
-            "action" : {
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-0.png",
+            "alignment" : "center_left",
+            "action" : 
+            {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
 
-        "multiplayer":{
-            "texture" : "custommainmenu:ui1-long-4.png",
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 92,
-            "width" : 200,
+        "multiplayer":
+        {
+            "text" : "§b多人游戏",
+            "hoverText" : "§e和好友共同创造大家的世界",
+            "posX" : 71,
+            "posY" : 124,
+            "width" : 98,
             "height" : 20,
-            "imageWidth": 900,
-            "imageHeight": 90,
-            "hoverTextColor": 65484,
-            "action" : {
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-0.png",
+            "alignment" : "center_left",
+            "action" : 
+            {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
 
-        "paperbox":{
-            "texture" : "custommainmenu:ui1-long-4.png",
-            "text" : "连接至纸箱工艺",
-            "posX" : -100,
-            "posY" : 116,
-            "width" : 200,
+        "paperbox":
+        {
+            "text" : "§b§l加入纸箱(点击连接服务器)",
+            "hoverText" : "§2与世界上的伙伴共同创造新世界",
+            "posX" : 71,
+            "posY" : 148,
+            "width" : 98,
             "height" : 20,
-            "imageWidth": 900,
-            "imageHeight": 90,
-            "hoverTextColor": 65484,
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-default-0.png",
+            "alignment" : "center_left",
             "action":{
                 "type":"connectToServer",
-                "ip":"play.mcpaperbox.cn"
+                "ip":"paperbox.jiajiaxd.com"
             }
         },
 
-        "mods":{
-            "texture" : "custommainmenu:ui1-long-4.png",
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 140,
-            "width" : 200,
+        "mods":
+        {
+            "text" : "§6模组",
+            "hoverText" : "§b(已加载§a#modsactive#§b个Mod)",
+            "posX" : 71,
+            "posY" : 172,
+            "width" : 98,
             "height" : 20,
-            "imageWidth": 900,
-            "imageHeight": 90,
-            "hoverTextColor": 65484,
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-0.png",
+            "alignment" : "center_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -79,131 +89,159 @@
             }
         },
 
-        "options":{
-            "texture" : "custommainmenu:setting-1.png",
-            "text" : "",
-            "posX" : 285,
-            "posY" : -175,
-            "width" : 35,
-            "height" : 35,
-            "imageWidth": 200,
-            "imageHeight": 200,
-            "alignment":"center",
-            "tooltip": "§6打开游戏选项",
-            "action" : {
+        "options":
+        {
+            "text" : "§6选项...",
+            "hoverText" : "§c§m你是不是要篡改程序？",
+            "posX" : 71,
+            "posY" : 196,
+            "width" : 98,
+            "height" : 20,
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-0.png",
+            "alignment" : "center_left",
+            "action" : 
+            {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
 
-        "quit":{
-            "texture" : "custommainmenu:quit-1.png",
-            "text" : "",
-            "posX" : 285,
-            "posY" : 90,
-            "width" : 35,
-            "height" : 35,
-            "imageWidth": 200,
-            "imageHeight": 200,
-            "alignment":"center",
-            "tooltip": "§c退出游戏",
-            "action" : {
+        "quit":
+        {
+            "text" : "§c退出游戏",
+            "hoverText" : "§4永远...不要离去...",
+            "posX" : 71,
+            "posY" : 220,
+            "width" : 98,
+            "height" : 20,
+            "imageWidth": 398,
+            "imageHeight": 83,
+            "texture": "custommainmenu:buttons-red-0.png",
+            "alignment" : "center_left",
+            "action" : 
+            {
                 "type" : "quit"
             }
         },
 
-        "language":{
+        "QQ-group":
+        {
             "text" : "",
-            "texture":"custommainmenu:Language-1.png",
-            "posX" : 290,
-            "posY" : -135,
-            "width":25,
-            "height":25,
-            "imageWidth":200,
-            "imageHeight":200,
-            "alignment":"center",
-            "tooltip": "§6切换语言",
-            "action" : {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        }, 
-
-        "refresh":{
-            "text" : "",
-            "texture":"custommainmenu:reload.png",
-            "posX" : 290,
-            "posY" : -15,
-            "width":25,
-            "height":25,
-            "imageWidth":200,
-            "imageHeight":200,
-            "alignment":"center",
-            "tooltip": "§c重载菜单",
-            "action" : {
-                "type" : "refresh"
-            }
-        },
-        "QQ":{
-            "text":"",
-            "texture":"custommainmenu:QQ.png",
-            "posX" : 290,
-            "posY" : -45,
-            "width":25,
-            "height":25,
-            "imageWidth":200,
-            "imageHeight":200,
-            "alignment":"center",
-            "tooltip": "§d点击进入纸箱QQ群",
+            "posX" : 10,
+            "posY" : 5,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+            "texture" : "custommainmenu:qq-group-1.png",
+            "alignment" : "top_left",
             "action":{
                 "type":"openLink",
                 "link":"https://jq.qq.com/?_wv=1027&k=2N0fop3D"
-            }
+            },
+            "tooltip": "§9点击加入纸箱QQ群:279377943"
         },
-        "website":{
-            "text":"",
-            "texture":"custommainmenu:website.png",
-            "posX" : 290,
-            "posY" : -105,
-            "width":25,
-            "height":25,
-            "imageWidth":200,
-            "imageHeight":200,
-            "alignment":"center",
-            "tooltip": "§d点击打开纸箱官网",
+
+        "github":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : 35,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+            "texture" : "custommainmenu:github.png",
+            "alignment" : "top_left",
             "action":{
                 "type":"openLink",
-                "link":"https://mcpaperbox.cn"
-            }
+                "link":"https://github.com/PaperBoxMC/paperbox_client/issues"
+            },
+            "tooltip": "§9点击打开纸箱GitHub的issues网页\n§a欢迎各位玩家在GitHub提交issue！"
         },
-        "mcbbs":{
-            "text":"",
-            "texture":"custommainmenu:mcbbs-1.png",
-            "posX" : 290,
-            "posY" : -75,
-            "width":25,
-            "height":25,
-            "imageWidth":200,
-            "imageHeight":200,
-            "alignment":"center",
-            "tooltip": "§d点击打开纸箱宣传贴",
+
+        "mcbbs":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : 65,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+            "texture" : "custommainmenu:mcbbs.png",
+            "alignment" : "top_left",
             "action":{
                 "type":"openLink",
                 "link":"https://www.mcbbs.net/thread-1124469-1-1.html"
+            },
+            "tooltip": "§9点击打开纸箱mcbbs宣传贴网页"
+        },
+
+        "language":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : 125,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+            "texture" : "custommainmenu:language-1.png",
+            "alignment" : "top_left",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            },
+            "tooltip": "§9点击切换语言"
+        },
+
+        "accounts":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : 95,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+			"wrappedButton": 20,
+            "texture" : "custommainmenu:user.png",
+            "alignment" : "top_left",
+            "tooltip": "§9您当前玩家名是§e#username#\n§c点击以切换账户！"
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : 155,
+            "width" : 25,
+            "height" : 25,
+            "imageWidth": 301,
+            "imageHeight": 301,
+            "texture" : "custommainmenu:reloadmenu.png",
+            "alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "refresh"
             }
         }
     },
-    
+
     "labels":
     {
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
             "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -150,
+            "posX" : 2,
             "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_right",
+            "alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -211,53 +249,65 @@
             }
         },
 
-        "servertext":
-        {
-            "text" : "web:https://mcpaperbox.cn/ccm.txt",
-            "posX" : 2,
-            "posY" : -125,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        },
         "player":
         {
-            "text" : "§d你好！§b#username#",
-            "posX" : 2,
-            "posY" : -45,
+            "text" : "§5你好！§b#username#",
+            "posX" : -120,
+            "posY" : -47,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
         },
-        
         "fml":
         {
             "text" : "",
-            "posX" : 2,
-            "posY" : -35,
+            "posX" : -120,
+            "posY" : -37,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
         },
-
         "mods":
         {
-            "text" : "§d加载了§b#modsloaded#§d个Mod,激活了§b#modsactive#§d个Mod",
-            "posX" : 2,
-            "posY" : -8,
+            "text" : "§9加载了§b#modsloaded#§9个Mod,激活了§b#modsactive#§9个Mod",
+            "posX" : -120,
+            "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
         }
     },
-    
+
     "other":
     {
+        "background":{
+            "image" : "custommainmenu:bg2.png",
+            "mode": "fill",
+            "slideshow":{
+                "images" : [
+                    "custommainmenu:bg1.jpg",
+                    "custommainmenu:bg2.png",
+                    "custommainmenu:bg4.png",
+                    "custommainmenu:bg7.jpg",
+                    "custommainmenu:bg8.png",
+                    "custommainmenu:bg9.png",
+                    "custommainmenu:bg10.png",
+                    "custommainmenu:bg11.png",
+                    "custommainmenu:bg12.jpg",
+                    "custommainmenu:bg13.png",
+                    "custommainmenu:bg14.jpg"
+                ],
+                "displayDuration" : 100,
+                "fadeDuration" : 20
+            }
+        },
+
         "splash-text":
         {
-            "posX" : 200,
+            "posX" : -50,
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:custommainmenu:splashes.txt"
         },
-        
+
         "panorama":
         {
             "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
@@ -265,30 +315,6 @@
             "animationSpeed" : 1,
             "blur" : true,
             "gradient" : true
-        },
-
-        "background":
-        {
-            "image":"",
-            "mode":"fill",
-            "slideshow": {
-                "images": [
-                    "custommainmenu:bg1.png",
-                    "custommainmenu:bg2.png",
-                    "custommainmenu:bg3.png",
-                    "custommainmenu:bg4.png",
-                    "custommainmenu:bg5.png",
-                    "custommainmenu:bg6.png",
-                    "custommainmenu:bg7.png",
-                    "custommainmenu:bg8.png",
-                    "custommainmenu:bg9.png",
-                    "custommainmenu:bg10.png"
-                ],
-                "shuffle": true,
-                "displayDuration": 100,
-                "fadeDuration": 40,
-                "sync": true
-            }
         }
     }
 }

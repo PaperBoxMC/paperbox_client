@@ -1,7 +1,7 @@
 {
     "registryname": "Phaselense",
     "localizedname": "§6相位§f炼化棱镜",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
 	"color": "f2efed",
 	"parts": [
         {

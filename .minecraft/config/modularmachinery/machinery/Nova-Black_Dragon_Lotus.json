@@ -1,7 +1,7 @@
 {
     "registryname": "Black_Dragon_Lotus",
     "localizedname": "§e黑§d莲§e龙§d木",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

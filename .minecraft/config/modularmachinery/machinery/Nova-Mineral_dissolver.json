@@ -1,7 +1,7 @@
 {
     "registryname": "Mineral_dissolver",
     "localizedname": "§b矿物溶解机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

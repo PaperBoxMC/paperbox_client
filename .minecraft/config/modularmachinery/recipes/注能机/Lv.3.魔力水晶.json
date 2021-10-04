@@ -1,7 +1,7 @@
 {
     "machine": "Crystal_injection",
     "registryName": "Lv3.manaCry",
-    "recipeTime": 900,
+    "recipeTime": 1600,
     "requirements": [
         {
             "type": "modularmachinery:energy",
@@ -23,8 +23,8 @@
         {
             "type": "gugu-utils:mana_pertick",
             "io-type": "input",
-            "time": 900,
-            "mana": 1000
+            "time": 1200,
+            "mana": 750
         },
         {
             "type": "item",

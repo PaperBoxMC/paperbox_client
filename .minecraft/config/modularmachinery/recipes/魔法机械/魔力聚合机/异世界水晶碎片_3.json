@@ -6,7 +6,7 @@
         {
             "type": "gugu-utils:mana",
             "io-type": "input",
-            "mana": 1000000
+            "mana": 750000
         },
         {
             "type": "item",

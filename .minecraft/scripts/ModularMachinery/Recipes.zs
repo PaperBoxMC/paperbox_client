@@ -1,4 +1,6 @@
-//Recipe By Sora_Nova
+//Recipe By Beyond_Nova
+#priority 10000
+
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 
@@ -12,23 +14,23 @@ import mod.mekanism.gas.IGasStack;
 //==============================原子重置机==============================
 //超光速蓝图_2
 RecipeBuilder.newBuilder("ARS_LSMA_blueprints_2", "Atomic_resetter", 6000).
-addEnergyPerTickInput(700000000).
-addItemInput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b精密装配机完成了初步的机械蓝图绘画","§b你需要使用原子重置机来制作复杂零件",], Name:"§c§l未完成的§6§l超光速物质加速器蓝图"}})).
+addEnergyPerTickInput(350000000).
+addItemInput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b高级元件装配室完成了初步的机械蓝图译制","§b你需要使用原子重构机来制作复杂零件",], Name:"§c§l未完成的§6§l超光速物质加速器蓝图"}})).
 addItemInput(<custommc:item132>).
-addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b原子重置机完成了机械零件的组装","§b在最后,你需要注入六大星座的能量"], Name:"§c§l即将完成的§6§l超光速§e§l物质加速器§b§l蓝图"}})).
+addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b原子重构机完成了机械零件的组装","§b在最后,你需要注入六大星座的能量"], Name:"§c§l即将完成的§6§l超光速§e§l物质加速器§b§l蓝图"}})).
 build();
 
 //超级煲
 RecipeBuilder.newBuilder("ARS_ultimate_stew","Atomic_resetter", 1200).
-addEnergyPerTickInput(300000000).
-addFluidInput(<liquid:ic2uu_matter> * 500000).
+addEnergyPerTickInput(150000000).
+addFluidInput(<liquid:crystalloid> * 50).
 addItemInput(<avaritia:ultimate_stew>).setChance(0).
 addItemOutput(<avaritia:ultimate_stew>).
 build();
 
 //高阶通用合金
 RecipeBuilder.newBuilder("ARS_gaojitongyonhejin","Atomic_resetter", 600).
-addEnergyPerTickInput(200000000).
+addEnergyPerTickInput(100000000).
 addItemInput(<custommc:item352> * 12).
 addItemInput(<additions:novaextended-ingot6> * 20).
 addItemOutput(<additions:novaextended-ingot9>).
@@ -38,34 +40,36 @@ build();
 //终望珍珠
 //优先检测终望珍珠
 RecipeBuilder.newBuilder("ARS_field_generator","Atomic_resetter", 10 , 100).
-addEnergyPerTickInput(350000000).
+addEnergyPerTickInput(175000000).
 addItemInput(<minecraft:ender_eye> * 5).
 addItemOutput(<mets:field_generator> * 5).
 build();
 
 RecipeBuilder.newBuilder("ARS_endest_pearl","Atomic_resetter", 20, 99).
-addEnergyPerTickInput(350000000).
-addItemInput(<minecraft:nether_star> * 8).
-addItemInput(<minecraft:ender_eye> * 5).
+addEnergyPerTickInput(175000000).
+addItemInput(<minecraft:nether_star> * 12).
+addItemInput(<minecraft:ender_eye> * 12).
 addItemOutput(<avaritia:endest_pearl> * 12).
 build();
 
 //方舟锭
 RecipeBuilder.newBuilder("ARS_Ark_ingot", "Atomic_resetter", 1200).
-addEnergyPerTickInput(100000000).
+addEnergyPerTickInput(50000000).
 addItemInput(<ore:ingotStellarAlloy>).
 addItemInput(<ore:ingotGelidEnderium>).
 addItemInput(<ore:ingotAdamant>).
 addItemInput(<ore:ingotChaoticMetal>).
 addItemInput(<ore:ingotOrichalcos>).
 addItemInput(<ore:ingotFallenStarAlloy>).
+addItemInput(<ore:ingotBoundMetal>).
+addItemInput(<ore:ingotSentientMetal>).
 addItemInput(<ore:ingotInfinity>).
 addItemOutput(<additions:novaextended-star_ingot>).
 build();
 
 //奇点-绿宝石
 RecipeBuilder.newBuilder("ARS_emerald_singularity","Atomic_resetter", 5).
-addEnergyPerTickInput(2000000000).
+addEnergyPerTickInput(1000000000).
 addItemInput(<ore:blockEmerald> , 64).
 addItemInput(<ore:blockEmerald> , 64).
 addItemInput(<ore:blockEmerald> , 64).
@@ -80,7 +84,7 @@ build();
 
 //奇点-银
 RecipeBuilder.newBuilder("ARS_silver_singularity","Atomic_resetter", 5).
-addEnergyPerTickInput(1000000000).
+addEnergyPerTickInput(500000000).
 addItemInput(<ore:blockSilver> , 64).
 addItemInput(<ore:blockSilver> , 64).
 addItemInput(<ore:blockSilver> , 64).
@@ -96,7 +100,7 @@ build();
 
 //奇点-钻石
 RecipeBuilder.newBuilder("ARS_diamond_singularity","Atomic_resetter", 5).
-addEnergyPerTickInput(1000000000).
+addEnergyPerTickInput(500000000).
 addItemInput(<ore:blockDiamond> , 64).
 addItemInput(<ore:blockDiamond> , 64).
 addItemInput(<ore:blockDiamond> , 64).
@@ -112,7 +116,7 @@ build();
 
 //下界之星-1
 RecipeBuilder.newBuilder("ARS_netherStar-1","Atomic_resetter", 5).
-addEnergyPerTickInput(5000000000).
+addEnergyPerTickInput(2500000000).
 addItemInput(<minecraft:skull:1> * 64).
 addItemOutput(<ore:netherStar> , 64).
 addItemOutput(<ore:netherStar> , 8).setChance(0.1).
@@ -129,7 +133,7 @@ build();
 
 //铱矿石
 RecipeBuilder.newBuilder("ARS_ic2_Iridium","Atomic_resetter", 2).
-addEnergyPerTickInput(350000000).
+addEnergyPerTickInput(175000000).
 addItemInput(<ore:ingotIron> , 64).
 addItemInput(<ore:ingotIron> , 64).
 addItemOutput(<ic2:misc_resource:1> * 64).
@@ -138,18 +142,17 @@ build();
 
 //异世界水晶碎片-2
 RecipeBuilder.newBuilder("ARS_Exotic_crystal","Atomic_resetter", 1600).
-addEnergyPerTickInput(750000000).
+addEnergyPerTickInput(375000000).
 addItemInput(<additions:novaextended-crystal2> * 8).setChance(0).
 addItemOutput(<additions:novaextended-crystal1>).setChance(0.01).
 build();
 
 //原子重置机-蓝图
-RecipeBuilder.newBuilder("controller_ARS","crafter_tier_2", 9600).
-addEnergyPerTickInput(1200000).
+RecipeBuilder.newBuilder("controller_ARS","acar", 9600).
+addEnergyPerTickInput(600000).
 addItemInput(<mets:field_generator> * 64).
 addItemInput(<mets:field_generator> * 64).
-addItemInput(<mekanism:controlcircuit:3> * 60).
-addItemInput(<mets:living_circuit> * 64).
+addItemInput(<ore:circuitExtreme> , 32).
 addItemInput(<mets:living_circuit> * 64).
 addItemInput(<avaritia:resource:1> * 50).
 addItemInput(<extrabotany:buddhistrelics>).
@@ -174,7 +177,7 @@ build();
 
 //盈能水晶-Lv1
 RecipeBuilder.newBuilder("energycrystal_lv1","Pure_crystal_synthesis_instrument", 1200).
-addEnergyPerTickInput(500000).
+addEnergyPerTickInput(400000).
 addItemInput(<enderio:item_material:15> * 16).
 addItemOutput(<custommc:item929>).
 build();
@@ -196,12 +199,12 @@ build();
 //电磁_187-256格
 RecipeBuilder.newBuilder("dici_3","di_ci", 5).
 setAltitude(187, 256).
-addEnergyPerTickOutput(25000000).
+addEnergyPerTickOutput(26000000).
 build();
 
 //电磁发电机-蓝图
 RecipeBuilder.newBuilder("di_ci_controller","crafter_tier_2", 600).
-addEnergyPerTickInput(160000).
+addEnergyPerTickInput(120000).
 addItemInput(<mets:geomagnetic_pedestal> * 64).
 addItemInput(<mets:geomagnetic_pedestal> * 64).
 addItemInput(<mets:geomagnetic_pedestal> * 64).
@@ -270,7 +273,7 @@ build();
 //==============================裂变反应堆T2 IC2==============================
 //铀燃料棒
 RecipeBuilder.newBuilder("reactor_ic2_2_uranium","reactor_ic2_2", 100000).
-addFluidInput(<liquid:water> * 7500000).
+addFluidInput(<liquid:water> * 500000).
 addItemInput(<ic2:quad_uranium_fuel_rod> * 8).
 addEnergyPerTickOutput(40000).
 addItemOutput(<ic2:nuclear:13> * 8).
@@ -278,7 +281,7 @@ build();
 
 //MOX燃料棒
 RecipeBuilder.newBuilder("reactor_ic2_2_mox","reactor_ic2_2", 50000).
-addFluidInput(<liquid:water> * 15000000).
+addFluidInput(<liquid:water> * 1000000).
 addItemInput(<ic2:quad_mox_fuel_rod> * 8).
 addEnergyPerTickOutput(75000).
 addItemOutput(<ic2:nuclear:16> * 8).
@@ -286,15 +289,14 @@ build();
 
 //==============================α能量水晶/β能量水晶==============================
 //α水晶-蓝图
-RecipeBuilder.newBuilder("controller_Energy_crystal", "crafter_tier_2", 7200).
+RecipeBuilder.newBuilder("controller_Energy_crystal", "acar", 7200).
 addEnergyPerTickInput(750000).
 addItemInput(<mets:field_generator> * 64).
 addItemInput(<mets:field_generator> * 64).
-addItemInput(<mekanism:controlcircuit:3> * 60).
 addItemInput(<avaritia:block_resource:2> * 60).
 addItemInput(<modularcontroller:advanced_interpreter_controller>).
 addItemInput(<nuclearcraft:lithium_ion_battery_elite> * 10).
-addItemInput(<mets:living_circuit> * 64).
+addItemInput(<ore:circuitExtreme> , 32).
 addItemInput(<mets:living_circuit> * 64).
 addItemInput(<extrabotany:blockorichalcos> * 6).
 addItemInput(<ore:dustCryotheum> , 64).
@@ -304,10 +306,11 @@ addItemOutput(<modularcontroller:energy_crystal_controller>).
 build();
 
 //β水晶-蓝图
-RecipeBuilder.newBuilder("controller_Energy_crystal_2", "crafter_tier_2", 512000).
-addEnergyPerTickInput(7500000).
+RecipeBuilder.newBuilder("controller_Energy_crystal_2", "acar", 512000).
+addEnergyPerTickInput(3750000).
 addItemInput(<modularcontroller:energy_crystal_controller>).
 addItemInput(<custommc:item968>).
+addItemInput(<ore:circuitExtreme> , 64).
 addItemOutput(<modularcontroller:energy_crystal_2_controller>).
 build();
 
@@ -366,20 +369,20 @@ build();
 
 //==============================生物质发电机(下北泽发电厂)==============================
 //藿香碱
-RecipeBuilder.newBuilder("refined_biofuel_1", "Biomass/biogas_generator", 200).
+RecipeBuilder.newBuilder("refined_biofuel_1", "biogas_generator", 200).
 addFluidInput(<liquid:refined_biofuel> * 100).
 addEnergyPerTickOutput(80000).
 build();
 
 //生物燃料
-RecipeBuilder.newBuilder("BioFuel_1", "Biomass/biogas_generator", 160).
+RecipeBuilder.newBuilder("BioFuel_1", "biogas_generator", 160).
 addItemInput(<ore:itemBioFuel> , 16).
 addEnergyPerTickOutput(6000).
 build();
 
 //沼气(
-RecipeBuilder.newBuilder("1919810", "Biomass/biogas_generator", 100).
-addFluidInput(<liquid:ic2biogas> * 15000).
+RecipeBuilder.newBuilder("1919810", "biogas_generator", 100).
+addFluidInput(<liquid:ic2biogas> * 17500).
 addEnergyPerTickOutput(114514).
 build();
 
@@ -423,17 +426,17 @@ build();
 //奥利哈刚
 RecipeBuilder.newBuilder("CRR_EB_material", "cosmic_ray_receiver", 25600).
 addItemInput(<extrabotany:material:1>).
-addEnergyPerTickOutput(6144000).
+addEnergyPerTickOutput(2048000).
 build();
 
 //水晶矩阵锭
-RecipeBuilder.newBuilder("CRR_Ava_resource@1", "cosmic_ray_receiver", 25600).
-addItemInput(<avaritia:resource:1> * 8).
-addEnergyPerTickOutput(12288000).
+RecipeBuilder.newBuilder("CRR_Ava_resource@1", "cosmic_ray_receiver", 12800).
+addItemInput(<avaritia:resource:1> * 6).
+addEnergyPerTickOutput(6144000).
 build();
 
 //中子素
-RecipeBuilder.newBuilder("CRR_Ava_resource@4", "cosmic_ray_receiver", 51200).
+RecipeBuilder.newBuilder("CRR_Ava_resource@4", "cosmic_ray_receiver", 25600).
 addItemInput(<avaritia:resource:4> * 8).
 addEnergyPerTickOutput(6144000).
 build();
@@ -474,8 +477,8 @@ build();
 
 //==============================核融起爆机==============================
 //核心黏贴剂
-RecipeBuilder.newBuilder("hexinniantieji_1","nuclear_melt_detonator", 100).
-addEnergyPerTickInput(1000000000).
+RecipeBuilder.newBuilder("hexinniantieji_1","nuclear_melt_detonator", 60).
+addEnergyPerTickInput(500000000).
 addFluidInput(<liquid:hydrogen> * 128000).
 addFluidInput(<liquid:knightslime> * 24000).
 addItemInput(<minecraft:clay> * 32).
@@ -485,8 +488,8 @@ addItemOutput(<custommc:item169>).
 build();
 
 //机械合金
-RecipeBuilder.newBuilder("jixiehexin_1", "nuclear_melt_detonator", 100).
-addEnergyPerTickInput(1000000000).
+RecipeBuilder.newBuilder("jixiehexin_1", "nuclear_melt_detonator", 60).
+addEnergyPerTickInput(500000000).
 addFluidInput(<liquid:hydrogen> * 128000).
 addItemInput(<enderio:item_material:5> * 6).
 addItemInput(<thermalfoundation:material:295> * 6).
@@ -510,7 +513,7 @@ build();
 //==============================粉碎机==============================
 //粉碎-圆石
 RecipeBuilder.newBuilder("item_shredder_cobblestone", "item_shredder", 30).
-addEnergyPerTickInput(60000).
+addEnergyPerTickInput(20000).
 addItemInput(<minecraft:cobblestone> * 64).
 addItemInput(<minecraft:cobblestone> * 64).
 addItemInput(<minecraft:cobblestone> * 64).
@@ -523,23 +526,23 @@ build();
 
 //==============================霍金恒星坍缩机==============================
 //霍金恒星坍缩机-蓝图
-RecipeBuilder.newBuilder("controller_star_collapser","crafter_tier_2", 7200).
-addEnergyPerTickInput(500000).
-addItemInput(<ore:circuitUltimate> , 64).
+RecipeBuilder.newBuilder("controller_star_collapser","acar", 7200).
+addEnergyPerTickInput(300000).
+addItemInput(<ore:circuitExtreme> , 48).
 addItemInput(<enderio:item_capacitor_stellar> * 16).
-addItemInput(<enderio:block_alloy_endergy:3> * 32).
+addItemInput(<enderio:block_alloy_endergy:3> * 24).
 addItemInput(<draconicevolution:draconic_block> * 16).
 addItemInput(<extrabotany:blockorichalcos> * 6).
-addItemInput(<draconicevolution:particle_generator> * 32).
-addItemInput(<enderio:block_infinity:2> * 4).
-addItemInput(<ore:gemCrystalRGP>).
+addItemInput(<draconicevolution:particle_generator> * 24).
+addItemInput(<ore:gemCrystalRGP> , 3).
+addItemInput(<ore:ingotArk> , 3).
 addItemInput(<draconicevolution:reactor_component> * 6).
 addItemOutput(<modularcontroller:star_collapser_controller>).
 build();
 
 //混沌核心
 RecipeBuilder.newBuilder("star_collapser_ChaoticCore", "star_collapser", 100).
-addEnergyPerTickInput(20000000).
+addEnergyPerTickInput(10000000).
 addItemInput(<draconicevolution:draconic_ingot> * 4).
 addItemInput(<draconicevolution:chaos_shard>).
 addItemInput(<draconicevolution:awakened_core>).
@@ -548,7 +551,7 @@ build();
 
 //混沌能量核心
 RecipeBuilder.newBuilder("star_collapser_ChaoticEnergyCore", "star_collapser", 100).
-addEnergyPerTickInput(100000000).
+addEnergyPerTickInput(50000000).
 addItemInput(<ore:blockRedstone> , 4).
 addItemInput(<draconicevolution:chaos_shard:1> * 3).
 addItemInput(<draconicevolution:draconic_energy_core>).
@@ -557,7 +560,7 @@ build();
 
 //觉醒核心
 RecipeBuilder.newBuilder("star_collapser_AwakenedCore","star_collapser",100).
-addEnergyPerTickInput(250000).
+addEnergyPerTickInput(125000).
 addItemInput(<draconicevolution:draconic_ingot> * 4).
 addItemInput(<draconicevolution:wyvern_core> * 4).
 addItemOutput(<draconicevolution:awakened_core>).
@@ -565,15 +568,15 @@ build();
 
 //龙蛋
 RecipeBuilder.newBuilder("star_collapser_DragonEgg", "star_collapser" , 1200).
-addEnergyPerTickInput(200000000).
-addItemInput(<draconicevolution:chaos_shard:1>).
+addEnergyPerTickInput(100000000).
+addItemInput(<draconicevolution:chaos_shard:1> * 2).
 addItemInput(<draconicevolution:mob_soul>).
 addItemOutput(<minecraft:dragon_egg>).
 build();
 
 //无尽之锭
 RecipeBuilder.newBuilder("star_collapser_InfIngot","star_collapser", 1200).
-addEnergyPerTickInput(250000000).
+addEnergyPerTickInput(125000000).
 addItemInput(<avaritia:resource:4> * 20).
 addItemInput(<avaritia:resource:1> * 8).
 addItemInput(<avaritia:resource:5> * 8).
@@ -583,7 +586,7 @@ build();
 
 //永恒奇点
 RecipeBuilder.newBuilder("star_collapser_ES", "star_collaper", 2400).
-addEnergyPerTickInput(350000000).
+addEnergyPerTickInput(200000000).
 addItemInput(<avaritia:singularity>).
 addItemInput(<avaritia:singularity:1>).
 addItemInput(<avaritia:singularity:2>).
@@ -675,13 +678,13 @@ build();
 
 //==============================精密装配机==============================
 //超光速物质加速器-蓝图-1
-RecipeBuilder.newBuilder("CT2-LSMA_blueprints_1", "crafter_tier_2", 30443).
+RecipeBuilder.newBuilder("CT2-LSMA_blueprints_1", "acar", 30443).
 addEnergyPerTickInput(44887).
 addItemInput(<ore:gemCrystalRed> , 60).
 addItemInput(<ore:gemCrystalGreen> , 60).
 addItemInput(<ore:gemCrystalPurple> , 60).
 addItemInput(<ore:gemCrystalRGP> , 60).
-addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b精密装配机完成了初步的机械蓝图绘画","§b你需要使用原子重置机来制作复杂零件"], Name:"§c§l未完成的§6§l超光速物质加速器蓝图"}})).
+addItemOutput(<variedcommodities:blueprint>.withTag({display:{Lore:["§b高级元件装配室完成了初步的机械蓝图译制","§b你需要使用原子重构机来制作复杂零件"], Name:"§c§l未完成的§6§l超光速物质加速器蓝图"}})).
 build();
 
 //精密装配机-蓝图
@@ -699,93 +702,93 @@ build();
 
 //==============================矿物提取机/小型钢矿钻/泰拉钢矿钻==============================
 //矿物提取机-定向-核电工艺
-RecipeBuilder.newBuilder("Mineral_extractor_nc","Mineral_extractor",2400).
-addEnergyPerTickInput(50000).
+RecipeBuilder.newBuilder("Mineral_extractor_nc","Mineral_extractor",800).
+addEnergyPerTickInput(60000).
 addItemInput(<nuclearcraft:pickaxe_boron>).setChance(0).
-addItemOutput(<nuclearcraft:ore:3> * 6).setChance(0.15).
-addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.20).
-addItemOutput(<nuclearcraft:ore:5> * 6).setChance(0.20).
-addItemOutput(<nuclearcraft:ore:6> * 6).setChance(0.20).
-addItemOutput(<nuclearcraft:ore:7> * 6).setChance(0.20).
+addItemOutput(<nuclearcraft:ore:3> * 3).setChance(0.15).
+addItemOutput(<nuclearcraft:ore:4> * 3).setChance(0.20).
+addItemOutput(<nuclearcraft:ore:5> * 3).setChance(0.20).
+addItemOutput(<nuclearcraft:ore:6> * 3).setChance(0.20).
+addItemOutput(<nuclearcraft:ore:7> * 3).setChance(0.20).
 build();
 
 //矿物提取机-定向-铁铜锡
-RecipeBuilder.newBuilder("Mineral_extractor_1","Mineral_extractor",2400).
-addEnergyPerTickInput(75000).
+RecipeBuilder.newBuilder("Mineral_extractor_1","Mineral_extractor",600).
+addEnergyPerTickInput(85000).
 addItemInput(<minecraft:iron_ingot>).setChance(0).
-addItemOutput(<minecraft:iron_ore> * 4).setChance(0.33).
-addItemOutput(<ic2:resource:1> * 4).setChance(0.33).
-addItemOutput(<ic2:resource:2> * 4).setChance(0.33).
+addItemOutput(<minecraft:iron_ore> * 2).setChance(0.33).
+addItemOutput(<ic2:resource:1> * 2).setChance(0.33).
+addItemOutput(<ic2:resource:2> * 2).setChance(0.33).
 build();
 
 //矿物提取机-定向-金银红石青金石铀铅
-RecipeBuilder.newBuilder("Mineral_extractor_2","Mineral_extractor",2400).
-addEnergyPerTickInput(40000).
+RecipeBuilder.newBuilder("Mineral_extractor_2","Mineral_extractor",800).
+addEnergyPerTickInput(60000).
 addItemInput(<minecraft:gold_ingot>).setChance(0).
-addItemOutput(<minecraft:gold_ore> * 6).setChance(0.06).
-addItemOutput(<minecraft:lapis_ore> * 6).setChance(0.14).
-addItemOutput(<minecraft:redstone_ore> * 6).setChance(0.18).
-addItemOutput(<thermalfoundation:ore:2> * 6).setChance(0.08).
-addItemOutput(<nuclearcraft:ore:2> * 6).setChance(0.12).
-addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.08).
+addItemOutput(<minecraft:gold_ore> * 3).setChance(0.06).
+addItemOutput(<minecraft:lapis_ore> * 3).setChance(0.14).
+addItemOutput(<minecraft:redstone_ore> * 3).setChance(0.18).
+addItemOutput(<thermalfoundation:ore:2> * 3).setChance(0.08).
+addItemOutput(<nuclearcraft:ore:2> * 3).setChance(0.12).
+addItemOutput(<nuclearcraft:ore:4> * 3).setChance(0.08).
 build();
 
 //矿物提取机-定向-钻石绿宝石钛镍空间碎片
-RecipeBuilder.newBuilder("Mineral_extractor_3","Mineral_extractor",2400).
+RecipeBuilder.newBuilder("Mineral_extractor_3","Mineral_extractor",1000).
 addEnergyPerTickInput(85000).
 addItemInput(<minecraft:diamond>).setChance(0).
-addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.25).
-addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.20).
-addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore> * 5).setChance(0.20).
+addItemOutput(<minecraft:diamond_ore> * 3).setChance(0.25).
+addItemOutput(<minecraft:emerald_ore> * 2).setChance(0.20).
+addItemOutput(<mets:titanium_ore> * 2).setChance(0.15).
+addItemOutput(<thermalfoundation:ore> * 3).setChance(0.20).
 build();
 
 //矿物提取机-定向-铌铱铂龙柳钢
-RecipeBuilder.newBuilder("Mineral_extractor_4","Mineral_extractor",3200).
+RecipeBuilder.newBuilder("Mineral_extractor_4","Mineral_extractor",800).
 addEnergyPerTickInput(100000).
 addItemInput(<mets:niobium_ore>).setChance(0).
-addItemOutput(<mets:niobium_ore>).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.15).
-addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.2).
-addItemOutput(<additions:novaextended-ore8> * 1).setChance(0.1).
+addItemOutput(<mets:niobium_ore>).setChance(0.10).
+addItemOutput(<thermalfoundation:ore:6> * 1).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:7> * 1).setChance(0.15).
+addItemOutput(<draconicevolution:draconium_ore> * 2).setChance(0.2).
+addItemOutput(<additions:novaextended-ore8> * 1).setChance(0.05).
 build();
 
 //泰拉钢矿钻-定向-核电工艺
-RecipeBuilder.newBuilder("mana_ore_drill_2","mana_ore_drill", 1200).
-addManaInput(750000).
+RecipeBuilder.newBuilder("mana_ore_drill_2","mana_ore_drill", 400).
+addManaInput(175000).
 addItemInput(<nuclearcraft:pickaxe_boron>).setChance(0).
-addItemOutput(<nuclearcraft:ore:3> * 6).setChance(0.30).
-addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.40).
-addItemOutput(<nuclearcraft:ore:5> * 6).setChance(0.40).
-addItemOutput(<nuclearcraft:ore:6> * 6).setChance(0.40).
-addItemOutput(<nuclearcraft:ore:7> * 6).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:3> * 3).setChance(0.30).
+addItemOutput(<nuclearcraft:ore:4> * 3).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:5> * 3).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:6> * 3).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:7> * 3).setChance(0.40).
 build();
 
 //泰拉钢矿钻
-RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill", 1200).
-addManaInput(750000).
+RecipeBuilder.newBuilder("mana_ore_drill_1","mana_ore_drill", 200).
+addManaInput(125000).
 addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
-addItemOutput(<minecraft:iron_ore> * 4).setChance(0.15).
-addItemOutput(<ic2:resource:1> * 4).setChance(0.15).
-addItemOutput(<ic2:resource:2> * 4).setChance(0.15).
-addItemOutput(<minecraft:gold_ore> * 6).setChance(0.15).
-addItemOutput(<minecraft:lapis_ore> * 6).setChance(0.15).
-addItemOutput(<minecraft:redstone_ore> * 6).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:2> * 6).setChance(0.15).
-addItemOutput(<nuclearcraft:ore:2> * 6).setChance(0.15).
-addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.15).
-addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.15).
-addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.15).
-addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore> * 5).setChance(0.05).
+addItemOutput(<minecraft:iron_ore> * 2).setChance(0.15).
+addItemOutput(<ic2:resource:1> * 2).setChance(0.15).
+addItemOutput(<ic2:resource:2> * 2).setChance(0.15).
+addItemOutput(<minecraft:gold_ore> * 3).setChance(0.15).
+addItemOutput(<minecraft:lapis_ore> * 3).setChance(0.15).
+addItemOutput(<minecraft:redstone_ore> * 3).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:2> * 3).setChance(0.15).
+addItemOutput(<nuclearcraft:ore:2> * 3).setChance(0.15).
+addItemOutput(<nuclearcraft:ore:4> * 3).setChance(0.15).
+addItemOutput(<minecraft:diamond_ore> * 3).setChance(0.15).
+addItemOutput(<minecraft:emerald_ore> * 2).setChance(0.15).
+addItemOutput(<mets:titanium_ore> * 2).setChance(0.15).
+addItemOutput(<thermalfoundation:ore> * 3).setChance(0.05).
 addItemOutput(<mets:niobium_ore>).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.1).
-addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
-addItemOutput(<tconstruct:ore:0> * 6).setChance(0.15).
-addItemOutput(<tconstruct:ore:1> * 6).setChance(0.15).
-addItemOutput(<additions:novaextended-ore8>).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:6> * 1).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:7> * 1).setChance(0.1).
+addItemOutput(<draconicevolution:draconium_ore> * 2).setChance(0.1).
+addItemOutput(<tconstruct:ore:0> * 3).setChance(0.15).
+addItemOutput(<tconstruct:ore:1> * 3).setChance(0.15).
+addItemOutput(<additions:novaextended-ore8>).setChance(0.8).
 build();
 
 //泰拉钢矿钻-蓝图
@@ -799,28 +802,65 @@ addItemOutput(<modularcontroller:mana_ore_drill_controller>).
 build();
 
 //小型钢矿钻
-RecipeBuilder.newBuilder("small_ore_drill_1","small_ore_drill",3200).
-addEnergyPerTickInput(600).
-addItemOutput(<minecraft:iron_ore> * 4).setChance(0.17).
-addItemOutput(<ic2:resource:1> * 6).setChance(0.21).
-addItemOutput(<ic2:resource:2> * 6).setChance(0.18).
-addItemOutput(<minecraft:gold_ore> * 6).setChance(0.06).
-addItemOutput(<minecraft:lapis_ore> * 2).setChance(0.14).
-addItemOutput(<minecraft:coal_ore> * 8).setChance(0.22).
-addItemOutput(<minecraft:redstone_ore> * 6).setChance(0.18).
-addItemOutput(<thermalfoundation:ore:2> * 4).setChance(0.08).
-addItemOutput(<thermalfoundation:ore:4> * 4).setChance(0.12).
-addItemOutput(<thermalfoundation:ore:5> * 4).setChance(0.04).
+RecipeBuilder.newBuilder("small_ore_drill_1","small_ore_drill",800).
+addEnergyPerTickInput(400).
+addItemOutput(<minecraft:iron_ore> * 2).setChance(0.17).
+addItemOutput(<ic2:resource:1> * 3).setChance(0.21).
+addItemOutput(<ic2:resource:2> * 3).setChance(0.18).
+addItemOutput(<minecraft:gold_ore> * 3).setChance(0.06).
+addItemOutput(<minecraft:lapis_ore> * 1).setChance(0.14).
+addItemOutput(<minecraft:coal_ore> * 4).setChance(0.22).
+addItemOutput(<minecraft:redstone_ore> * 3).setChance(0.18).
+addItemOutput(<thermalfoundation:ore:2> * 2).setChance(0.08).
+addItemOutput(<thermalfoundation:ore:4> * 2).setChance(0.12).
+addItemOutput(<thermalfoundation:ore:5> * 2).setChance(0.04).
+addItemOutput(<nuclearcraft:ore:2> * 3).setChance(0.15).
+addItemOutput(<nuclearcraft:ore:4> * 3).setChance(0.15).
+addItemOutput(<minecraft:diamond_ore> * 1).setChance(0.07).
+addItemOutput(<minecraft:emerald_ore> * 2).setChance(0.05).
+addItemOutput(<mets:titanium_ore> * 2).setChance(0.15).
+addItemOutput(<thermalfoundation:ore> * 3).setChance(0.05).
+addItemOutput(<mets:niobium_ore>).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:6> * 1).setChance(0.02).
+addItemOutput(<thermalfoundation:ore:7> * 1).setChance(0.02).
+addItemOutput(<draconicevolution:draconium_ore> * 2).setChance(0.1).
+build();
+
+//奥利哈刚矿钻-定向-核电工艺
+RecipeBuilder.newBuilder("orichalcos_drill_2","orichalcos_drill", 140).
+addManaInput(75000).
+addItemInput(<nuclearcraft:pickaxe_boron>).setChance(0).
+addItemOutput(<nuclearcraft:ore:3> * 5).setChance(0.30).
+addItemOutput(<nuclearcraft:ore:4> * 5).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:5> * 5).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:6> * 5).setChance(0.40).
+addItemOutput(<nuclearcraft:ore:7> * 5).setChance(0.40).
+build();
+
+//奥利哈刚矿钻
+RecipeBuilder.newBuilder("orichalcos_drill_1","orichalcos_drill", 120).
+addManaInput(50000).
+addItemInput(<minecraft:diamond_pickaxe>).setChance(0).
+addItemOutput(<minecraft:iron_ore> * 4).setChance(0.15).
+addItemOutput(<ic2:resource:1> * 4).setChance(0.15).
+addItemOutput(<ic2:resource:2> * 4).setChance(0.15).
+addItemOutput(<minecraft:gold_ore> * 6).setChance(0.15).
+addItemOutput(<minecraft:lapis_ore> * 6).setChance(0.15).
+addItemOutput(<minecraft:redstone_ore> * 6).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:2> * 6).setChance(0.15).
 addItemOutput(<nuclearcraft:ore:2> * 6).setChance(0.15).
 addItemOutput(<nuclearcraft:ore:4> * 6).setChance(0.15).
-addItemOutput(<minecraft:diamond_ore> * 2).setChance(0.07).
-addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.05).
-addItemOutput(<mets:titanium_ore> * 3).setChance(0.15).
-addItemOutput(<thermalfoundation:ore> * 5).setChance(0.05).
-addItemOutput(<mets:niobium_ore>).setChance(0.15).
-addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.02).
-addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.02).
+addItemOutput(<minecraft:diamond_ore> * 6).setChance(0.15).
+addItemOutput(<minecraft:emerald_ore> * 4).setChance(0.15).
+addItemOutput(<mets:titanium_ore> * 4).setChance(0.15).
+addItemOutput(<thermalfoundation:ore> * 6).setChance(0.05).
+addItemOutput(<mets:niobium_ore> * 2).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:6> * 2).setChance(0.15).
+addItemOutput(<thermalfoundation:ore:7> * 2).setChance(0.1).
 addItemOutput(<draconicevolution:draconium_ore> * 4).setChance(0.1).
+addItemOutput(<tconstruct:ore:0> * 6).setChance(0.15).
+addItemOutput(<tconstruct:ore:1> * 6).setChance(0.15).
+addItemOutput(<additions:novaextended-ore8>).setChance(0.8).
 build();
 
 //==============================物质熵变机==============================
@@ -830,4 +870,325 @@ addEnergyPerTickInput(100000).
 addItemInput(<draconicadditions:chaos_heart>).
 addItemOutput(<draconicevolution:dragon_heart>).
 addItemOutput(<draconicevolution:chaos_shard> * 5).
+build();
+
+//==============================元件装配室==============================
+//光谱电路
+RecipeBuilder.newBuilder("ASP:crafting15", "Board_assembly_room", 60).
+addEnergyPerTickInput(9600).
+addItemInput(<mekanism:controlcircuit:3> * 2).
+addItemInput(<mets:living_circuit> * 2).
+addItemInput(<mets:super_iridium_compress_plate>).
+addItemInput(<super_solar_panels:crafting:11> * 2).
+addItemOutput(<super_solar_panels:crafting:15> * 4).
+build();
+
+//==============================零素转换机==============================
+//零素转换机_控制器
+RecipeBuilder.newBuilder("zero_factor_converter_controller", "acar", 12000).
+addEnergyPerTickInput(1000000).
+addFluidInput(<liquid:crystalloid> * 5000).
+addItemInput(<mets:living_circuit> * 20).
+addItemInput(<mets:nano_living_metal> * 60).
+addItemInput(<thermalfoundation:material:359> * 20).
+addItemInput(<ore:ingotFallenStarAlloy>, 2).
+addItemInput(<draconicevolution:chaos_shard> * 10).
+addFluidOutput(<liquid:crystalloid> * 5000).
+addItemOutput(<modularcontroller:zero_factor_converter_controller>).
+build();
+
+//晶素==>UU物质
+RecipeBuilder.newBuilder("crystalloid-uu", "zero_factor_converter", 5).
+addEnergyPerTickInput(200000000).
+addFluidInput(<liquid:crystalloid> * 10).
+addFluidOutput(<liquid:ic2uu_matter> * 100000).
+build();
+
+//UU物质==>晶素
+RecipeBuilder.newBuilder("uu-crystalloid", "zero_factor_converter", 5).
+addEnergyPerTickInput(400000000).
+addFluidInput(<liquid:ic2uu_matter> * 100000).
+addFluidOutput(<liquid:crystalloid> * 10).
+build();
+
+//==============================高级元件装配室==============================
+//高级元件装配室-蓝图
+RecipeBuilder.newBuilder("acar_controller", "crafter_tier_2", 400).
+addEnergyPerTickInput(750000).
+addItemInput(<additions:novaextended-fallen_star_alloy> * 4).
+addItemInput(<mekanism:controlcircuit:3> * 60).
+addItemInput(<mets:living_circuit> * 45).
+addItemInput(<avaritia:block_resource:2> * 5).
+addItemInput(<mets:te:22>).
+addItemInput(<appliedenergistics2:material:47> * 5).
+addItemInput(<modularmachinery:blockcasing>).
+addItemOutput(<modularcontroller:acar_controller>).
+build();
+
+//究极控制电路
+RecipeBuilder.newBuilder("circuitEx", "acar", 7200).
+addEnergyPerTickInput(500000).
+addItemInput(<mekanism:controlcircuit:3>).
+addItemInput(<mets:living_circuit>).
+addItemInput(<super_solar_panels:crafting:15>).
+addItemInput(<appliedenergistics2:material:22>).
+addItemInput(<appliedenergistics2:material:23>).
+addItemInput(<appliedenergistics2:material:24>).
+addItemInput(<threng:material:6>).
+addItemInput(<threng:material:14>).
+addItemInput(<enderio:item_capacitor_stellar>).
+addItemInput(<additions:novaextended-fallen_star_alloy>).
+addItemInput(<additions:novaextended-ingot8> * 4).
+addItemInput(<draconicevolution:draconic_ingot> * 4).
+addItemInput(<botania:manaresource:4> * 4).
+addItemInput(<tconevo:metal:35> * 8).
+addItemInput(<gravisuite:crafting:1> * 16).
+addFluidInput(<liquid:crystalloid> * 25).
+addFluidInput(<liquid:redstone> * 8000).
+addItemOutput(<additions:novaextended-extremecircuit> * 8).
+build();
+
+//==============================先进液体转换装置==============================
+//先进液体转换装置_控制器
+RecipeBuilder.newBuilder("alcm_controller","crafter_tier_2", 7200).
+addEnergyPerTickInput(120000).
+addItemInput(<enderio:block_solar_panel:6> * 16).
+addItemInput(<mekanism:controlcircuit:2> * 64).
+addItemInput(<mets:super_circuit> * 64).
+addItemInput(<mekanism:basicblock:8> * 32).
+addItemInput(<mets:field_generator> * 32).
+addItemOutput(<modularcontroller:advanced_liquid_conversion_machine_controller>).
+build();
+
+//硫酸钙
+RecipeBuilder.newBuilder("lsg", "advanced_liquid_conversion_machine", 200).
+addEnergyPerTickInput(600000).
+addFluidInput(<liquid:sulfur_dioxide> * 4000).
+addFluidInput(<liquid:fluorite_water> * 10000).
+addFluidOutput(<liquid:calcium_sulfate_solution>).
+build();
+
+//氘氚燃料
+RecipeBuilder.newBuilder("dt", "advanced_liquid_conversion_machine", 150).
+addEnergyPerTickInput(400000).
+addFluidInput(<liquid:heavywater> * 5000).
+addFluidInput(<liquid:liquidlithium> * 5000).
+addGasOutput("fusionfuel" , 10000).
+build();
+
+//炽焰
+RecipeBuilder.newBuilder("ALCM_pyrotheum","advanced_liquid_conversion_machine", 10).
+addEnergyPerTickInput(1280000).
+addFluidInput(<liquid:lava> * 50000).
+addFluidOutput(<liquid:pyrotheum> * 5000).
+build();
+
+//凛冰
+RecipeBuilder.newBuilder("ALCM_cyrotheum","advanced_liquid_conversion_machine", 10).
+addEnergyPerTickInput(1280000).
+addFluidInput(<liquid:water> * 50000).
+addFluidOutput(<liquid:cryotheum> * 5000).
+build();
+
+//==============================物质异变器==============================
+//物质异变器_蓝图
+RecipeBuilder.newBuilder("material_isomers_controller", "crafter_tier_2", 3600).
+addEnergyPerTickInput(120000).
+addItemInput(<super_solar_panels:crafting:9>).
+addItemInput(<super_solar_panels:machines:4> * 4).
+addItemInput(<ore:circuitElite>, 64).
+addItemInput(<ore:circuitUltimate>, 64).
+addItemInput(<thermalfoundation:material:1024>).
+addItemOutput(<modularcontroller:material_isomers_controller>).
+build();
+
+//异变光子核心
+RecipeBuilder.newBuilder("phocore_2","material_isomers", 4000).
+addItemInput(<super_solar_panels:crafting:9> * 12).
+addFluidInput(<liquid:crystalloid> * 300).
+addItemOutput(<additions:novaextended-phocore_2>).
+addEnergyPerTickOutput(1000000).
+build();
+
+//==============================超微缩恒星戴森球==============================
+//超微缩恒星戴森球_控制器
+RecipeBuilder.newBuilder("super_star_dyson_ball_controller", "crafter_tier_2", 1200).
+addEnergyPerTickInput(200000).
+addItemInput(<ore:circuitUltimate> , 32).
+addItemInput(<minecraft:glowstone> * 64).
+addItemInput(<super_solar_panels:crafting:1> * 24).
+addItemInput(<thermalfoundation:glass_alloy:6> * 24).
+addItemOutput(<modularcontroller:super_star_dyson_ball_controller>).
+build();
+
+//煤炭块
+RecipeBuilder.newBuilder("coalblock", "super_star_dyson_ball", 4800).
+addItemInput(<minecraft:coal_block> * 64).
+addEnergyPerTickOutput(300000).
+build();
+
+//红石块
+RecipeBuilder.newBuilder("redstoneblock", "super_star_dyson_ball", 4800).
+addItemInput(<minecraft:redstone_block> * 64).
+addEnergyPerTickOutput(600000).
+build();
+
+//钻石块
+RecipeBuilder.newBuilder("diamondblock", "super_star_dyson_ball", 6400).
+addItemInput(<minecraft:diamond_block> * 64).
+addEnergyPerTickOutput(1500000).
+build();
+
+//黑曜石
+RecipeBuilder.newBuilder("obdisan", "super_star_dyson_ball", 6400).
+addItemInput(<minecraft:obsidian> * 64).
+addEnergyPerTickOutput(1500000).
+build();
+
+//下界之星
+RecipeBuilder.newBuilder("netherstar", "super_star_dyson_ball", 36000).
+addItemInput(<minecraft:nether_star> * 64).
+addEnergyPerTickOutput(10000000).
+build();
+
+//中子素锭
+RecipeBuilder.newBuilder("ava:resource:4", "super_star_dyson_ball", 36000).
+addItemInput(<avaritia:resource:4> * 64).
+addEnergyPerTickOutput(30000000).
+build();
+
+//中子素块
+RecipeBuilder.newBuilder("ava:block_resource", "super_star_dyson_ball", 36000).
+addItemInput(<avaritia:block_resource> * 64).setChance(0.06).
+addEnergyPerTickOutput(80000000).
+build();
+
+//无尽锭
+RecipeBuilder.newBuilder("ava:resource:4", "super_star_dyson_ball", 1).
+addItemInput(<avaritia:resource:6>).setChance(0).
+addEnergyPerTickOutput(100000000).
+build();
+
+//无尽块
+RecipeBuilder.newBuilder("ava:blockresource:1", "super_star_dyson_ball", 18000).
+addItemInput(<avaritia:block_resource:1>).setChance(0.02).
+addEnergyPerTickOutput(200000000).
+build();
+
+//奥利哈刚
+RecipeBuilder.newBuilder("orich:1", "super_star_dyson_ball", 18000).
+addItemInput(<extrabotany:material:1>).
+addEnergyPerTickOutput(20000000).
+build();
+
+//奥利哈刚块
+RecipeBuilder.newBuilder("orichblock:1", "super_star_dyson_ball", 36000).
+addItemInput(<extrabotany:blockorichalcos>).setChance(0.5).
+addEnergyPerTickOutput(60000000).
+build();
+
+//奥利哈刚x64
+RecipeBuilder.newBuilder("orich:64", "super_star_dyson_ball", 36000).
+addItemInput(<extrabotany:material:1> * 64).setChance(0.1).
+addEnergyPerTickOutput(200000000).
+build();
+
+//盖亚魂锭
+RecipeBuilder.newBuilder("gaiaingot", "super_star_dyson_ball", 12000).
+addItemInput(<botania:manaresource:14> * 32).
+addEnergyPerTickOutput(15000000).
+build();
+
+//DT燃料
+RecipeBuilder.newBuilder("dtfuel", "super_star_dyson_ball", 12000).
+addGasInput("fusionfuel" , 2000000).
+addEnergyPerTickOutput(30000000).
+build();
+
+//==============================大型筛矿机==============================
+//大型筛矿机_蓝图
+RecipeBuilder.newBuilder("large_sieving_machine_controller", "mach_crafter", 600).
+addEnergyPerTickInput(400).
+addItemInput(<ore:circuitBasic> , 8).
+addItemInput(<minecraft:piston> * 4).
+addItemInput(<minecraft:hopper> * 2).
+addItemInput(<minecraft:flint> * 8).
+addItemInput(<modularmachinery:blockcasing>).
+addItemOutput(<modularcontroller:large_sieving_machine_controller>).
+build();
+
+//筛矿-沙砾
+RecipeBuilder.newBuilder("large_sieving_machine_1","large_sieving_machine", 100).
+addEnergyPerTickInput(1000).
+addItemInput(<minecraft:gravel> * 4).
+addItemOutput(<thermalfoundation:material>).setChance(0.1).
+addItemOutput(<thermalfoundation:material:64>).setChance(0.1).
+addItemOutput(<thermalfoundation:material:65>).setChance(0.1).
+addItemOutput(<nuclearcraft:dust:4>).setChance(0.1).
+addItemOutput(<nuclearcraft:dust:5>).setChance(0.1).
+addItemOutput(<nuclearcraft:dust:6>).setChance(0.1).
+addItemOutput(<nuclearcraft:dust:7>).setChance(0.1).
+addItemOutput(<mets:titanium_dust>).setChance(0.1).
+addItemOutput(<minecraft:dye:4> * 2).setChance(0.1).
+addItemOutput(<thermalfoundation:material:768> * 2).setChance(0.1).
+addItemOutput(<minecraft:redstone> * 2).setChance(0.1).
+addItemOutput(<draconicevolution:draconium_dust> * 2).setChance(0.1).
+addItemOutput(<thermalfoundation:material:1>).setChance(0.08).
+addItemOutput(<ic2:dust:5>).setChance(0.06).
+addItemOutput(<thermalfoundation:material:69>).setChance(0.06).
+addItemOutput(<minecraft:emerald>).setChance(0.04).
+addItemOutput(<thermalfoundation:material:70>).setChance(0.03).
+addItemOutput(<thermalfoundation:material:71>).setChance(0.03).
+addItemOutput(<mets:niobium_dust>).setChance(0.03).
+build();
+
+//筛矿-圆石
+RecipeBuilder.newBuilder("large_sieving_machine_2","large_sieving_machine", 200).
+addEnergyPerTickInput(2000).
+addItemInput(<minecraft:cobblestone> * 4).
+addItemOutput(<thermalfoundation:material>).setChance(0.06).
+addItemOutput(<thermalfoundation:material:64>).setChance(0.06).
+addItemOutput(<thermalfoundation:material:65>).setChance(0.06).
+addItemOutput(<nuclearcraft:dust:4>).setChance(0.06).
+addItemOutput(<nuclearcraft:dust:5>).setChance(0.06).
+addItemOutput(<nuclearcraft:dust:6>).setChance(0.06).
+addItemOutput(<nuclearcraft:dust:7>).setChance(0.06).
+addItemOutput(<mets:titanium_dust>).setChance(0.06).
+addItemOutput(<minecraft:dye:4> * 2).setChance(0.06).
+addItemOutput(<thermalfoundation:material:768> * 2).setChance(0.06).
+addItemOutput(<minecraft:redstone> * 2).setChance(0.06).
+addItemOutput(<draconicevolution:draconium_dust> * 2).setChance(0.06).
+addItemOutput(<thermalfoundation:material:1>).setChance(0.1).
+addItemOutput(<ic2:dust:5>).setChance(0.08).
+addItemOutput(<thermalfoundation:material:69>).setChance(0.08).
+addItemOutput(<minecraft:emerald>).setChance(0.06).
+addItemOutput(<thermalfoundation:material:70>).setChance(0.05).
+addItemOutput(<thermalfoundation:material:71>).setChance(0.05).
+addItemOutput(<mets:niobium_dust>).setChance(0.05).
+build();
+
+//==============================异变光粒子聚合机==============================
+//异变光粒子聚合机_蓝图
+RecipeBuilder.newBuilder("alppm_controller", "acar", 12000).
+addEnergyPerTickInput(750000).
+addItemInput(<avaritia:block_resource:1> * 2).
+addItemInput(<additions:novaextended-phocore_2>).
+addItemInput(<additions:novaextended-extremecircuit> * 32).
+addItemInput(<mets:field_generator> * 64).
+addItemInput(<mets:field_generator> * 64).
+addItemInput(<thermalfoundation:material:1024> * 64).
+addItemInput(<thermalfoundation:material:1024> * 64).
+addItemInput(<super_solar_panels:machines:5>).
+addItemOutput(<modularcontroller:alppm_controller>).
+build();
+
+//==============================终极锂电池组==============================
+//终极锂电池组_蓝图
+RecipeBuilder.newBuilder("battery_tier_3_controller", "crafter_tier_2", 3200).
+addEnergyPerTickInput(500000).
+addItemInput(<modularcontroller:battery_tier_2_controller>).
+addItemInput(<mekanism:basicblock2:3>.withTag({tier: 3}) * 12).
+addItemInput(<mekanism:basicblock2:4>.withTag({tier: 3}) * 12).
+addItemInput(<ore:circuitExtreme> , 4).
+addItemOutput(<modularcontroller:battery_tier_3_controller>).
 build();

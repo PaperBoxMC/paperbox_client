@@ -1,7 +1,7 @@
 {
     "registryname": "reactor_ic2_2",
     "localizedname": "§b裂变反应堆 §cII型",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

@@ -1,5 +1,5 @@
 {
-    "machine": "crafter_tier_2",
+    "machine": "acar",
     "registryName": "blueprints_regeneration_machine",
     "recipeTime": 9600,
     "requirements": [
@@ -12,13 +12,13 @@
         {
             "type": "modularmachinery:energy",
             "io-type": "input",
-            "energyPerTick": 750000
+            "energyPerTick": 1000000
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
             "item": "ic2:te@63",
-            "amount": 16
+            "amount": 24
         },
         {
             "type": "modularmachinery:item",
@@ -30,25 +30,25 @@
             "type": "modularmachinery:item",
             "io-type": "input",
             "item": "avaritia:block_resource@1",
-            "amount": 4
+            "amount": 5
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
             "item": "extrabotany:blockorichalcos",
-            "amount": 16
+            "amount": 12
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "additions:novaextended-crystal4",
-            "amount": 1
+            "item": "ore:ingotArk",
+            "amount": 5
         },
         {
             "type": "modularmachinery:item",
             "io-type": "input",
             "item": "draconicevolution:draconic_block",
-            "amount": 32
+            "amount": 24
         },
         {
             "type": "modularmachinery:item",

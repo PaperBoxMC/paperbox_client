@@ -2,14 +2,14 @@
     "registryname": "Energy_crystal",
 	"localizedname": "§e能量转换§d核晶 α型",
     "color": "FFFFFF",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "modifiers": [
         {
             "elements": "modularmachinery:blockfluidinputhatch@7",
             "x": -4,
             "y": 12,
             "z": 4,
-            "description": "将机器左方的流体输入仓换为真空流体输入仓以降低10%流体消耗",
+            "description": "将机器左方的流体输入仓换为§e真空流体输入仓§r以降低§a10%§r流体消耗",
             "modifier": {
                 "io": "input",
                 "target": "fluid",
@@ -22,7 +22,7 @@
             "x": 4,
             "y": 12,
             "z": 4,
-            "description": "将机器右方的流体输入仓换为真空流体输入仓以提高10%能量输出,但是会提高35%流体消耗",
+            "description": "将机器右方的流体输入仓换为§e真空流体输入仓§r以提高§c10%§r能量输出,但是会提高§435%§r流体消耗",
             "modifier": [
             {
                 "io": "input",

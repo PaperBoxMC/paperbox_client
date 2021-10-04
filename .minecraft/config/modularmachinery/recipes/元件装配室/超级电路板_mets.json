@@ -30,7 +30,7 @@
             "type": "item",
             "io-type": "input",
             "item": "mets:superconducting_cable",
-            "amount": 24
+            "amount": 16
         },
         {
             "type": "item",

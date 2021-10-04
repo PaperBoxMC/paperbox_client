@@ -6,7 +6,7 @@
             "io": "output",
             "target": "gugu-utils:mana_pertick",
             "operation": 1,
-            "multiplier": 2
+            "multiplier": 1.5
         },
         {
             "io": "input",
@@ -25,7 +25,7 @@
             "io": "input",
             "target": "energy",
             "operation": 1,
-            "multiplier": 0.75
+            "multiplier": 1.25
         }
     ]
 }

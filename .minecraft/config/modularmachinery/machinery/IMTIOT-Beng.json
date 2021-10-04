@@ -1,7 +1,7 @@
 {
     "registryname": "beng",
     "localizedname": "§d工业大型重水泵/§c工业大型多功能液体处理机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "color": "A9A9A9",
     "parts": [
         {

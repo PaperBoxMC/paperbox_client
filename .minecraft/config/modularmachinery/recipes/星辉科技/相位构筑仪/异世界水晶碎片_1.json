@@ -1,7 +1,7 @@
 {
     "machine": "Stellaformer",
     "registryName": "Stellaformer_Exotic_crystal",
-    "recipeTime": 6000,
+    "recipeTime": 3000,
     "requirements": [
         {
 			"type": "gugu-utils:environment",
@@ -121,18 +121,14 @@
             "type": "item",
             "io-type": "input",
             "item": "custommc:item780",
-            "nbt": {
-                "display":{
-                "Name":"§5反物质"
-                }
-            },
-            "amount": 16
+            "amount": 12
         },
 		{
             "type": "item",
             "io-type": "output",
             "item": "additions:novaextended-crystal2",
-            "amount": 1
+            "amount": 1,
+            "chance": 0.75
         }
     ]
 }

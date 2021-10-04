@@ -1,7 +1,7 @@
 {
     "registryname": "Advanced_interpreter",
     "localizedname": "§d高级§c释能器",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

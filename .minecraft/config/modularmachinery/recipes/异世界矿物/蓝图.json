@@ -6,6 +6,11 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
+            "item": "modularcontroller:void_miner_controller"
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
             "item": "minecraft:nether_star",
             "amount": 2
         },

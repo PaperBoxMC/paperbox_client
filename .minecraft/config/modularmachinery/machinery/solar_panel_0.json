@@ -1,7 +1,7 @@
 {
     "registryname": "solar_panel_0",
     "localizedname": "§b聚焦型太阳能热发电机",
-    "requires-blueprint": false,
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

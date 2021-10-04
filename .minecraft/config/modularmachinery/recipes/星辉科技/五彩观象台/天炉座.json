@@ -50,12 +50,6 @@
         },
         {
             "type": "item",
-            "io-type": "input",
-            "item": "embers:crystal_ember",
-            "amount": 1
-        },
-        {
-            "type": "item",
             "io-type": "output",
             "item": "custommc:item833",
 			"nbt":{
